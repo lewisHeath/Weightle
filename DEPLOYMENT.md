@@ -2,6 +2,10 @@
 
 Follow these in order. Estimated time: 1–2 hours if you already have GCP and Cloudflare accounts.
 
+**First time on Google Cloud?** Use the detailed walkthrough: [docs/GCP-FIRST-TIME-SETUP.md](docs/GCP-FIRST-TIME-SETUP.md)
+
+**Blocked on keys or Workload Identity?** Use Cloud Build instead: [docs/GCP-CLOUD-BUILD-DEPLOY.md](docs/GCP-CLOUD-BUILD-DEPLOY.md)
+
 ---
 
 ## Phase 1 — GitHub
@@ -30,7 +34,10 @@ In the repo: **Settings → Secrets and variables → Actions → New repository
 | Secret | What it is |
 |--------|------------|
 | `GCP_PROJECT_ID` | Your GCP project ID (e.g. `weightle-prod`) |
-| `GCP_SA_KEY` | JSON key for deploy service account (full file contents) |
+| `WORKLOAD_IDENTITY_PROVIDER` | Workload Identity provider resource name (see [docs/GCP-WORKLOAD-IDENTITY.md](docs/GCP-WORKLOAD-IDENTITY.md)) |
+| `GCP_SERVICE_ACCOUNT` | `github-deploy@weightle-prod.iam.gserviceaccount.com` |
+
+If Google blocks JSON key creation, use Workload Identity — do **not** disable the security policy.
 
 Optional (for uploading images from your machine or a separate workflow later):
 

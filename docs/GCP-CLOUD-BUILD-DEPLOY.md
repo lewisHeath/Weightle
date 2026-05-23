@@ -33,17 +33,24 @@ In project **weightle-prod**:
 
 ## Part 2 — Allow Cloud Build to deploy
 
-1. ☰ → **Cloud Build** → **Settings**
-2. Open **Service account permissions** (or **View service account**)
-3. Note the Cloud Build service account email, usually:
+Your trigger may use **`github-deploy@weightle-prod.iam.gserviceaccount.com`** as the build service account. That account needs extra roles for Cloud Build (not just deploy).
 
-   `PROJECT_NUMBER@cloudbuild.gserviceaccount.com`
+1. ☰ → **IAM & Admin** → **IAM**
+2. Find **`github-deploy@weightle-prod.iam.gserviceaccount.com`** → **Edit** (pencil)
+3. **Add another role** for each of these (if missing):
 
-4. ☰ → **IAM & Admin** → **IAM**
-5. Find that Cloud Build service account → **Edit** (pencil) → **Add another role**:
-   - **Cloud Run Admin**
-   - **Service Account User**
-6. It should already have **Artifact Registry Writer** after first build; if not, add it.
+   | Role | Why |
+   |------|-----|
+   | **Logs Writer** | See build logs in the console |
+   | **Cloud Build Service Account** | Run build steps |
+   | **Storage Object Viewer** | Read source uploaded by Cloud Build |
+   | **Artifact Registry Writer** | Push Docker image (you may already have this) |
+   | **Cloud Run Admin** | Deploy to Cloud Run |
+   | **Service Account User** | Act as runtime service account |
+
+4. **Save**
+
+**Alternative (often simpler):** Edit trigger **Weightle-Build** → **Service account** → choose **Default compute service account** or **`…@cloudbuild.gserviceaccount.com`** instead of `github-deploy`. Then grant **that** account Cloud Run Admin + Service Account User + Logs Writer.
 
 ---
 
