@@ -9,7 +9,9 @@
     "start": "next start",
     "lint": "next lint",
     "validate-dataset": "tsx scripts/validate-dataset.ts",
-    "generate-pairs": "tsx scripts/generate-pairs.ts"
+    "generate-pairs": "tsx scripts/generate-pairs.ts",
+    "generate-catalog-seed": "python3 scripts/generate-catalog-seed.py",
+    "merge-catalog": "tsx scripts/merge-catalog.ts"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.14",

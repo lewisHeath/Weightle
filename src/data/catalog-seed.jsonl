@@ -1,0 +1,1029 @@
+{"name": "Honeybee", "massKg": 0.0001, "category": "animal", "wikiTitle": "Western_honey_bee", "qualifier": "Typical honeybee", "id": "honeybee"}
+{"name": "Housefly", "massKg": 1.2e-05, "category": "animal", "wikiTitle": "Housefly", "qualifier": "Typical housefly", "id": "housefly"}
+{"name": "Mosquito", "massKg": 3e-06, "category": "animal", "wikiTitle": "Mosquito", "qualifier": "Typical mosquito", "id": "mosquito"}
+{"name": "Fruit fly", "massKg": 1e-06, "category": "animal", "wikiTitle": "Drosophila_melanogaster", "qualifier": "Typical fruit fly", "id": "fruit-fly"}
+{"name": "Ant", "massKg": 3e-06, "category": "animal", "wikiTitle": "Ant", "qualifier": "Typical ant", "id": "ant"}
+{"name": "Ladybug", "massKg": 2e-05, "category": "animal", "wikiTitle": "Coccinellidae", "qualifier": "Typical ladybug", "id": "ladybug"}
+{"name": "Dragonfly", "massKg": 0.0006, "category": "animal", "wikiTitle": "Dragonfly", "qualifier": "Typical dragonfly", "id": "dragonfly"}
+{"name": "Grasshopper", "massKg": 0.002, "category": "animal", "wikiTitle": "Grasshopper", "qualifier": "Typical grasshopper", "id": "grasshopper"}
+{"name": "Cricket (insect)", "massKg": 0.0005, "category": "animal", "wikiTitle": "Cricket_(insect)", "qualifier": "Typical cricket (insect)", "id": "cricket-insect"}
+{"name": "Hummingbird egg", "massKg": 0.0005, "category": "animal", "wikiTitle": "Bird_egg", "qualifier": "Typical hummingbird egg", "id": "hummingbird-egg"}
+{"name": "Paper clip", "massKg": 0.001, "category": "other", "wikiTitle": "Paper_clip", "qualifier": "Typical paper clip", "id": "paper-clip"}
+{"name": "Postage stamp", "massKg": 5e-05, "category": "other", "wikiTitle": "Postage_stamp", "qualifier": "Typical postage stamp", "id": "postage-stamp"}
+{"name": "AA battery", "massKg": 0.023, "category": "household", "wikiTitle": "AA_battery", "qualifier": "Typical aa battery", "id": "aa-battery"}
+{"name": "AAA battery", "massKg": 0.012, "category": "household", "wikiTitle": "AAA_battery", "qualifier": "Typical aaa battery", "id": "aaa-battery"}
+{"name": "Pen", "massKg": 0.01, "category": "household", "wikiTitle": "Ballpoint_pen", "qualifier": "Typical pen", "id": "pen"}
+{"name": "Pencil", "massKg": 0.005, "category": "household", "wikiTitle": "Pencil", "qualifier": "Typical pencil", "id": "pencil"}
+{"name": "USB flash drive", "massKg": 0.01, "category": "household", "wikiTitle": "USB_flash_drive", "qualifier": "Typical usb flash drive", "id": "usb-flash-drive"}
+{"name": "Cherry tomato", "massKg": 0.017, "category": "food", "wikiTitle": "Cherry_tomato", "qualifier": "Typical cherry tomato", "id": "cherry-tomato"}
+{"name": "Strawberry", "massKg": 0.018, "category": "food", "wikiTitle": "Strawberry", "qualifier": "Typical strawberry", "id": "strawberry"}
+{"name": "Blueberry", "massKg": 0.002, "category": "food", "wikiTitle": "Blueberry", "qualifier": "Typical blueberry", "id": "blueberry"}
+{"name": "Raspberry", "massKg": 0.005, "category": "food", "wikiTitle": "Raspberry", "qualifier": "Typical raspberry", "id": "raspberry"}
+{"name": "Grape", "massKg": 0.005, "category": "food", "wikiTitle": "Grape", "qualifier": "Typical grape", "id": "grape"}
+{"name": "Olive", "massKg": 0.004, "category": "food", "wikiTitle": "Olive", "qualifier": "Typical olive", "id": "olive"}
+{"name": "Garlic clove", "massKg": 0.005, "category": "food", "wikiTitle": "Garlic", "qualifier": "Typical garlic clove", "id": "garlic-clove"}
+{"name": "Golf tee", "massKg": 0.002, "category": "sport", "wikiTitle": "Golf_tee", "qualifier": "Typical golf tee", "id": "golf-tee"}
+{"name": "Table tennis ball", "massKg": 0.0027, "category": "sport", "wikiTitle": "Table_tennis_ball", "qualifier": "Typical table tennis ball", "id": "table-tennis-ball"}
+{"name": "Shuttlecock", "massKg": 0.005, "category": "sport", "wikiTitle": "Shuttlecock", "qualifier": "Typical shuttlecock", "id": "shuttlecock"}
+{"name": "Dice", "massKg": 0.005, "category": "other", "wikiTitle": "Dice", "qualifier": "Typical dice", "id": "dice"}
+{"name": "Coin (quarter)", "massKg": 0.0057, "category": "other", "wikiTitle": "Quarter_(United_States_coin)", "qualifier": "Typical coin (quarter)", "id": "coin-quarter"}
+{"name": "Wedding ring", "massKg": 0.003, "category": "other", "wikiTitle": "Wedding_ring", "qualifier": "Typical wedding ring", "id": "wedding-ring"}
+{"name": "Lime", "massKg": 0.06, "category": "food", "wikiTitle": "Lime_(fruit)", "qualifier": "Typical lime", "id": "lime"}
+{"name": "Lemon", "massKg": 0.06, "category": "food", "wikiTitle": "Lemon", "qualifier": "Typical lemon", "id": "lemon"}
+{"name": "Kiwi fruit", "massKg": 0.075, "category": "food", "wikiTitle": "Kiwifruit", "qualifier": "Typical kiwi fruit", "id": "kiwi-fruit"}
+{"name": "Peach", "massKg": 0.15, "category": "food", "wikiTitle": "Peach", "qualifier": "Typical peach", "id": "peach"}
+{"name": "Plum", "massKg": 0.066, "category": "food", "wikiTitle": "Plum", "qualifier": "Typical plum", "id": "plum"}
+{"name": "Pear", "massKg": 0.18, "category": "food", "wikiTitle": "Pear", "qualifier": "Typical pear", "id": "pear"}
+{"name": "Mango", "massKg": 0.2, "category": "food", "wikiTitle": "Mango", "qualifier": "Typical mango", "id": "mango"}
+{"name": "Papaya", "massKg": 0.5, "category": "food", "wikiTitle": "Papaya", "qualifier": "Typical papaya", "id": "papaya"}
+{"name": "Bell pepper", "massKg": 0.12, "category": "food", "wikiTitle": "Bell_pepper", "qualifier": "Typical bell pepper", "id": "bell-pepper"}
+{"name": "Cucumber", "massKg": 0.2, "category": "food", "wikiTitle": "Cucumber", "qualifier": "Typical cucumber", "id": "cucumber"}
+{"name": "Zucchini", "massKg": 0.2, "category": "food", "wikiTitle": "Zucchini", "qualifier": "Typical zucchini", "id": "zucchini"}
+{"name": "Onion", "massKg": 0.15, "category": "food", "wikiTitle": "Onion", "qualifier": "Typical onion", "id": "onion"}
+{"name": "Head of lettuce", "massKg": 0.3, "category": "food", "wikiTitle": "Lettuce", "qualifier": "Typical head of lettuce", "id": "head-of-lettuce"}
+{"name": "Broccoli head", "massKg": 0.45, "category": "food", "wikiTitle": "Broccoli", "qualifier": "Typical broccoli head", "id": "broccoli-head"}
+{"name": "Cauliflower", "massKg": 0.6, "category": "food", "wikiTitle": "Cauliflower", "qualifier": "Typical cauliflower", "id": "cauliflower"}
+{"name": "Cabbage", "massKg": 0.9, "category": "food", "wikiTitle": "Cabbage", "qualifier": "Typical cabbage", "id": "cabbage"}
+{"name": "Bagel", "massKg": 0.1, "category": "food", "wikiTitle": "Bagel", "qualifier": "Typical bagel", "id": "bagel"}
+{"name": "Croissant", "massKg": 0.06, "category": "food", "wikiTitle": "Croissant", "qualifier": "Typical croissant", "id": "croissant"}
+{"name": "Muffin", "massKg": 0.11, "category": "food", "wikiTitle": "Muffin", "qualifier": "Typical muffin", "id": "muffin"}
+{"name": "Donut", "massKg": 0.05, "category": "food", "wikiTitle": "Doughnut", "qualifier": "Typical donut", "id": "donut"}
+{"name": "Chocolate bar", "massKg": 0.1, "category": "food", "wikiTitle": "Chocolate_bar", "qualifier": "Typical chocolate bar", "id": "chocolate-bar"}
+{"name": "Candy bar", "massKg": 0.05, "category": "food", "wikiTitle": "Candy_bar", "qualifier": "Typical candy bar", "id": "candy-bar"}
+{"name": "Yogurt cup", "massKg": 0.17, "category": "food", "wikiTitle": "Yogurt", "qualifier": "Typical yogurt cup", "id": "yogurt-cup"}
+{"name": "Butter stick", "massKg": 0.113, "category": "food", "wikiTitle": "Butter", "qualifier": "Typical butter stick", "id": "butter-stick"}
+{"name": "Cheese wedge", "massKg": 0.2, "category": "food", "wikiTitle": "Cheese", "qualifier": "Typical cheese wedge", "id": "cheese-wedge"}
+{"name": "Hamster", "massKg": 0.12, "category": "animal", "wikiTitle": "Hamster", "qualifier": "Typical hamster", "id": "hamster"}
+{"name": "Guinea pig", "massKg": 0.9, "category": "animal", "wikiTitle": "Guinea_pig", "qualifier": "Typical guinea pig", "id": "guinea-pig"}
+{"name": "Chinchilla", "massKg": 0.6, "category": "animal", "wikiTitle": "Chinchilla", "qualifier": "Typical chinchilla", "id": "chinchilla"}
+{"name": "Ferret", "massKg": 0.9, "category": "animal", "wikiTitle": "Ferret", "qualifier": "Typical ferret", "id": "ferret"}
+{"name": "Rat", "massKg": 0.35, "category": "animal", "wikiTitle": "Brown_rat", "qualifier": "Typical rat", "id": "rat"}
+{"name": "Squirrel", "massKg": 0.45, "category": "animal", "wikiTitle": "Squirrel", "qualifier": "Typical squirrel", "id": "squirrel"}
+{"name": "Pigeon", "massKg": 0.35, "category": "animal", "wikiTitle": "Rock_dove", "qualifier": "Typical pigeon", "id": "pigeon"}
+{"name": "Crow", "massKg": 0.45, "category": "animal", "wikiTitle": "Crow", "qualifier": "Typical crow", "id": "crow"}
+{"name": "Duck", "massKg": 1.1, "category": "animal", "wikiTitle": "Duck", "qualifier": "Typical duck", "id": "duck"}
+{"name": "Chicken", "massKg": 2.5, "category": "animal", "wikiTitle": "Chicken", "qualifier": "Typical chicken", "id": "chicken"}
+{"name": "Rooster", "massKg": 3.0, "category": "animal", "wikiTitle": "Rooster", "qualifier": "Typical rooster", "id": "rooster"}
+{"name": "Turkey", "massKg": 8.0, "category": "animal", "wikiTitle": "Turkey_(bird)", "qualifier": "Typical turkey", "id": "turkey"}
+{"name": "Parrot", "massKg": 0.4, "category": "animal", "wikiTitle": "Parrot", "qualifier": "Typical parrot", "id": "parrot"}
+{"name": "Canary", "massKg": 0.02, "category": "animal", "wikiTitle": "Domestic_canary", "qualifier": "Typical canary", "id": "canary"}
+{"name": "Goldfish", "massKg": 0.35, "category": "animal", "wikiTitle": "Goldfish", "qualifier": "Typical goldfish", "id": "goldfish"}
+{"name": "Tennis racket", "massKg": 0.3, "category": "sport", "wikiTitle": "Tennis_racket", "qualifier": "Typical tennis racket", "id": "tennis-racket"}
+{"name": "Badminton racket", "massKg": 0.09, "category": "sport", "wikiTitle": "Badminton_racket", "qualifier": "Typical badminton racket", "id": "badminton-racket"}
+{"name": "Baseball bat", "massKg": 0.9, "category": "sport", "wikiTitle": "Baseball_bat", "qualifier": "Typical baseball bat", "id": "baseball-bat"}
+{"name": "Hockey stick", "massKg": 0.5, "category": "sport", "wikiTitle": "Hockey_stick", "qualifier": "Typical hockey stick", "id": "hockey-stick"}
+{"name": "Frisbee", "massKg": 0.175, "category": "sport", "wikiTitle": "Flying_disc", "qualifier": "Typical frisbee", "id": "frisbee"}
+{"name": "Volleyball", "massKg": 0.27, "category": "sport", "wikiTitle": "Volleyball", "qualifier": "Typical volleyball", "id": "volleyball"}
+{"name": "Rugby ball", "massKg": 0.41, "category": "sport", "wikiTitle": "Rugby_ball", "qualifier": "Typical rugby ball", "id": "rugby-ball"}
+{"name": "Lacrosse ball", "massKg": 0.14, "category": "sport", "wikiTitle": "Lacrosse_ball", "qualifier": "Typical lacrosse ball", "id": "lacrosse-ball"}
+{"name": "Softball", "massKg": 0.19, "category": "sport", "wikiTitle": "Softball", "qualifier": "Typical softball", "id": "softball"}
+{"name": "Pair of scissors", "massKg": 0.08, "category": "household", "wikiTitle": "Scissors", "qualifier": "Typical pair of scissors", "id": "pair-of-scissors"}
+{"name": "Hair dryer", "massKg": 0.6, "category": "household", "wikiTitle": "Hair_dryer", "qualifier": "Typical hair dryer", "id": "hair-dryer"}
+{"name": "Remote control", "massKg": 0.1, "category": "household", "wikiTitle": "Remote_control", "qualifier": "Typical remote control", "id": "remote-control"}
+{"name": "Coffee mug", "massKg": 0.35, "category": "household", "wikiTitle": "Coffee_mug", "qualifier": "Typical coffee mug", "id": "coffee-mug"}
+{"name": "Wine glass", "massKg": 0.15, "category": "household", "wikiTitle": "Wine_glass", "qualifier": "Typical wine glass", "id": "wine-glass"}
+{"name": "Plate", "massKg": 0.4, "category": "household", "wikiTitle": "Plate", "qualifier": "Typical plate", "id": "plate"}
+{"name": "Mug", "massKg": 0.3, "category": "household", "wikiTitle": "Mug", "qualifier": "Typical mug", "id": "mug"}
+{"name": "Water bottle (1L)", "massKg": 1.0, "category": "food", "wikiTitle": "Bottled_water", "qualifier": "Typical water bottle (1l)", "id": "water-bottle-1l"}
+{"name": "Bag of sugar", "massKg": 2.0, "category": "food", "wikiTitle": "Sugar", "qualifier": "Typical bag of sugar", "id": "bag-of-sugar"}
+{"name": "Bag of coffee", "massKg": 1.0, "category": "food", "wikiTitle": "Coffee", "qualifier": "Typical bag of coffee", "id": "bag-of-coffee"}
+{"name": "Jar of peanut butter", "massKg": 0.75, "category": "food", "wikiTitle": "Peanut_butter", "qualifier": "Typical jar of peanut butter", "id": "jar-of-peanut-butter"}
+{"name": "Box of cereal", "massKg": 0.5, "category": "food", "wikiTitle": "Breakfast_cereal", "qualifier": "Typical box of cereal", "id": "box-of-cereal"}
+{"name": "Frozen pizza", "massKg": 0.45, "category": "food", "wikiTitle": "Frozen_pizza", "qualifier": "Typical frozen pizza", "id": "frozen-pizza"}
+{"name": "Whole chicken (raw)", "massKg": 1.8, "category": "food", "wikiTitle": "Chicken_as_food", "qualifier": "Typical whole chicken (raw)", "id": "whole-chicken-raw"}
+{"name": "Turkey breast", "massKg": 3.0, "category": "food", "wikiTitle": "Turkey_meat", "qualifier": "Typical turkey breast", "id": "turkey-breast"}
+{"name": "Salmon fillet", "massKg": 0.2, "category": "food", "wikiTitle": "Salmon", "qualifier": "Typical salmon fillet", "id": "salmon-fillet"}
+{"name": "Tuna can", "massKg": 0.17, "category": "food", "wikiTitle": "Canned_tuna", "qualifier": "Typical tuna can", "id": "tuna-can"}
+{"name": "Watermelon slice", "massKg": 2.0, "category": "food", "wikiTitle": "Watermelon", "qualifier": "Typical watermelon slice", "id": "watermelon-slice"}
+{"name": "Honeydew melon", "massKg": 1.5, "category": "food", "wikiTitle": "Honeydew_(melon)", "qualifier": "Typical honeydew melon", "id": "honeydew-melon"}
+{"name": "Cantaloupe", "massKg": 1.2, "category": "food", "wikiTitle": "Cantaloupe", "qualifier": "Typical cantaloupe", "id": "cantaloupe"}
+{"name": "Eggplant", "massKg": 0.25, "category": "food", "wikiTitle": "Eggplant", "qualifier": "Typical eggplant", "id": "eggplant"}
+{"name": "Sweet potato", "massKg": 0.2, "category": "food", "wikiTitle": "Sweet_potato", "qualifier": "Typical sweet potato", "id": "sweet-potato"}
+{"name": "Beet", "massKg": 0.2, "category": "food", "wikiTitle": "Beetroot", "qualifier": "Typical beet", "id": "beet"}
+{"name": "Leek", "massKg": 0.15, "category": "food", "wikiTitle": "Leek", "qualifier": "Typical leek", "id": "leek"}
+{"name": "Asparagus bunch", "massKg": 0.5, "category": "food", "wikiTitle": "Asparagus", "qualifier": "Typical asparagus bunch", "id": "asparagus-bunch"}
+{"name": "Green beans (bag)", "massKg": 0.45, "category": "food", "wikiTitle": "Green_bean", "qualifier": "Typical green beans (bag)", "id": "green-beans-bag"}
+{"name": "Mushroom pack", "massKg": 0.25, "category": "food", "wikiTitle": "Mushroom", "qualifier": "Typical mushroom pack", "id": "mushroom-pack"}
+{"name": "Beagle", "massKg": 12.0, "category": "animal", "wikiTitle": "Beagle", "qualifier": "Typical beagle", "id": "beagle"}
+{"name": "Bulldog", "massKg": 22.0, "category": "animal", "wikiTitle": "Bulldog", "qualifier": "Typical bulldog", "id": "bulldog"}
+{"name": "Poodle", "massKg": 8.0, "category": "animal", "wikiTitle": "Poodle", "qualifier": "Typical poodle", "id": "poodle"}
+{"name": "Dachshund", "massKg": 9.0, "category": "animal", "wikiTitle": "Dachshund", "qualifier": "Typical dachshund", "id": "dachshund"}
+{"name": "German shepherd", "massKg": 35.0, "category": "animal", "wikiTitle": "German_Shepherd", "qualifier": "Typical german shepherd", "id": "german-shepherd"}
+{"name": "Labrador retriever", "massKg": 30.0, "category": "animal", "wikiTitle": "Labrador_Retriever", "qualifier": "Typical labrador retriever", "id": "labrador-retriever"}
+{"name": "Chihuahua", "massKg": 2.5, "category": "animal", "wikiTitle": "Chihuahua", "qualifier": "Typical chihuahua", "id": "chihuahua"}
+{"name": "Border collie", "massKg": 20.0, "category": "animal", "wikiTitle": "Border_Collie", "qualifier": "Typical border collie", "id": "border-collie"}
+{"name": "Siamese cat", "massKg": 4.0, "category": "animal", "wikiTitle": "Siamese_cat", "qualifier": "Typical siamese cat", "id": "siamese-cat"}
+{"name": "Persian cat", "massKg": 4.5, "category": "animal", "wikiTitle": "Persian_cat", "qualifier": "Typical persian cat", "id": "persian-cat"}
+{"name": "Maine Coon", "massKg": 7.0, "category": "animal", "wikiTitle": "Maine_Coon", "qualifier": "Typical maine coon", "id": "maine-coon"}
+{"name": "Bengal cat", "massKg": 5.5, "category": "animal", "wikiTitle": "Bengal_cat", "qualifier": "Typical bengal cat", "id": "bengal-cat"}
+{"name": "Ragdoll cat", "massKg": 6.0, "category": "animal", "wikiTitle": "Ragdoll", "qualifier": "Typical ragdoll cat", "id": "ragdoll-cat"}
+{"name": "Alpaca", "massKg": 70.0, "category": "animal", "wikiTitle": "Alpaca", "qualifier": "Typical alpaca", "id": "alpaca"}
+{"name": "Llama", "massKg": 130.0, "category": "animal", "wikiTitle": "Llama", "qualifier": "Typical llama", "id": "llama"}
+{"name": "Donkey", "massKg": 180.0, "category": "animal", "wikiTitle": "Donkey", "qualifier": "Typical donkey", "id": "donkey"}
+{"name": "Mule", "massKg": 400.0, "category": "animal", "wikiTitle": "Mule", "qualifier": "Typical mule", "id": "mule"}
+{"name": "Zebra", "massKg": 350.0, "category": "animal", "wikiTitle": "Zebra", "qualifier": "Typical zebra", "id": "zebra"}
+{"name": "Reindeer", "massKg": 120.0, "category": "animal", "wikiTitle": "Reindeer", "qualifier": "Typical reindeer", "id": "reindeer"}
+{"name": "Deer", "massKg": 90.0, "category": "animal", "wikiTitle": "Deer", "qualifier": "Typical deer", "id": "deer"}
+{"name": "Elk", "massKg": 320.0, "category": "animal", "wikiTitle": "Elk", "qualifier": "Typical elk", "id": "elk"}
+{"name": "Bison", "massKg": 700.0, "category": "animal", "wikiTitle": "American_bison", "qualifier": "Typical bison", "id": "bison"}
+{"name": "Antelope", "massKg": 60.0, "category": "animal", "wikiTitle": "Antelope", "qualifier": "Typical antelope", "id": "antelope"}
+{"name": "Gazelle", "massKg": 25.0, "category": "animal", "wikiTitle": "Gazelle", "qualifier": "Typical gazelle", "id": "gazelle"}
+{"name": "Cheetah", "massKg": 50.0, "category": "animal", "wikiTitle": "Cheetah", "qualifier": "Typical cheetah", "id": "cheetah"}
+{"name": "Leopard", "massKg": 55.0, "category": "animal", "wikiTitle": "Leopard", "qualifier": "Typical leopard", "id": "leopard"}
+{"name": "Jaguar", "massKg": 85.0, "category": "animal", "wikiTitle": "Jaguar", "qualifier": "Typical jaguar", "id": "jaguar"}
+{"name": "Cougar", "massKg": 70.0, "category": "animal", "wikiTitle": "Cougar", "qualifier": "Typical cougar", "id": "cougar"}
+{"name": "Lynx", "massKg": 20.0, "category": "animal", "wikiTitle": "Lynx", "qualifier": "Typical lynx", "id": "lynx"}
+{"name": "Bobcat", "massKg": 10.0, "category": "animal", "wikiTitle": "Bobcat", "qualifier": "Typical bobcat", "id": "bobcat"}
+{"name": "Hyena", "massKg": 50.0, "category": "animal", "wikiTitle": "Hyena", "qualifier": "Typical hyena", "id": "hyena"}
+{"name": "Jackal", "massKg": 10.0, "category": "animal", "wikiTitle": "Jackal", "qualifier": "Typical jackal", "id": "jackal"}
+{"name": "Coyote", "massKg": 14.0, "category": "animal", "wikiTitle": "Coyote", "qualifier": "Typical coyote", "id": "coyote"}
+{"name": "Raccoon", "massKg": 8.0, "category": "animal", "wikiTitle": "Raccoon", "qualifier": "Typical raccoon", "id": "raccoon"}
+{"name": "Skunk", "massKg": 3.5, "category": "animal", "wikiTitle": "Skunk", "qualifier": "Typical skunk", "id": "skunk"}
+{"name": "Opossum", "massKg": 3.0, "category": "animal", "wikiTitle": "Opossum", "qualifier": "Typical opossum", "id": "opossum"}
+{"name": "Porcupine", "massKg": 8.0, "category": "animal", "wikiTitle": "Porcupine", "qualifier": "Typical porcupine", "id": "porcupine"}
+{"name": "Hedgehog", "massKg": 0.8, "category": "animal", "wikiTitle": "Hedgehog", "qualifier": "Typical hedgehog", "id": "hedgehog"}
+{"name": "Koala", "massKg": 10.0, "category": "animal", "wikiTitle": "Koala", "qualifier": "Typical koala", "id": "koala"}
+{"name": "Wombat", "massKg": 28.0, "category": "animal", "wikiTitle": "Wombat", "qualifier": "Typical wombat", "id": "wombat"}
+{"name": "Platypus", "massKg": 1.5, "category": "animal", "wikiTitle": "Platypus", "qualifier": "Typical platypus", "id": "platypus"}
+{"name": "Echidna", "massKg": 4.5, "category": "animal", "wikiTitle": "Echidna", "qualifier": "Typical echidna", "id": "echidna"}
+{"name": "Sloth", "massKg": 5.0, "category": "animal", "wikiTitle": "Sloth", "qualifier": "Typical sloth", "id": "sloth"}
+{"name": "Armadillo", "massKg": 5.0, "category": "animal", "wikiTitle": "Armadillo", "qualifier": "Typical armadillo", "id": "armadillo"}
+{"name": "Anteater", "massKg": 40.0, "category": "animal", "wikiTitle": "Anteater", "qualifier": "Typical anteater", "id": "anteater"}
+{"name": "Tapir", "massKg": 250.0, "category": "animal", "wikiTitle": "Tapir", "qualifier": "Typical tapir", "id": "tapir"}
+{"name": "Camel", "massKg": 650.0, "category": "animal", "wikiTitle": "Camel", "qualifier": "Typical camel", "id": "camel"}
+{"name": "Water buffalo", "massKg": 700.0, "category": "animal", "wikiTitle": "Water_buffalo", "qualifier": "Typical water buffalo", "id": "water-buffalo"}
+{"name": "Yak", "massKg": 500.0, "category": "animal", "wikiTitle": "Yak", "qualifier": "Typical yak", "id": "yak"}
+{"name": "Seal", "massKg": 85.0, "category": "animal", "wikiTitle": "Pinniped", "qualifier": "Typical seal", "id": "seal"}
+{"name": "Walrus", "massKg": 1200.0, "category": "animal", "wikiTitle": "Walrus", "qualifier": "Typical walrus", "id": "walrus"}
+{"name": "Sea lion", "massKg": 300.0, "category": "animal", "wikiTitle": "Sea_lion", "qualifier": "Typical sea lion", "id": "sea-lion"}
+{"name": "Manatee", "massKg": 450.0, "category": "animal", "wikiTitle": "Manatee", "qualifier": "Typical manatee", "id": "manatee"}
+{"name": "Orca", "massKg": 5500.0, "category": "animal", "wikiTitle": "Orca", "qualifier": "Typical orca", "id": "orca"}
+{"name": "Beluga whale", "massKg": 1400.0, "category": "animal", "wikiTitle": "Beluga_whale", "qualifier": "Typical beluga whale", "id": "beluga-whale"}
+{"name": "Sperm whale", "massKg": 35000.0, "category": "animal", "wikiTitle": "Sperm_whale", "qualifier": "Typical sperm whale", "id": "sperm-whale"}
+{"name": "Humpback whale", "massKg": 30000.0, "category": "animal", "wikiTitle": "Humpback_whale", "qualifier": "Typical humpback whale", "id": "humpback-whale"}
+{"name": "Narwhal", "massKg": 1600.0, "category": "animal", "wikiTitle": "Narwhal", "qualifier": "Typical narwhal", "id": "narwhal"}
+{"name": "Hammerhead shark", "massKg": 230.0, "category": "animal", "wikiTitle": "Hammerhead_shark", "qualifier": "Typical hammerhead shark", "id": "hammerhead-shark"}
+{"name": "Tiger shark", "massKg": 385.0, "category": "animal", "wikiTitle": "Tiger_shark", "qualifier": "Typical tiger shark", "id": "tiger-shark"}
+{"name": "Manta ray", "massKg": 1200.0, "category": "animal", "wikiTitle": "Manta_ray", "qualifier": "Typical manta ray", "id": "manta-ray"}
+{"name": "Stingray", "massKg": 25.0, "category": "animal", "wikiTitle": "Stingray", "qualifier": "Typical stingray", "id": "stingray"}
+{"name": "Octopus", "massKg": 15.0, "category": "animal", "wikiTitle": "Octopus", "qualifier": "Typical octopus", "id": "octopus"}
+{"name": "Squid", "massKg": 20.0, "category": "animal", "wikiTitle": "Squid", "qualifier": "Typical squid", "id": "squid"}
+{"name": "Lobster", "massKg": 0.5, "category": "animal", "wikiTitle": "Lobster", "qualifier": "Typical lobster", "id": "lobster"}
+{"name": "Crab", "massKg": 0.5, "category": "animal", "wikiTitle": "Crab", "qualifier": "Typical crab", "id": "crab"}
+{"name": "Shrimp", "massKg": 0.02, "category": "animal", "wikiTitle": "Shrimp", "qualifier": "Typical shrimp", "id": "shrimp"}
+{"name": "Oyster", "massKg": 0.1, "category": "animal", "wikiTitle": "Oyster", "qualifier": "Typical oyster", "id": "oyster"}
+{"name": "Clam", "massKg": 0.05, "category": "animal", "wikiTitle": "Clam", "qualifier": "Typical clam", "id": "clam"}
+{"name": "Starfish", "massKg": 0.5, "category": "animal", "wikiTitle": "Starfish", "qualifier": "Typical starfish", "id": "starfish"}
+{"name": "Jellyfish", "massKg": 0.2, "category": "animal", "wikiTitle": "Jellyfish", "qualifier": "Typical jellyfish", "id": "jellyfish"}
+{"name": "Sea horse", "massKg": 0.01, "category": "animal", "wikiTitle": "Seahorse", "qualifier": "Typical sea horse", "id": "sea-horse"}
+{"name": "Pufferfish", "massKg": 1.0, "category": "animal", "wikiTitle": "Tetraodontidae", "qualifier": "Typical pufferfish", "id": "pufferfish"}
+{"name": "Swordfish", "massKg": 200.0, "category": "animal", "wikiTitle": "Swordfish", "qualifier": "Typical swordfish", "id": "swordfish"}
+{"name": "Marlin", "massKg": 200.0, "category": "animal", "wikiTitle": "Marlin", "qualifier": "Typical marlin", "id": "marlin"}
+{"name": "Tuna fish", "massKg": 250.0, "category": "animal", "wikiTitle": "Tuna", "qualifier": "Typical tuna fish", "id": "tuna-fish"}
+{"name": "Salmon (fish)", "massKg": 5.0, "category": "animal", "wikiTitle": "Salmon", "qualifier": "Typical salmon (fish)", "id": "salmon-fish"}
+{"name": "Trout", "massKg": 2.0, "category": "animal", "wikiTitle": "Trout", "qualifier": "Typical trout", "id": "trout"}
+{"name": "Bass fish", "massKg": 2.0, "category": "animal", "wikiTitle": "Bass_(fish)", "qualifier": "Typical bass fish", "id": "bass-fish"}
+{"name": "Catfish", "massKg": 15.0, "category": "animal", "wikiTitle": "Catfish", "qualifier": "Typical catfish", "id": "catfish"}
+{"name": "Piranha", "massKg": 1.5, "category": "animal", "wikiTitle": "Piranha", "qualifier": "Typical piranha", "id": "piranha"}
+{"name": "Electric eel", "massKg": 20.0, "category": "animal", "wikiTitle": "Electric_eel", "qualifier": "Typical electric eel", "id": "electric-eel"}
+{"name": "Pike", "massKg": 5.0, "category": "animal", "wikiTitle": "Pike_(fish)", "qualifier": "Typical pike", "id": "pike"}
+{"name": "Carp", "massKg": 10.0, "category": "animal", "wikiTitle": "Carp", "qualifier": "Typical carp", "id": "carp"}
+{"name": "Koi", "massKg": 5.0, "category": "animal", "wikiTitle": "Koi", "qualifier": "Typical koi", "id": "koi"}
+{"name": "Angelfish", "massKg": 0.1, "category": "animal", "wikiTitle": "Freshwater_angelfish", "qualifier": "Typical angelfish", "id": "angelfish"}
+{"name": "Clownfish", "massKg": 0.25, "category": "animal", "wikiTitle": "Clownfish", "qualifier": "Typical clownfish", "id": "clownfish"}
+{"name": "Barracuda", "massKg": 15.0, "category": "animal", "wikiTitle": "Barracuda", "qualifier": "Typical barracuda", "id": "barracuda"}
+{"name": "Sturgeon", "massKg": 50.0, "category": "animal", "wikiTitle": "Sturgeon", "qualifier": "Typical sturgeon", "id": "sturgeon"}
+{"name": "Alligator", "massKg": 200.0, "category": "animal", "wikiTitle": "Alligator", "qualifier": "Typical alligator", "id": "alligator"}
+{"name": "Caiman", "massKg": 40.0, "category": "animal", "wikiTitle": "Caiman", "qualifier": "Typical caiman", "id": "caiman"}
+{"name": "Komodo dragon", "massKg": 70.0, "category": "animal", "wikiTitle": "Komodo_dragon", "qualifier": "Typical komodo dragon", "id": "komodo-dragon"}
+{"name": "Iguana", "massKg": 4.0, "category": "animal", "wikiTitle": "Iguana", "qualifier": "Typical iguana", "id": "iguana"}
+{"name": "Gecko", "massKg": 0.05, "category": "animal", "wikiTitle": "Gecko", "qualifier": "Typical gecko", "id": "gecko"}
+{"name": "Chameleon", "massKg": 0.15, "category": "animal", "wikiTitle": "Chameleon", "qualifier": "Typical chameleon", "id": "chameleon"}
+{"name": "Python", "massKg": 50.0, "category": "animal", "wikiTitle": "Pythonidae", "qualifier": "Typical python", "id": "python"}
+{"name": "Boa constrictor", "massKg": 15.0, "category": "animal", "wikiTitle": "Boa_constrictor", "qualifier": "Typical boa constrictor", "id": "boa-constrictor"}
+{"name": "Cobra", "massKg": 3.0, "category": "animal", "wikiTitle": "Cobra", "qualifier": "Typical cobra", "id": "cobra"}
+{"name": "Rattlesnake", "massKg": 2.0, "category": "animal", "wikiTitle": "Rattlesnake", "qualifier": "Typical rattlesnake", "id": "rattlesnake"}
+{"name": "Viper", "massKg": 2.0, "category": "animal", "wikiTitle": "Viper", "qualifier": "Typical viper", "id": "viper"}
+{"name": "Tortoise", "massKg": 15.0, "category": "animal", "wikiTitle": "Tortoise", "qualifier": "Typical tortoise", "id": "tortoise"}
+{"name": "Box turtle", "massKg": 0.5, "category": "animal", "wikiTitle": "Box_turtle", "qualifier": "Typical box turtle", "id": "box-turtle"}
+{"name": "Sea turtle (green)", "massKg": 150.0, "category": "animal", "wikiTitle": "Green_sea_turtle", "qualifier": "Typical sea turtle (green)", "id": "sea-turtle-green"}
+{"name": "Frog", "massKg": 0.03, "category": "animal", "wikiTitle": "Frog", "qualifier": "Typical frog", "id": "frog"}
+{"name": "Toad", "massKg": 0.08, "category": "animal", "wikiTitle": "Toad", "qualifier": "Typical toad", "id": "toad"}
+{"name": "Salamander", "massKg": 0.02, "category": "animal", "wikiTitle": "Salamander", "qualifier": "Typical salamander", "id": "salamander"}
+{"name": "Newt", "massKg": 0.01, "category": "animal", "wikiTitle": "Newt", "qualifier": "Typical newt", "id": "newt"}
+{"name": "Ironing board", "massKg": 3.5, "category": "household", "wikiTitle": "Ironing_board", "qualifier": "Typical ironing board", "id": "ironing-board"}
+{"name": "Iron", "massKg": 1.2, "category": "household", "wikiTitle": "Clothes_iron", "qualifier": "Typical iron", "id": "iron"}
+{"name": "Blender", "massKg": 3.0, "category": "household", "wikiTitle": "Blender", "qualifier": "Typical blender", "id": "blender"}
+{"name": "Food processor", "massKg": 4.0, "category": "household", "wikiTitle": "Food_processor", "qualifier": "Typical food processor", "id": "food-processor"}
+{"name": "Stand mixer", "massKg": 5.5, "category": "household", "wikiTitle": "Stand_mixer", "qualifier": "Typical stand mixer", "id": "stand-mixer"}
+{"name": "Rice cooker", "massKg": 3.0, "category": "household", "wikiTitle": "Rice_cooker", "qualifier": "Typical rice cooker", "id": "rice-cooker"}
+{"name": "Slow cooker", "massKg": 4.5, "category": "household", "wikiTitle": "Slow_cooker", "qualifier": "Typical slow cooker", "id": "slow-cooker"}
+{"name": "Air fryer", "massKg": 5.0, "category": "household", "wikiTitle": "Air_fryer", "qualifier": "Typical air fryer", "id": "air-fryer"}
+{"name": "Coffee maker", "massKg": 3.5, "category": "household", "wikiTitle": "Coffee_maker", "qualifier": "Typical coffee maker", "id": "coffee-maker"}
+{"name": "Espresso machine", "massKg": 10.0, "category": "household", "wikiTitle": "Espresso_machine", "qualifier": "Typical espresso machine", "id": "espresso-machine"}
+{"name": "Dishwasher", "massKg": 50.0, "category": "household", "wikiTitle": "Dishwasher", "qualifier": "Typical dishwasher", "id": "dishwasher"}
+{"name": "Dryer", "massKg": 60.0, "category": "household", "wikiTitle": "Clothes_dryer", "qualifier": "Typical dryer", "id": "dryer"}
+{"name": "Space heater", "massKg": 4.0, "category": "household", "wikiTitle": "Space_heater", "qualifier": "Typical space heater", "id": "space-heater"}
+{"name": "Fan", "massKg": 3.0, "category": "household", "wikiTitle": "Electric_fan", "qualifier": "Typical fan", "id": "fan"}
+{"name": "Humidifier", "massKg": 2.5, "category": "household", "wikiTitle": "Humidifier", "qualifier": "Typical humidifier", "id": "humidifier"}
+{"name": "Dehumidifier", "massKg": 12.0, "category": "household", "wikiTitle": "Dehumidifier", "qualifier": "Typical dehumidifier", "id": "dehumidifier"}
+{"name": "Vacuum robot", "massKg": 4.0, "category": "household", "wikiTitle": "Robotic_vacuum_cleaner", "qualifier": "Typical vacuum robot", "id": "vacuum-robot"}
+{"name": "Steam mop", "massKg": 3.0, "category": "household", "wikiTitle": "Mop", "qualifier": "Typical steam mop", "id": "steam-mop"}
+{"name": "Broom", "massKg": 0.5, "category": "household", "wikiTitle": "Broom", "qualifier": "Typical broom", "id": "broom"}
+{"name": "Mop bucket", "massKg": 2.0, "category": "household", "wikiTitle": "Mop", "qualifier": "Typical mop bucket", "id": "mop-bucket"}
+{"name": "Laundry basket", "massKg": 1.0, "category": "household", "wikiTitle": "Laundry_basket", "qualifier": "Typical laundry basket", "id": "laundry-basket"}
+{"name": "Trash can", "massKg": 2.5, "category": "household", "wikiTitle": "Waste_container", "qualifier": "Typical trash can", "id": "trash-can"}
+{"name": "Recycling bin", "massKg": 3.0, "category": "household", "wikiTitle": "Recycling_bin", "qualifier": "Typical recycling bin", "id": "recycling-bin"}
+{"name": "Step ladder", "massKg": 5.0, "category": "household", "wikiTitle": "Ladder", "qualifier": "Typical step ladder", "id": "step-ladder"}
+{"name": "Extension ladder", "massKg": 15.0, "category": "household", "wikiTitle": "Ladder", "qualifier": "Typical extension ladder", "id": "extension-ladder"}
+{"name": "Hammer", "massKg": 0.5, "category": "household", "wikiTitle": "Hammer", "qualifier": "Typical hammer", "id": "hammer"}
+{"name": "Screwdriver set", "massKg": 0.8, "category": "household", "wikiTitle": "Screwdriver", "qualifier": "Typical screwdriver set", "id": "screwdriver-set"}
+{"name": "Wrench set", "massKg": 2.0, "category": "household", "wikiTitle": "Wrench", "qualifier": "Typical wrench set", "id": "wrench-set"}
+{"name": "Drill", "massKg": 2.5, "category": "household", "wikiTitle": "Power_drill", "qualifier": "Typical drill", "id": "drill"}
+{"name": "Circular saw", "massKg": 4.0, "category": "household", "wikiTitle": "Circular_saw", "qualifier": "Typical circular saw", "id": "circular-saw"}
+{"name": "Chainsaw", "massKg": 5.5, "category": "household", "wikiTitle": "Chainsaw", "qualifier": "Typical chainsaw", "id": "chainsaw"}
+{"name": "Lawn mower", "massKg": 30.0, "category": "household", "wikiTitle": "Lawn_mower", "qualifier": "Typical lawn mower", "id": "lawn-mower"}
+{"name": "Leaf blower", "massKg": 5.0, "category": "household", "wikiTitle": "Leaf_blower", "qualifier": "Typical leaf blower", "id": "leaf-blower"}
+{"name": "Garden hose reel", "massKg": 8.0, "category": "household", "wikiTitle": "Garden_hose", "qualifier": "Typical garden hose reel", "id": "garden-hose-reel"}
+{"name": "Wheelbarrow", "massKg": 15.0, "category": "household", "wikiTitle": "Wheelbarrow", "qualifier": "Typical wheelbarrow", "id": "wheelbarrow"}
+{"name": "Shovel", "massKg": 2.0, "category": "household", "wikiTitle": "Shovel", "qualifier": "Typical shovel", "id": "shovel"}
+{"name": "Rake", "massKg": 1.5, "category": "household", "wikiTitle": "Rake", "qualifier": "Typical rake", "id": "rake"}
+{"name": "Hose nozzle", "massKg": 0.2, "category": "household", "wikiTitle": "Garden_hose", "qualifier": "Typical hose nozzle", "id": "hose-nozzle"}
+{"name": "Picnic table", "massKg": 35.0, "category": "household", "wikiTitle": "Picnic_table", "qualifier": "Typical picnic table", "id": "picnic-table"}
+{"name": "Patio chair", "massKg": 8.0, "category": "household", "wikiTitle": "Garden_furniture", "qualifier": "Typical patio chair", "id": "patio-chair"}
+{"name": "Umbrella (patio)", "massKg": 5.0, "category": "household", "wikiTitle": "Umbrella", "qualifier": "Typical umbrella (patio)", "id": "umbrella-patio"}
+{"name": "Grill (charcoal)", "massKg": 25.0, "category": "household", "wikiTitle": "Barbecue_grill", "qualifier": "Typical grill (charcoal)", "id": "grill-charcoal"}
+{"name": "Propane grill", "massKg": 45.0, "category": "household", "wikiTitle": "Barbecue_grill", "qualifier": "Typical propane grill", "id": "propane-grill"}
+{"name": "Fire pit", "massKg": 40.0, "category": "household", "wikiTitle": "Fire_pit", "qualifier": "Typical fire pit", "id": "fire-pit"}
+{"name": "Sofa", "massKg": 80.0, "category": "household", "wikiTitle": "Couch", "qualifier": "Typical sofa", "id": "sofa"}
+{"name": "Armchair", "massKg": 25.0, "category": "household", "wikiTitle": "Armchair", "qualifier": "Typical armchair", "id": "armchair"}
+{"name": "Coffee table", "massKg": 20.0, "category": "household", "wikiTitle": "Coffee_table", "qualifier": "Typical coffee table", "id": "coffee-table"}
+{"name": "Dining table", "massKg": 50.0, "category": "household", "wikiTitle": "Table_(furniture)", "qualifier": "Typical dining table", "id": "dining-table"}
+{"name": "Dining chair", "massKg": 5.0, "category": "household", "wikiTitle": "Chair", "qualifier": "Typical dining chair", "id": "dining-chair"}
+{"name": "Bookshelf", "massKg": 30.0, "category": "household", "wikiTitle": "Bookshelf", "qualifier": "Typical bookshelf", "id": "bookshelf"}
+{"name": "Wardrobe", "massKg": 80.0, "category": "household", "wikiTitle": "Wardrobe", "qualifier": "Typical wardrobe", "id": "wardrobe"}
+{"name": "Dresser", "massKg": 50.0, "category": "household", "wikiTitle": "Chest_of_drawers", "qualifier": "Typical dresser", "id": "dresser"}
+{"name": "Nightstand", "massKg": 15.0, "category": "household", "wikiTitle": "Nightstand", "qualifier": "Typical nightstand", "id": "nightstand"}
+{"name": "Bed frame", "massKg": 40.0, "category": "household", "wikiTitle": "Bed_frame", "qualifier": "Typical bed frame", "id": "bed-frame"}
+{"name": "Pillow", "massKg": 0.8, "category": "household", "wikiTitle": "Pillow", "qualifier": "Typical pillow", "id": "pillow"}
+{"name": "Comforter", "massKg": 3.0, "category": "household", "wikiTitle": "Comforter", "qualifier": "Typical comforter", "id": "comforter"}
+{"name": "Blanket", "massKg": 1.5, "category": "household", "wikiTitle": "Blanket", "qualifier": "Typical blanket", "id": "blanket"}
+{"name": "Area rug", "massKg": 10.0, "category": "household", "wikiTitle": "Rug", "qualifier": "Typical area rug", "id": "area-rug"}
+{"name": "Floor lamp", "massKg": 5.0, "category": "household", "wikiTitle": "Floor_lamp", "qualifier": "Typical floor lamp", "id": "floor-lamp"}
+{"name": "Desk lamp", "massKg": 1.5, "category": "household", "wikiTitle": "Desk_lamp", "qualifier": "Typical desk lamp", "id": "desk-lamp"}
+{"name": "Ceiling fan", "massKg": 8.0, "category": "household", "wikiTitle": "Ceiling_fan", "qualifier": "Typical ceiling fan", "id": "ceiling-fan"}
+{"name": "Mirror (wall)", "massKg": 8.0, "category": "household", "wikiTitle": "Mirror", "qualifier": "Typical mirror (wall)", "id": "mirror-wall"}
+{"name": "Picture frame", "massKg": 1.0, "category": "household", "wikiTitle": "Picture_frame", "qualifier": "Typical picture frame", "id": "picture-frame"}
+{"name": "Clock (wall)", "massKg": 0.5, "category": "household", "wikiTitle": "Clock", "qualifier": "Typical clock (wall)", "id": "clock-wall"}
+{"name": "Smoke detector", "massKg": 0.2, "category": "household", "wikiTitle": "Smoke_detector", "qualifier": "Typical smoke detector", "id": "smoke-detector"}
+{"name": "Fire extinguisher", "massKg": 5.0, "category": "household", "wikiTitle": "Fire_extinguisher", "qualifier": "Typical fire extinguisher", "id": "fire-extinguisher"}
+{"name": "First aid kit", "massKg": 1.0, "category": "household", "wikiTitle": "First_aid_kit", "qualifier": "Typical first aid kit", "id": "first-aid-kit"}
+{"name": "Safe (small)", "massKg": 15.0, "category": "household", "wikiTitle": "Safe", "qualifier": "Typical safe (small)", "id": "safe-small"}
+{"name": "Suitcase", "massKg": 4.0, "category": "household", "wikiTitle": "Suitcase", "qualifier": "Typical suitcase", "id": "suitcase"}
+{"name": "Backpack", "massKg": 1.0, "category": "household", "wikiTitle": "Backpack", "qualifier": "Typical backpack", "id": "backpack"}
+{"name": "Handbag", "massKg": 0.5, "category": "household", "wikiTitle": "Handbag", "qualifier": "Typical handbag", "id": "handbag"}
+{"name": "Umbrella (rain)", "massKg": 0.4, "category": "household", "wikiTitle": "Umbrella", "qualifier": "Typical umbrella (rain)", "id": "umbrella-rain"}
+{"name": "Rain boots", "massKg": 1.2, "category": "household", "wikiTitle": "Wellington_boot", "qualifier": "Typical rain boots", "id": "rain-boots"}
+{"name": "Winter coat", "massKg": 1.5, "category": "household", "wikiTitle": "Coat", "qualifier": "Typical winter coat", "id": "winter-coat"}
+{"name": "Jeans", "massKg": 0.6, "category": "household", "wikiTitle": "Jeans", "qualifier": "Typical jeans", "id": "jeans"}
+{"name": "T-shirt", "massKg": 0.2, "category": "household", "wikiTitle": "T-shirt", "qualifier": "Typical t-shirt", "id": "t-shirt"}
+{"name": "Soccer goal (portable)", "massKg": 25.0, "category": "sport", "wikiTitle": "Association_football", "qualifier": "Typical soccer goal (portable)", "id": "soccer-goal-portable"}
+{"name": "Basketball hoop", "massKg": 35.0, "category": "sport", "wikiTitle": "Basketball_hoop", "qualifier": "Typical basketball hoop", "id": "basketball-hoop"}
+{"name": "Treadmill", "massKg": 90.0, "category": "sport", "wikiTitle": "Treadmill", "qualifier": "Typical treadmill", "id": "treadmill"}
+{"name": "Exercise bike", "massKg": 35.0, "category": "sport", "wikiTitle": "Exercise_bicycle", "qualifier": "Typical exercise bike", "id": "exercise-bike"}
+{"name": "Elliptical machine", "massKg": 80.0, "category": "sport", "wikiTitle": "Elliptical_trainer", "qualifier": "Typical elliptical machine", "id": "elliptical-machine"}
+{"name": "Rowing machine", "massKg": 45.0, "category": "sport", "wikiTitle": "Indoor_rower", "qualifier": "Typical rowing machine", "id": "rowing-machine"}
+{"name": "Weight bench", "massKg": 35.0, "category": "sport", "wikiTitle": "Bench_press", "qualifier": "Typical weight bench", "id": "weight-bench"}
+{"name": "Barbell", "massKg": 20.0, "category": "sport", "wikiTitle": "Barbell", "qualifier": "Typical barbell", "id": "barbell"}
+{"name": "Kettlebell", "massKg": 16.0, "category": "sport", "wikiTitle": "Kettlebell", "qualifier": "Typical kettlebell", "id": "kettlebell"}
+{"name": "Yoga mat", "massKg": 1.5, "category": "sport", "wikiTitle": "Yoga_mat", "qualifier": "Typical yoga mat", "id": "yoga-mat"}
+{"name": "Foam roller", "massKg": 0.5, "category": "sport", "wikiTitle": "Foam_roller", "qualifier": "Typical foam roller", "id": "foam-roller"}
+{"name": "Jump rope", "massKg": 0.3, "category": "sport", "wikiTitle": "Jump_rope", "qualifier": "Typical jump rope", "id": "jump-rope"}
+{"name": "Boxing gloves", "massKg": 0.5, "category": "sport", "wikiTitle": "Boxing_glove", "qualifier": "Typical boxing gloves", "id": "boxing-gloves"}
+{"name": "Punching bag", "massKg": 25.0, "category": "sport", "wikiTitle": "Punching_bag", "qualifier": "Typical punching bag", "id": "punching-bag"}
+{"name": "Surfboard", "massKg": 3.0, "category": "sport", "wikiTitle": "Surfboard", "qualifier": "Typical surfboard", "id": "surfboard"}
+{"name": "Snowboard", "massKg": 4.0, "category": "sport", "wikiTitle": "Snowboard", "qualifier": "Typical snowboard", "id": "snowboard"}
+{"name": "Pair of skis", "massKg": 5.0, "category": "sport", "wikiTitle": "Ski", "qualifier": "Typical pair of skis", "id": "pair-of-skis"}
+{"name": "Ice skates", "massKg": 2.0, "category": "sport", "wikiTitle": "Ice_skate", "qualifier": "Typical ice skates", "id": "ice-skates"}
+{"name": "Roller skates", "massKg": 2.5, "category": "sport", "wikiTitle": "Roller_skates", "qualifier": "Typical roller skates", "id": "roller-skates"}
+{"name": "Helmet (bike)", "massKg": 0.3, "category": "sport", "wikiTitle": "Bicycle_helmet", "qualifier": "Typical helmet (bike)", "id": "helmet-bike"}
+{"name": "Scooter", "massKg": 3.5, "category": "vehicle", "wikiTitle": "Kick_scooter", "qualifier": "Typical scooter", "id": "scooter"}
+{"name": "Rollerblades", "massKg": 2.0, "category": "sport", "wikiTitle": "Inline_skates", "qualifier": "Typical rollerblades", "id": "rollerblades"}
+{"name": "Tent (camping)", "massKg": 4.0, "category": "sport", "wikiTitle": "Tent", "qualifier": "Typical tent (camping)", "id": "tent-camping"}
+{"name": "Sleeping bag", "massKg": 1.5, "category": "sport", "wikiTitle": "Sleeping_bag", "qualifier": "Typical sleeping bag", "id": "sleeping-bag"}
+{"name": "Camping stove", "massKg": 1.0, "category": "sport", "wikiTitle": "Portable_stove", "qualifier": "Typical camping stove", "id": "camping-stove"}
+{"name": "Cooler", "massKg": 8.0, "category": "sport", "wikiTitle": "Cooler", "qualifier": "Typical cooler", "id": "cooler"}
+{"name": "Fishing rod", "massKg": 0.3, "category": "sport", "wikiTitle": "Fishing_rod", "qualifier": "Typical fishing rod", "id": "fishing-rod"}
+{"name": "Golf bag", "massKg": 4.0, "category": "sport", "wikiTitle": "Golf_bag", "qualifier": "Typical golf bag", "id": "golf-bag"}
+{"name": "Golf club set", "massKg": 8.0, "category": "sport", "wikiTitle": "Golf_club", "qualifier": "Typical golf club set", "id": "golf-club-set"}
+{"name": "Archery bow", "massKg": 1.0, "category": "sport", "wikiTitle": "Bow_and_arrow", "qualifier": "Typical archery bow", "id": "archery-bow"}
+{"name": "Quiver of arrows", "massKg": 0.8, "category": "sport", "wikiTitle": "Quiver", "qualifier": "Typical quiver of arrows", "id": "quiver-of-arrows"}
+{"name": "Pool cue", "massKg": 0.6, "category": "sport", "wikiTitle": "Cue_stick", "qualifier": "Typical pool cue", "id": "pool-cue"}
+{"name": "Ping pong table", "massKg": 70.0, "category": "sport", "wikiTitle": "Table_tennis", "qualifier": "Typical ping pong table", "id": "ping-pong-table"}
+{"name": "Pool table", "massKg": 320.0, "category": "sport", "wikiTitle": "Billiard_table", "qualifier": "Typical pool table", "id": "pool-table"}
+{"name": "Dartboard", "massKg": 2.0, "category": "sport", "wikiTitle": "Dartboard", "qualifier": "Typical dartboard", "id": "dartboard"}
+{"name": "Croquet set", "massKg": 5.0, "category": "sport", "wikiTitle": "Croquet", "qualifier": "Typical croquet set", "id": "croquet-set"}
+{"name": "Badminton net", "massKg": 3.0, "category": "sport", "wikiTitle": "Badminton", "qualifier": "Typical badminton net", "id": "badminton-net"}
+{"name": "Volleyball net", "massKg": 5.0, "category": "sport", "wikiTitle": "Volleyball", "qualifier": "Typical volleyball net", "id": "volleyball-net"}
+{"name": "Compact car", "massKg": 1200.0, "category": "vehicle", "wikiTitle": "Compact_car", "qualifier": "Typical compact car", "id": "compact-car"}
+{"name": "Sports car", "massKg": 1400.0, "category": "vehicle", "wikiTitle": "Sports_car", "qualifier": "Typical sports car", "id": "sports-car"}
+{"name": "SUV", "massKg": 2000.0, "category": "vehicle", "wikiTitle": "Sport_utility_vehicle", "qualifier": "Typical suv", "id": "suv"}
+{"name": "Minivan", "massKg": 2100.0, "category": "vehicle", "wikiTitle": "Minivan", "qualifier": "Typical minivan", "id": "minivan"}
+{"name": "Convertible", "massKg": 1500.0, "category": "vehicle", "wikiTitle": "Convertible", "qualifier": "Typical convertible", "id": "convertible"}
+{"name": "Electric car", "massKg": 1800.0, "category": "vehicle", "wikiTitle": "Electric_car", "qualifier": "Typical electric car", "id": "electric-car"}
+{"name": "Hybrid car", "massKg": 1600.0, "category": "vehicle", "wikiTitle": "Hybrid_vehicle", "qualifier": "Typical hybrid car", "id": "hybrid-car"}
+{"name": "Police car", "massKg": 1800.0, "category": "vehicle", "wikiTitle": "Police_car", "qualifier": "Typical police car", "id": "police-car"}
+{"name": "Ambulance", "massKg": 3500.0, "category": "vehicle", "wikiTitle": "Ambulance", "qualifier": "Typical ambulance", "id": "ambulance"}
+{"name": "Fire truck", "massKg": 12000.0, "category": "vehicle", "wikiTitle": "Fire_engine", "qualifier": "Typical fire truck", "id": "fire-truck"}
+{"name": "Garbage truck", "massKg": 15000.0, "category": "vehicle", "wikiTitle": "Garbage_truck", "qualifier": "Typical garbage truck", "id": "garbage-truck"}
+{"name": "Delivery van", "massKg": 3500.0, "category": "vehicle", "wikiTitle": "Van", "qualifier": "Typical delivery van", "id": "delivery-van"}
+{"name": "City bus", "massKg": 12000.0, "category": "vehicle", "wikiTitle": "Bus", "qualifier": "Typical city bus", "id": "city-bus"}
+{"name": "Double-decker bus", "massKg": 15000.0, "category": "vehicle", "wikiTitle": "Double-decker_bus", "qualifier": "Typical double-decker bus", "id": "double-decker-bus"}
+{"name": "Tram", "massKg": 20000.0, "category": "vehicle", "wikiTitle": "Tram", "qualifier": "Typical tram", "id": "tram"}
+{"name": "Subway car", "massKg": 35000.0, "category": "vehicle", "wikiTitle": "Passenger_rail_car", "qualifier": "Typical subway car", "id": "subway-car"}
+{"name": "Train locomotive", "massKg": 120000.0, "category": "vehicle", "wikiTitle": "Locomotive", "qualifier": "Typical train locomotive", "id": "train-locomotive"}
+{"name": "Freight train car", "massKg": 30000.0, "category": "vehicle", "wikiTitle": "Freight_car", "qualifier": "Typical freight train car", "id": "freight-train-car"}
+{"name": "Tractor", "massKg": 5000.0, "category": "vehicle", "wikiTitle": "Tractor", "qualifier": "Typical tractor", "id": "tractor"}
+{"name": "Combine harvester", "massKg": 12000.0, "category": "vehicle", "wikiTitle": "Combine_harvester", "qualifier": "Typical combine harvester", "id": "combine-harvester"}
+{"name": "Bulldozer", "massKg": 15000.0, "category": "vehicle", "wikiTitle": "Bulldozer", "qualifier": "Typical bulldozer", "id": "bulldozer"}
+{"name": "Excavator", "massKg": 20000.0, "category": "vehicle", "wikiTitle": "Excavator", "qualifier": "Typical excavator", "id": "excavator"}
+{"name": "Crane (mobile)", "massKg": 40000.0, "category": "vehicle", "wikiTitle": "Crane_(machine)", "qualifier": "Typical crane (mobile)", "id": "crane-mobile"}
+{"name": "Dump truck", "massKg": 15000.0, "category": "vehicle", "wikiTitle": "Dump_truck", "qualifier": "Typical dump truck", "id": "dump-truck"}
+{"name": "Cement mixer truck", "massKg": 18000.0, "category": "vehicle", "wikiTitle": "Concrete_mixer", "qualifier": "Typical cement mixer truck", "id": "cement-mixer-truck"}
+{"name": "Tanker truck", "massKg": 20000.0, "category": "vehicle", "wikiTitle": "Tank_truck", "qualifier": "Typical tanker truck", "id": "tanker-truck"}
+{"name": "RV", "massKg": 4500.0, "category": "vehicle", "wikiTitle": "Recreational_vehicle", "qualifier": "Typical rv", "id": "rv"}
+{"name": "Camper trailer", "massKg": 2000.0, "category": "vehicle", "wikiTitle": "Travel_trailer", "qualifier": "Typical camper trailer", "id": "camper-trailer"}
+{"name": "Boat (small motor)", "massKg": 800.0, "category": "vehicle", "wikiTitle": "Motorboat", "qualifier": "Typical boat (small motor)", "id": "boat-small-motor"}
+{"name": "Sailboat", "massKg": 2500.0, "category": "vehicle", "wikiTitle": "Sailboat", "qualifier": "Typical sailboat", "id": "sailboat"}
+{"name": "Yacht", "massKg": 15000.0, "category": "vehicle", "wikiTitle": "Yacht", "qualifier": "Typical yacht", "id": "yacht"}
+{"name": "Cruise ship", "massKg": 50000000.0, "category": "vehicle", "wikiTitle": "Cruise_ship", "qualifier": "Typical cruise ship", "id": "cruise-ship"}
+{"name": "Ferry", "massKg": 5000000.0, "category": "vehicle", "wikiTitle": "Ferry", "qualifier": "Typical ferry", "id": "ferry"}
+{"name": "Cargo ship", "massKg": 20000000.0, "category": "vehicle", "wikiTitle": "Cargo_ship", "qualifier": "Typical cargo ship", "id": "cargo-ship"}
+{"name": "Container ship", "massKg": 100000000.0, "category": "vehicle", "wikiTitle": "Container_ship", "qualifier": "Typical container ship", "id": "container-ship"}
+{"name": "Submarine", "massKg": 3000000.0, "category": "vehicle", "wikiTitle": "Submarine", "qualifier": "Typical submarine", "id": "submarine"}
+{"name": "Aircraft carrier", "massKg": 90000000.0, "category": "vehicle", "wikiTitle": "Aircraft_carrier", "qualifier": "Typical aircraft carrier", "id": "aircraft-carrier"}
+{"name": "Helicopter", "massKg": 2500.0, "category": "vehicle", "wikiTitle": "Helicopter", "qualifier": "Typical helicopter", "id": "helicopter"}
+{"name": "Small airplane", "massKg": 1000.0, "category": "vehicle", "wikiTitle": "Light_aircraft", "qualifier": "Typical small airplane", "id": "small-airplane"}
+{"name": "Commercial jet", "massKg": 75000.0, "category": "vehicle", "wikiTitle": "Airliner", "qualifier": "Typical commercial jet", "id": "commercial-jet"}
+{"name": "Glider", "massKg": 300.0, "category": "vehicle", "wikiTitle": "Glider_(aircraft)", "qualifier": "Typical glider", "id": "glider"}
+{"name": "Hot air balloon", "massKg": 500.0, "category": "vehicle", "wikiTitle": "Hot_air_balloon", "qualifier": "Typical hot air balloon", "id": "hot-air-balloon"}
+{"name": "Paraglider", "massKg": 15.0, "category": "vehicle", "wikiTitle": "Paragliding", "qualifier": "Typical paraglider", "id": "paraglider"}
+{"name": "Hang glider", "massKg": 25.0, "category": "vehicle", "wikiTitle": "Hang_gliding", "qualifier": "Typical hang glider", "id": "hang-glider"}
+{"name": "Rocket (small)", "massKg": 500.0, "category": "vehicle", "wikiTitle": "Rocket", "qualifier": "Typical rocket (small)", "id": "rocket-small"}
+{"name": "Satellite", "massKg": 1000.0, "category": "vehicle", "wikiTitle": "Satellite", "qualifier": "Typical satellite", "id": "satellite"}
+{"name": "Space shuttle", "massKg": 78000.0, "category": "vehicle", "wikiTitle": "Space_Shuttle", "qualifier": "Typical space shuttle", "id": "space-shuttle"}
+{"name": "Moon rover", "massKg": 210.0, "category": "vehicle", "wikiTitle": "Lunar_Roving_Vehicle", "qualifier": "Typical moon rover", "id": "moon-rover"}
+{"name": "ATV", "massKg": 350.0, "category": "vehicle", "wikiTitle": "All-terrain_vehicle", "qualifier": "Typical atv", "id": "atv"}
+{"name": "Snowmobile", "massKg": 250.0, "category": "vehicle", "wikiTitle": "Snowmobile", "qualifier": "Typical snowmobile", "id": "snowmobile"}
+{"name": "Segway", "massKg": 50.0, "category": "vehicle", "wikiTitle": "Segway", "qualifier": "Typical segway", "id": "segway"}
+{"name": "Electric scooter", "massKg": 15.0, "category": "vehicle", "wikiTitle": "Electric_scooter", "qualifier": "Typical electric scooter", "id": "electric-scooter"}
+{"name": "Unicycle", "massKg": 5.0, "category": "vehicle", "wikiTitle": "Unicycle", "qualifier": "Typical unicycle", "id": "unicycle"}
+{"name": "Tricycle", "massKg": 8.0, "category": "vehicle", "wikiTitle": "Tricycle", "qualifier": "Typical tricycle", "id": "tricycle"}
+{"name": "Wheelchair", "massKg": 15.0, "category": "vehicle", "wikiTitle": "Wheelchair", "qualifier": "Typical wheelchair", "id": "wheelchair"}
+{"name": "Stroller", "massKg": 10.0, "category": "vehicle", "wikiTitle": "Baby_transport", "qualifier": "Typical stroller", "id": "stroller"}
+{"name": "Shopping cart", "massKg": 15.0, "category": "vehicle", "wikiTitle": "Shopping_cart", "qualifier": "Typical shopping cart", "id": "shopping-cart"}
+{"name": "Hand truck", "massKg": 8.0, "category": "vehicle", "wikiTitle": "Hand_truck", "qualifier": "Typical hand truck", "id": "hand-truck"}
+{"name": "Pallet jack", "massKg": 80.0, "category": "vehicle", "wikiTitle": "Pallet_jack", "qualifier": "Typical pallet jack", "id": "pallet-jack"}
+{"name": "Steam locomotive", "massKg": 90000.0, "category": "vehicle", "wikiTitle": "Steam_locomotive", "qualifier": "Typical steam locomotive", "id": "steam-locomotive"}
+{"name": "Cable car", "massKg": 2000.0, "category": "vehicle", "wikiTitle": "Cable_car", "qualifier": "Typical cable car", "id": "cable-car"}
+{"name": "Funicular car", "massKg": 5000.0, "category": "vehicle", "wikiTitle": "Funicular", "qualifier": "Typical funicular car", "id": "funicular-car"}
+{"name": "Boulder", "massKg": 500.0, "category": "nature", "wikiTitle": "Boulder", "qualifier": "Typical boulder", "id": "boulder"}
+{"name": "River rock", "massKg": 2.0, "category": "nature", "wikiTitle": "Rock_(geology)", "qualifier": "Typical river rock", "id": "river-rock"}
+{"name": "Sandbag", "massKg": 20.0, "category": "nature", "wikiTitle": "Sandbag", "qualifier": "Typical sandbag", "id": "sandbag"}
+{"name": "Hay bale", "massKg": 25.0, "category": "nature", "wikiTitle": "Hay", "qualifier": "Typical hay bale", "id": "hay-bale"}
+{"name": "Log", "massKg": 50.0, "category": "nature", "wikiTitle": "Log", "qualifier": "Typical log", "id": "log"}
+{"name": "Pine tree", "massKg": 8000.0, "category": "nature", "wikiTitle": "Pine", "qualifier": "Typical pine tree", "id": "pine-tree"}
+{"name": "Palm tree", "massKg": 5000.0, "category": "nature", "wikiTitle": "Arecaceae", "qualifier": "Typical palm tree", "id": "palm-tree"}
+{"name": "Bonsai tree", "massKg": 2.0, "category": "nature", "wikiTitle": "Bonsai", "qualifier": "Typical bonsai tree", "id": "bonsai-tree"}
+{"name": "Rose bush", "massKg": 3.0, "category": "nature", "wikiTitle": "Rose", "qualifier": "Typical rose bush", "id": "rose-bush"}
+{"name": "Sunflower", "massKg": 0.15, "category": "nature", "wikiTitle": "Sunflower", "qualifier": "Typical sunflower", "id": "sunflower"}
+{"name": "Cactus", "massKg": 5.0, "category": "nature", "wikiTitle": "Cactus", "qualifier": "Typical cactus", "id": "cactus"}
+{"name": "Fern", "massKg": 0.5, "category": "nature", "wikiTitle": "Fern", "qualifier": "Typical fern", "id": "fern"}
+{"name": "Moss patch", "massKg": 0.1, "category": "nature", "wikiTitle": "Moss", "qualifier": "Typical moss patch", "id": "moss-patch"}
+{"name": "Lichen", "massKg": 0.05, "category": "nature", "wikiTitle": "Lichen", "qualifier": "Typical lichen", "id": "lichen"}
+{"name": "Mushroom (wild)", "massKg": 0.1, "category": "nature", "wikiTitle": "Mushroom", "qualifier": "Typical mushroom (wild)", "id": "mushroom-wild"}
+{"name": "Acorn", "massKg": 0.006, "category": "nature", "wikiTitle": "Acorn", "qualifier": "Typical acorn", "id": "acorn"}
+{"name": "Pine cone", "massKg": 0.05, "category": "nature", "wikiTitle": "Pine_cone", "qualifier": "Typical pine cone", "id": "pine-cone"}
+{"name": "Seashell", "massKg": 0.02, "category": "nature", "wikiTitle": "Seashell", "qualifier": "Typical seashell", "id": "seashell"}
+{"name": "Coral piece", "massKg": 0.5, "category": "nature", "wikiTitle": "Coral", "qualifier": "Typical coral piece", "id": "coral-piece"}
+{"name": "Driftwood", "massKg": 3.0, "category": "nature", "wikiTitle": "Driftwood", "qualifier": "Typical driftwood", "id": "driftwood"}
+{"name": "Ice block", "massKg": 1.0, "category": "nature", "wikiTitle": "Ice", "qualifier": "Typical ice block", "id": "ice-block"}
+{"name": "Snowball", "massKg": 0.5, "category": "nature", "wikiTitle": "Snow", "qualifier": "Typical snowball", "id": "snowball"}
+{"name": "Sandcastle", "massKg": 5.0, "category": "nature", "wikiTitle": "Sand", "qualifier": "Typical sandcastle", "id": "sandcastle"}
+{"name": "Granite slab", "massKg": 50.0, "category": "nature", "wikiTitle": "Granite", "qualifier": "Typical granite slab", "id": "granite-slab"}
+{"name": "Marble block", "massKg": 60.0, "category": "nature", "wikiTitle": "Marble", "qualifier": "Typical marble block", "id": "marble-block"}
+{"name": "Limestone rock", "massKg": 30.0, "category": "nature", "wikiTitle": "Limestone", "qualifier": "Typical limestone rock", "id": "limestone-rock"}
+{"name": "Sandstone", "massKg": 25.0, "category": "nature", "wikiTitle": "Sandstone", "qualifier": "Typical sandstone", "id": "sandstone"}
+{"name": "Coal chunk", "massKg": 1.0, "category": "nature", "wikiTitle": "Coal", "qualifier": "Typical coal chunk", "id": "coal-chunk"}
+{"name": "Iron ore sample", "massKg": 2.0, "category": "nature", "wikiTitle": "Iron_ore", "qualifier": "Typical iron ore sample", "id": "iron-ore-sample"}
+{"name": "Copper ore", "massKg": 2.0, "category": "nature", "wikiTitle": "Copper", "qualifier": "Typical copper ore", "id": "copper-ore"}
+{"name": "Silver bar (small)", "massKg": 1.0, "category": "other", "wikiTitle": "Silver", "qualifier": "Typical silver bar (small)", "id": "silver-bar-small"}
+{"name": "Platinum coin", "massKg": 0.007, "category": "other", "wikiTitle": "Platinum", "qualifier": "Typical platinum coin", "id": "platinum-coin"}
+{"name": "Diamond (1 carat)", "massKg": 0.0002, "category": "other", "wikiTitle": "Diamond", "qualifier": "Typical diamond (1 carat)", "id": "diamond-1-carat"}
+{"name": "Ruby gemstone", "massKg": 0.0003, "category": "other", "wikiTitle": "Ruby", "qualifier": "Typical ruby gemstone", "id": "ruby-gemstone"}
+{"name": "Emerald", "massKg": 0.0003, "category": "other", "wikiTitle": "Emerald", "qualifier": "Typical emerald", "id": "emerald"}
+{"name": "Pearl", "massKg": 0.0001, "category": "other", "wikiTitle": "Pearl", "qualifier": "Typical pearl", "id": "pearl"}
+{"name": "Meteorite fragment", "massKg": 0.5, "category": "nature", "wikiTitle": "Meteorite", "qualifier": "Typical meteorite fragment", "id": "meteorite-fragment"}
+{"name": "Fossil", "massKg": 2.0, "category": "nature", "wikiTitle": "Fossil", "qualifier": "Typical fossil", "id": "fossil"}
+{"name": "Amber piece", "massKg": 0.01, "category": "nature", "wikiTitle": "Amber", "qualifier": "Typical amber piece", "id": "amber-piece"}
+{"name": "Volcanic rock", "massKg": 1.0, "category": "nature", "wikiTitle": "Volcanic_rock", "qualifier": "Typical volcanic rock", "id": "volcanic-rock"}
+{"name": "Geode", "massKg": 0.5, "category": "nature", "wikiTitle": "Geode", "qualifier": "Typical geode", "id": "geode"}
+{"name": "Quartz crystal", "massKg": 0.1, "category": "nature", "wikiTitle": "Quartz", "qualifier": "Typical quartz crystal", "id": "quartz-crystal"}
+{"name": "Amethyst", "massKg": 0.05, "category": "nature", "wikiTitle": "Amethyst", "qualifier": "Typical amethyst", "id": "amethyst"}
+{"name": "Topsoil bag", "massKg": 20.0, "category": "nature", "wikiTitle": "Soil", "qualifier": "Typical topsoil bag", "id": "topsoil-bag"}
+{"name": "Compost bag", "massKg": 15.0, "category": "nature", "wikiTitle": "Compost", "qualifier": "Typical compost bag", "id": "compost-bag"}
+{"name": "Mulch bag", "massKg": 18.0, "category": "nature", "wikiTitle": "Mulch", "qualifier": "Typical mulch bag", "id": "mulch-bag"}
+{"name": "Fertilizer bag", "massKg": 25.0, "category": "nature", "wikiTitle": "Fertilizer", "qualifier": "Typical fertilizer bag", "id": "fertilizer-bag"}
+{"name": "Seeds packet", "massKg": 0.05, "category": "nature", "wikiTitle": "Seed", "qualifier": "Typical seeds packet", "id": "seeds-packet"}
+{"name": "Potted plant", "massKg": 3.0, "category": "nature", "wikiTitle": "Houseplant", "qualifier": "Typical potted plant", "id": "potted-plant"}
+{"name": "Orchid plant", "massKg": 0.5, "category": "nature", "wikiTitle": "Orchid", "qualifier": "Typical orchid plant", "id": "orchid-plant"}
+{"name": "Bamboo stalk", "massKg": 2.0, "category": "nature", "wikiTitle": "Bamboo", "qualifier": "Typical bamboo stalk", "id": "bamboo-stalk"}
+{"name": "Wheat sheaf", "massKg": 0.5, "category": "nature", "wikiTitle": "Wheat", "qualifier": "Typical wheat sheaf", "id": "wheat-sheaf"}
+{"name": "Corn stalk", "massKg": 0.3, "category": "nature", "wikiTitle": "Maize", "qualifier": "Typical corn stalk", "id": "corn-stalk"}
+{"name": "Rice plant", "massKg": 0.2, "category": "nature", "wikiTitle": "Rice", "qualifier": "Typical rice plant", "id": "rice-plant"}
+{"name": "Cotton boll", "massKg": 0.005, "category": "nature", "wikiTitle": "Cotton", "qualifier": "Typical cotton boll", "id": "cotton-boll"}
+{"name": "Maple tree", "massKg": 10000.0, "category": "nature", "wikiTitle": "Maple", "qualifier": "Typical maple tree", "id": "maple-tree"}
+{"name": "Willow tree", "massKg": 6000.0, "category": "nature", "wikiTitle": "Willow", "qualifier": "Typical willow tree", "id": "willow-tree"}
+{"name": "Birch tree", "massKg": 5000.0, "category": "nature", "wikiTitle": "Birch", "qualifier": "Typical birch tree", "id": "birch-tree"}
+{"name": "Redwood tree", "massKg": 500000.0, "category": "nature", "wikiTitle": "Sequoioideae", "qualifier": "Typical redwood tree", "id": "redwood-tree"}
+{"name": "Baobab tree", "massKg": 15000.0, "category": "nature", "wikiTitle": "Adansonia", "qualifier": "Typical baobab tree", "id": "baobab-tree"}
+{"name": "Banyan tree", "massKg": 20000.0, "category": "nature", "wikiTitle": "Banyan", "qualifier": "Typical banyan tree", "id": "banyan-tree"}
+{"name": "Cherry blossom tree", "massKg": 3000.0, "category": "nature", "wikiTitle": "Cherry_blossom", "qualifier": "Typical cherry blossom tree", "id": "cherry-blossom-tree"}
+{"name": "Apple tree", "massKg": 4000.0, "category": "nature", "wikiTitle": "Apple_tree", "qualifier": "Typical apple tree", "id": "apple-tree"}
+{"name": "Banana plant", "massKg": 50.0, "category": "nature", "wikiTitle": "Banana", "qualifier": "Typical banana plant", "id": "banana-plant"}
+{"name": "Vineyard grape cluster", "massKg": 0.2, "category": "food", "wikiTitle": "Vitis_vinifera", "qualifier": "Typical vineyard grape cluster", "id": "vineyard-grape-cluster"}
+{"name": "Tea bag box", "massKg": 0.2, "category": "food", "wikiTitle": "Tea", "qualifier": "Typical tea bag box", "id": "tea-bag-box"}
+{"name": "Spice jar", "massKg": 0.1, "category": "food", "wikiTitle": "Spice", "qualifier": "Typical spice jar", "id": "spice-jar"}
+{"name": "Salt shaker", "massKg": 0.2, "category": "food", "wikiTitle": "Salt", "qualifier": "Typical salt shaker", "id": "salt-shaker"}
+{"name": "Pepper grinder", "massKg": 0.3, "category": "food", "wikiTitle": "Black_pepper", "qualifier": "Typical pepper grinder", "id": "pepper-grinder"}
+{"name": "Olive oil bottle", "massKg": 0.9, "category": "food", "wikiTitle": "Olive_oil", "qualifier": "Typical olive oil bottle", "id": "olive-oil-bottle"}
+{"name": "Vinegar bottle", "massKg": 0.5, "category": "food", "wikiTitle": "Vinegar", "qualifier": "Typical vinegar bottle", "id": "vinegar-bottle"}
+{"name": "Ketchup bottle", "massKg": 0.5, "category": "food", "wikiTitle": "Ketchup", "qualifier": "Typical ketchup bottle", "id": "ketchup-bottle"}
+{"name": "Mustard jar", "massKg": 0.3, "category": "food", "wikiTitle": "Mustard_(condiment)", "qualifier": "Typical mustard jar", "id": "mustard-jar"}
+{"name": "Mayonnaise jar", "massKg": 0.4, "category": "food", "wikiTitle": "Mayonnaise", "qualifier": "Typical mayonnaise jar", "id": "mayonnaise-jar"}
+{"name": "Hot sauce bottle", "massKg": 0.2, "category": "food", "wikiTitle": "Hot_sauce", "qualifier": "Typical hot sauce bottle", "id": "hot-sauce-bottle"}
+{"name": "Soy sauce bottle", "massKg": 0.3, "category": "food", "wikiTitle": "Soy_sauce", "qualifier": "Typical soy sauce bottle", "id": "soy-sauce-bottle"}
+{"name": "Maple syrup bottle", "massKg": 0.5, "category": "food", "wikiTitle": "Maple_syrup", "qualifier": "Typical maple syrup bottle", "id": "maple-syrup-bottle"}
+{"name": "Honey jar", "massKg": 0.5, "category": "food", "wikiTitle": "Honey", "qualifier": "Typical honey jar", "id": "honey-jar"}
+{"name": "Jam jar", "massKg": 0.35, "category": "food", "wikiTitle": "Fruit_preserves", "qualifier": "Typical jam jar", "id": "jam-jar"}
+{"name": "Nutella jar", "massKg": 0.4, "category": "food", "wikiTitle": "Nutella", "qualifier": "Typical nutella jar", "id": "nutella-jar"}
+{"name": "Instant noodles pack", "massKg": 0.09, "category": "food", "wikiTitle": "Instant_noodle", "qualifier": "Typical instant noodles pack", "id": "instant-noodles-pack"}
+{"name": "Mac and cheese box", "massKg": 0.2, "category": "food", "wikiTitle": "Macaroni_and_cheese", "qualifier": "Typical mac and cheese box", "id": "mac-and-cheese-box"}
+{"name": "Granola bar box", "massKg": 0.4, "category": "food", "wikiTitle": "Granola", "qualifier": "Typical granola bar box", "id": "granola-bar-box"}
+{"name": "Potato chips bag", "massKg": 0.15, "category": "food", "wikiTitle": "Potato_chip", "qualifier": "Typical potato chips bag", "id": "potato-chips-bag"}
+{"name": "Popcorn bag", "massKg": 0.1, "category": "food", "wikiTitle": "Popcorn", "qualifier": "Typical popcorn bag", "id": "popcorn-bag"}
+{"name": "Pretzel bag", "massKg": 0.2, "category": "food", "wikiTitle": "Pretzel", "qualifier": "Typical pretzel bag", "id": "pretzel-bag"}
+{"name": "Trail mix bag", "massKg": 0.25, "category": "food", "wikiTitle": "Trail_mix", "qualifier": "Typical trail mix bag", "id": "trail-mix-bag"}
+{"name": "Protein bar", "massKg": 0.06, "category": "food", "wikiTitle": "Protein_bar", "qualifier": "Typical protein bar", "id": "protein-bar"}
+{"name": "Energy drink can", "massKg": 0.35, "category": "food", "wikiTitle": "Energy_drink", "qualifier": "Typical energy drink can", "id": "energy-drink-can"}
+{"name": "Iced tea bottle", "massKg": 0.5, "category": "food", "wikiTitle": "Iced_tea", "qualifier": "Typical iced tea bottle", "id": "iced-tea-bottle"}
+{"name": "Orange juice carton", "massKg": 1.0, "category": "food", "wikiTitle": "Orange_juice", "qualifier": "Typical orange juice carton", "id": "orange-juice-carton"}
+{"name": "Coconut water carton", "massKg": 0.5, "category": "food", "wikiTitle": "Coconut_water", "qualifier": "Typical coconut water carton", "id": "coconut-water-carton"}
+{"name": "Sparkling water case", "massKg": 9.0, "category": "food", "wikiTitle": "Carbonated_water", "qualifier": "Typical sparkling water case", "id": "sparkling-water-case"}
+{"name": "Baby formula tin", "massKg": 0.6, "category": "food", "wikiTitle": "Infant_formula", "qualifier": "Typical baby formula tin", "id": "baby-formula-tin"}
+{"name": "Dog food bag", "massKg": 15.0, "category": "food", "wikiTitle": "Dog_food", "qualifier": "Typical dog food bag", "id": "dog-food-bag"}
+{"name": "Cat food bag", "massKg": 4.0, "category": "food", "wikiTitle": "Cat_food", "qualifier": "Typical cat food bag", "id": "cat-food-bag"}
+{"name": "Bird seed bag", "massKg": 2.0, "category": "food", "wikiTitle": "Bird_food", "qualifier": "Typical bird seed bag", "id": "bird-seed-bag"}
+{"name": "Fish food container", "massKg": 0.1, "category": "food", "wikiTitle": "Fish_food", "qualifier": "Typical fish food container", "id": "fish-food-container"}
+{"name": "Akita", "massKg": 40.0, "category": "animal", "wikiTitle": "Akita_(dog)", "qualifier": "Typical akita", "id": "akita"}
+{"name": "Samoyed", "massKg": 25.0, "category": "animal", "wikiTitle": "Samoyed_(dog)", "qualifier": "Typical samoyed", "id": "samoyed"}
+{"name": "Husky", "massKg": 23.0, "category": "animal", "wikiTitle": "Siberian_Husky", "qualifier": "Typical husky", "id": "husky"}
+{"name": "Malamute", "massKg": 38.0, "category": "animal", "wikiTitle": "Alaskan_Malamute", "qualifier": "Typical malamute", "id": "malamute"}
+{"name": "Saint Bernard", "massKg": 75.0, "category": "animal", "wikiTitle": "St._Bernard_(dog)", "qualifier": "Typical saint bernard", "id": "saint-bernard"}
+{"name": "Great Dane", "massKg": 70.0, "category": "animal", "wikiTitle": "Great_Dane", "qualifier": "Typical great dane", "id": "great-dane"}
+{"name": "Mastiff", "massKg": 80.0, "category": "animal", "wikiTitle": "English_Mastiff", "qualifier": "Typical mastiff", "id": "mastiff"}
+{"name": "Newfoundland", "massKg": 60.0, "category": "animal", "wikiTitle": "Newfoundland_dog", "qualifier": "Typical newfoundland", "id": "newfoundland"}
+{"name": "Bernese mountain dog", "massKg": 45.0, "category": "animal", "wikiTitle": "Bernese_Mountain_Dog", "qualifier": "Typical bernese mountain dog", "id": "bernese-mountain-dog"}
+{"name": "Rottweiler", "massKg": 50.0, "category": "animal", "wikiTitle": "Rottweiler", "qualifier": "Typical rottweiler", "id": "rottweiler"}
+{"name": "Doberman", "massKg": 35.0, "category": "animal", "wikiTitle": "Dobermann", "qualifier": "Typical doberman", "id": "doberman"}
+{"name": "Boxer", "massKg": 30.0, "category": "animal", "wikiTitle": "Boxer_(dog)", "qualifier": "Typical boxer", "id": "boxer"}
+{"name": "Dalmatian", "massKg": 27.0, "category": "animal", "wikiTitle": "Dalmatian_(dog)", "qualifier": "Typical dalmatian", "id": "dalmatian"}
+{"name": "Greyhound", "massKg": 32.0, "category": "animal", "wikiTitle": "Greyhound", "qualifier": "Typical greyhound", "id": "greyhound"}
+{"name": "Whippet", "massKg": 12.0, "category": "animal", "wikiTitle": "Whippet", "qualifier": "Typical whippet", "id": "whippet"}
+{"name": "Irish wolfhound", "massKg": 55.0, "category": "animal", "wikiTitle": "Irish_Wolfhound", "qualifier": "Typical irish wolfhound", "id": "irish-wolfhound"}
+{"name": "Scottish terrier", "massKg": 10.0, "category": "animal", "wikiTitle": "Scottish_Terrier", "qualifier": "Typical scottish terrier", "id": "scottish-terrier"}
+{"name": "Yorkshire terrier", "massKg": 3.0, "category": "animal", "wikiTitle": "Yorkshire_Terrier", "qualifier": "Typical yorkshire terrier", "id": "yorkshire-terrier"}
+{"name": "Shih Tzu", "massKg": 5.5, "category": "animal", "wikiTitle": "Shih_Tzu", "qualifier": "Typical shih tzu", "id": "shih-tzu"}
+{"name": "Pug", "massKg": 8.0, "category": "animal", "wikiTitle": "Pug", "qualifier": "Typical pug", "id": "pug"}
+{"name": "Corgi", "massKg": 12.0, "category": "animal", "wikiTitle": "Pembroke_Welsh_Corgi", "qualifier": "Typical corgi", "id": "corgi"}
+{"name": "Australian shepherd", "massKg": 25.0, "category": "animal", "wikiTitle": "Australian_Shepherd", "qualifier": "Typical australian shepherd", "id": "australian-shepherd"}
+{"name": "Cocker spaniel", "massKg": 13.0, "category": "animal", "wikiTitle": "Cocker_Spaniel", "qualifier": "Typical cocker spaniel", "id": "cocker-spaniel"}
+{"name": "Springer spaniel", "massKg": 20.0, "category": "animal", "wikiTitle": "English_Springer_Spaniel", "qualifier": "Typical springer spaniel", "id": "springer-spaniel"}
+{"name": "Pointer", "massKg": 28.0, "category": "animal", "wikiTitle": "Pointer_(dog_breed)", "qualifier": "Typical pointer", "id": "pointer"}
+{"name": "Setter", "massKg": 30.0, "category": "animal", "wikiTitle": "Setter", "qualifier": "Typical setter", "id": "setter"}
+{"name": "Weimaraner", "massKg": 32.0, "category": "animal", "wikiTitle": "Weimaraner", "qualifier": "Typical weimaraner", "id": "weimaraner"}
+{"name": "Vizsla", "massKg": 25.0, "category": "animal", "wikiTitle": "Vizsla", "qualifier": "Typical vizsla", "id": "vizsla"}
+{"name": "Bloodhound", "massKg": 45.0, "category": "animal", "wikiTitle": "Bloodhound", "qualifier": "Typical bloodhound", "id": "bloodhound"}
+{"name": "Basset hound", "massKg": 25.0, "category": "animal", "wikiTitle": "Basset_Hound", "qualifier": "Typical basset hound", "id": "basset-hound"}
+{"name": "Beagle mix", "massKg": 13.0, "category": "animal", "wikiTitle": "Beagle", "qualifier": "Typical beagle mix", "id": "beagle-mix"}
+{"name": "Pit bull", "massKg": 25.0, "category": "animal", "wikiTitle": "American_Pit_Bull_Terrier", "qualifier": "Typical pit bull", "id": "pit-bull"}
+{"name": "Staffordshire terrier", "massKg": 15.0, "category": "animal", "wikiTitle": "Staffordshire_Bull_Terrier", "qualifier": "Typical staffordshire terrier", "id": "staffordshire-terrier"}
+{"name": "Shar Pei", "massKg": 22.0, "category": "animal", "wikiTitle": "Shar_Pei", "qualifier": "Typical shar pei", "id": "shar-pei"}
+{"name": "Chow Chow", "massKg": 28.0, "category": "animal", "wikiTitle": "Chow_Chow", "qualifier": "Typical chow chow", "id": "chow-chow"}
+{"name": "Airedale terrier", "massKg": 23.0, "category": "animal", "wikiTitle": "Airedale_Terrier", "qualifier": "Typical airedale terrier", "id": "airedale-terrier"}
+{"name": "Boston terrier", "massKg": 11.0, "category": "animal", "wikiTitle": "Boston_Terrier", "qualifier": "Typical boston terrier", "id": "boston-terrier"}
+{"name": "French bulldog", "massKg": 12.0, "category": "animal", "wikiTitle": "French_Bulldog", "qualifier": "Typical french bulldog", "id": "french-bulldog"}
+{"name": "English bulldog", "massKg": 23.0, "category": "animal", "wikiTitle": "Bulldog", "qualifier": "Typical english bulldog", "id": "english-bulldog"}
+{"name": "Miniature schnauzer", "massKg": 7.0, "category": "animal", "wikiTitle": "Miniature_Schnauzer", "qualifier": "Typical miniature schnauzer", "id": "miniature-schnauzer"}
+{"name": "Standard poodle", "massKg": 25.0, "category": "animal", "wikiTitle": "Poodle", "qualifier": "Typical standard poodle", "id": "standard-poodle"}
+{"name": "Toy poodle", "massKg": 3.0, "category": "animal", "wikiTitle": "Toy_Poodle", "qualifier": "Typical toy poodle", "id": "toy-poodle"}
+{"name": "Bichon frise", "massKg": 5.0, "category": "animal", "wikiTitle": "Bichon_Frises", "qualifier": "Typical bichon frise", "id": "bichon-frise"}
+{"name": "Maltese dog", "massKg": 3.0, "category": "animal", "wikiTitle": "Maltese_(dog)", "qualifier": "Typical maltese dog", "id": "maltese-dog"}
+{"name": "Papillon dog", "massKg": 4.0, "category": "animal", "wikiTitle": "Papillon_(dog)", "qualifier": "Typical papillon dog", "id": "papillon-dog"}
+{"name": "Pomeranian", "massKg": 2.0, "category": "animal", "wikiTitle": "Pomeranian_(dog)", "qualifier": "Typical pomeranian", "id": "pomeranian"}
+{"name": "Collie", "massKg": 27.0, "category": "animal", "wikiTitle": "Collie", "qualifier": "Typical collie", "id": "collie"}
+{"name": "Shetland sheepdog", "massKg": 8.0, "category": "animal", "wikiTitle": "Shetland_Sheepdog", "qualifier": "Typical shetland sheepdog", "id": "shetland-sheepdog"}
+{"name": "Old English sheepdog", "massKg": 35.0, "category": "animal", "wikiTitle": "Old_English_Sheepdog", "qualifier": "Typical old english sheepdog", "id": "old-english-sheepdog"}
+{"name": "Barn swallow", "massKg": 0.02, "category": "animal", "wikiTitle": "Barn_swallow", "qualifier": "Typical barn swallow", "id": "barn-swallow"}
+{"name": "Blue jay", "massKg": 0.085, "category": "animal", "wikiTitle": "Blue_jay", "qualifier": "Typical blue jay", "id": "blue-jay"}
+{"name": "Cardinal bird", "massKg": 0.045, "category": "animal", "wikiTitle": "Northern_cardinal", "qualifier": "Typical cardinal bird", "id": "cardinal-bird"}
+{"name": "Robin", "massKg": 0.077, "category": "animal", "wikiTitle": "American_robin", "qualifier": "Typical robin", "id": "robin"}
+{"name": "Woodpecker", "massKg": 0.08, "category": "animal", "wikiTitle": "Woodpecker", "qualifier": "Typical woodpecker", "id": "woodpecker"}
+{"name": "Hummingbird (ruby)", "massKg": 0.004, "category": "animal", "wikiTitle": "Ruby-throated_hummingbird", "qualifier": "Typical hummingbird (ruby)", "id": "hummingbird-ruby"}
+{"name": "Flamingo", "massKg": 3.5, "category": "animal", "wikiTitle": "Flamingo", "qualifier": "Typical flamingo", "id": "flamingo"}
+{"name": "Pelican", "massKg": 5.5, "category": "animal", "wikiTitle": "Pelican", "qualifier": "Typical pelican", "id": "pelican"}
+{"name": "Seagull", "massKg": 0.9, "category": "animal", "wikiTitle": "Gull", "qualifier": "Typical seagull", "id": "seagull"}
+{"name": "Albatross", "massKg": 8.5, "category": "animal", "wikiTitle": "Albatross", "qualifier": "Typical albatross", "id": "albatross"}
+{"name": "Puffin", "massKg": 0.5, "category": "animal", "wikiTitle": "Puffin", "qualifier": "Typical puffin", "id": "puffin"}
+{"name": "Peacock", "massKg": 5.0, "category": "animal", "wikiTitle": "Peafowl", "qualifier": "Typical peacock", "id": "peacock"}
+{"name": "Swan", "massKg": 11.0, "category": "animal", "wikiTitle": "Swan", "qualifier": "Typical swan", "id": "swan"}
+{"name": "Goose", "massKg": 4.5, "category": "animal", "wikiTitle": "Goose", "qualifier": "Typical goose", "id": "goose"}
+{"name": "Penguin (Adelie)", "massKg": 4.5, "category": "animal", "wikiTitle": "Adelie_penguin", "qualifier": "Typical penguin (adelie)", "id": "penguin-adelie"}
+{"name": "Penguin (King)", "massKg": 15.0, "category": "animal", "wikiTitle": "King_penguin", "qualifier": "Typical penguin (king)", "id": "penguin-king"}
+{"name": "Penguin (Macaroni)", "massKg": 5.5, "category": "animal", "wikiTitle": "Macaroni_penguin", "qualifier": "Typical penguin (macaroni)", "id": "penguin-macaroni"}
+{"name": "Toucan", "massKg": 0.5, "category": "animal", "wikiTitle": "Toucan", "qualifier": "Typical toucan", "id": "toucan"}
+{"name": "Macaw", "massKg": 1.0, "category": "animal", "wikiTitle": "Macaw", "qualifier": "Typical macaw", "id": "macaw"}
+{"name": "Cockatoo", "massKg": 0.9, "category": "animal", "wikiTitle": "Cockatoo", "qualifier": "Typical cockatoo", "id": "cockatoo"}
+{"name": "Budgerigar", "massKg": 0.035, "category": "animal", "wikiTitle": "Budgerigar", "qualifier": "Typical budgerigar", "id": "budgerigar"}
+{"name": "Cockatiel", "massKg": 0.09, "category": "animal", "wikiTitle": "Cockatiel", "qualifier": "Typical cockatiel", "id": "cockatiel"}
+{"name": "Lovebird", "massKg": 0.05, "category": "animal", "wikiTitle": "Lovebird", "qualifier": "Typical lovebird", "id": "lovebird"}
+{"name": "Falcon", "massKg": 0.9, "category": "animal", "wikiTitle": "Falcon", "qualifier": "Typical falcon", "id": "falcon"}
+{"name": "Hawk", "massKg": 1.2, "category": "animal", "wikiTitle": "Hawk", "qualifier": "Typical hawk", "id": "hawk"}
+{"name": "Eagle (golden)", "massKg": 5.0, "category": "animal", "wikiTitle": "Golden_eagle", "qualifier": "Typical eagle (golden)", "id": "eagle-golden"}
+{"name": "Owl (great horned)", "massKg": 1.4, "category": "animal", "wikiTitle": "Great_horned_owl", "qualifier": "Typical owl (great horned)", "id": "owl-great-horned"}
+{"name": "Vulture", "massKg": 6.0, "category": "animal", "wikiTitle": "Vulture", "qualifier": "Typical vulture", "id": "vulture"}
+{"name": "Stork", "massKg": 4.0, "category": "animal", "wikiTitle": "Stork", "qualifier": "Typical stork", "id": "stork"}
+{"name": "Heron", "massKg": 1.5, "category": "animal", "wikiTitle": "Heron", "qualifier": "Typical heron", "id": "heron"}
+{"name": "Crane bird", "massKg": 5.0, "category": "animal", "wikiTitle": "Crane_(bird)", "qualifier": "Typical crane bird", "id": "crane-bird"}
+{"name": "Quail", "massKg": 0.15, "category": "animal", "wikiTitle": "Quail", "qualifier": "Typical quail", "id": "quail"}
+{"name": "Pheasant", "massKg": 1.2, "category": "animal", "wikiTitle": "Pheasant", "qualifier": "Typical pheasant", "id": "pheasant"}
+{"name": "Partridge", "massKg": 0.4, "category": "animal", "wikiTitle": "Partridge", "qualifier": "Typical partridge", "id": "partridge"}
+{"name": "Grouse", "massKg": 0.5, "category": "animal", "wikiTitle": "Grouse", "qualifier": "Typical grouse", "id": "grouse"}
+{"name": "Woodcock", "massKg": 0.3, "category": "animal", "wikiTitle": "Woodcock", "qualifier": "Typical woodcock", "id": "woodcock"}
+{"name": "Sandpiper", "massKg": 0.05, "category": "animal", "wikiTitle": "Sandpiper", "qualifier": "Typical sandpiper", "id": "sandpiper"}
+{"name": "Kingfisher", "massKg": 0.04, "category": "animal", "wikiTitle": "Kingfisher", "qualifier": "Typical kingfisher", "id": "kingfisher"}
+{"name": "Swallow", "massKg": 0.02, "category": "animal", "wikiTitle": "Swallow", "qualifier": "Typical swallow", "id": "swallow"}
+{"name": "Swift (bird)", "massKg": 0.04, "category": "animal", "wikiTitle": "Swift_(bird)", "qualifier": "Typical swift (bird)", "id": "swift-bird"}
+{"name": "Nightingale", "massKg": 0.02, "category": "animal", "wikiTitle": "Nightingale", "qualifier": "Typical nightingale", "id": "nightingale"}
+{"name": "Starling", "massKg": 0.08, "category": "animal", "wikiTitle": "Starling", "qualifier": "Typical starling", "id": "starling"}
+{"name": "Magpie", "massKg": 0.2, "category": "animal", "wikiTitle": "Magpie", "qualifier": "Typical magpie", "id": "magpie"}
+{"name": "Raven", "massKg": 1.0, "category": "animal", "wikiTitle": "Raven", "qualifier": "Typical raven", "id": "raven"}
+{"name": "Jackdaw", "massKg": 0.25, "category": "animal", "wikiTitle": "Western_jackdaw", "qualifier": "Typical jackdaw", "id": "jackdaw"}
+{"name": "Finch", "massKg": 0.02, "category": "animal", "wikiTitle": "Finch", "qualifier": "Typical finch", "id": "finch"}
+{"name": "Sparrowhawk", "massKg": 0.15, "category": "animal", "wikiTitle": "Sparrowhawk", "qualifier": "Typical sparrowhawk", "id": "sparrowhawk"}
+{"name": "Kestrel", "massKg": 0.2, "category": "animal", "wikiTitle": "Common_kestrel", "qualifier": "Typical kestrel", "id": "kestrel"}
+{"name": "Condor", "massKg": 12.0, "category": "animal", "wikiTitle": "Condor", "qualifier": "Typical condor", "id": "condor"}
+{"name": "Kiwi bird", "massKg": 2.5, "category": "animal", "wikiTitle": "Kiwi_(bird)", "qualifier": "Typical kiwi bird", "id": "kiwi-bird"}
+{"name": "Cassowary", "massKg": 45.0, "category": "animal", "wikiTitle": "Cassowary", "qualifier": "Typical cassowary", "id": "cassowary"}
+{"name": "Emu", "massKg": 40.0, "category": "animal", "wikiTitle": "Emu", "qualifier": "Typical emu", "id": "emu"}
+{"name": "Rhea", "massKg": 25.0, "category": "animal", "wikiTitle": "Rhea_(bird)", "qualifier": "Typical rhea", "id": "rhea"}
+{"name": "Butterfly", "massKg": 0.0005, "category": "animal", "wikiTitle": "Butterfly", "qualifier": "Typical butterfly", "id": "butterfly"}
+{"name": "Moth", "massKg": 0.0003, "category": "animal", "wikiTitle": "Moth", "qualifier": "Typical moth", "id": "moth"}
+{"name": "Beetle", "massKg": 0.0002, "category": "animal", "wikiTitle": "Beetle", "qualifier": "Typical beetle", "id": "beetle"}
+{"name": "Wasp", "massKg": 0.0001, "category": "animal", "wikiTitle": "Wasp", "qualifier": "Typical wasp", "id": "wasp"}
+{"name": "Bee (bumble)", "massKg": 0.0006, "category": "animal", "wikiTitle": "Bumblebee", "qualifier": "Typical bee (bumble)", "id": "bee-bumble"}
+{"name": "Caterpillar", "massKg": 0.0005, "category": "animal", "wikiTitle": "Caterpillar", "qualifier": "Typical caterpillar", "id": "caterpillar"}
+{"name": "Snail", "massKg": 0.01, "category": "animal", "wikiTitle": "Snail", "qualifier": "Typical snail", "id": "snail"}
+{"name": "Slug", "massKg": 0.005, "category": "animal", "wikiTitle": "Slug", "qualifier": "Typical slug", "id": "slug"}
+{"name": "Earthworm", "massKg": 0.005, "category": "animal", "wikiTitle": "Earthworm", "qualifier": "Typical earthworm", "id": "earthworm"}
+{"name": "Spider", "massKg": 0.0003, "category": "animal", "wikiTitle": "Spider", "qualifier": "Typical spider", "id": "spider"}
+{"name": "Tarantula", "massKg": 0.085, "category": "animal", "wikiTitle": "Tarantula", "qualifier": "Typical tarantula", "id": "tarantula"}
+{"name": "Scorpion", "massKg": 0.06, "category": "animal", "wikiTitle": "Scorpion", "qualifier": "Typical scorpion", "id": "scorpion"}
+{"name": "Centipede", "massKg": 0.005, "category": "animal", "wikiTitle": "Centipede", "qualifier": "Typical centipede", "id": "centipede"}
+{"name": "Millipede", "massKg": 0.01, "category": "animal", "wikiTitle": "Millipede", "qualifier": "Typical millipede", "id": "millipede"}
+{"name": "Praying mantis", "massKg": 0.0005, "category": "animal", "wikiTitle": "Mantis", "qualifier": "Typical praying mantis", "id": "praying-mantis"}
+{"name": "Stick insect", "massKg": 0.0003, "category": "animal", "wikiTitle": "Phasmatodea", "qualifier": "Typical stick insect", "id": "stick-insect"}
+{"name": "Firefly", "massKg": 2e-05, "category": "animal", "wikiTitle": "Firefly", "qualifier": "Typical firefly", "id": "firefly"}
+{"name": "Cicada", "massKg": 0.002, "category": "animal", "wikiTitle": "Cicada", "qualifier": "Typical cicada", "id": "cicada"}
+{"name": "Locust", "massKg": 0.002, "category": "animal", "wikiTitle": "Locust", "qualifier": "Typical locust", "id": "locust"}
+{"name": "Termite", "massKg": 2e-06, "category": "animal", "wikiTitle": "Termite", "qualifier": "Typical termite", "id": "termite"}
+{"name": "Flea", "massKg": 0.0, "category": "animal", "wikiTitle": "Flea", "qualifier": "Typical flea", "id": "flea"}
+{"name": "Tick", "massKg": 1e-06, "category": "animal", "wikiTitle": "Tick", "qualifier": "Typical tick", "id": "tick"}
+{"name": "Bed bug", "massKg": 5e-06, "category": "animal", "wikiTitle": "Bed_bug", "qualifier": "Typical bed bug", "id": "bed-bug"}
+{"name": "Cockroach", "massKg": 5e-05, "category": "animal", "wikiTitle": "Cockroach", "qualifier": "Typical cockroach", "id": "cockroach"}
+{"name": "Silverfish", "massKg": 1e-05, "category": "animal", "wikiTitle": "Silverfish", "qualifier": "Typical silverfish", "id": "silverfish"}
+{"name": "Dragonfly nymph", "massKg": 0.001, "category": "animal", "wikiTitle": "Dragonfly", "qualifier": "Typical dragonfly nymph", "id": "dragonfly-nymph"}
+{"name": "Water strider", "massKg": 1e-05, "category": "animal", "wikiTitle": "Gerridae", "qualifier": "Typical water strider", "id": "water-strider"}
+{"name": "Cricket (field)", "massKg": 0.0005, "category": "animal", "wikiTitle": "Gryllidae", "qualifier": "Typical cricket (field)", "id": "cricket-field"}
+{"name": "Leafhopper", "massKg": 5e-06, "category": "animal", "wikiTitle": "Leafhopper", "qualifier": "Typical leafhopper", "id": "leafhopper"}
+{"name": "Aphid", "massKg": 0.0, "category": "animal", "wikiTitle": "Aphid", "qualifier": "Typical aphid", "id": "aphid"}
+{"name": "Tyrannosaurus rex", "massKg": 8000.0, "category": "animal", "wikiTitle": "Tyrannosaurus", "qualifier": "Typical tyrannosaurus rex", "id": "tyrannosaurus-rex"}
+{"name": "Triceratops", "massKg": 6000.0, "category": "animal", "wikiTitle": "Triceratops", "qualifier": "Typical triceratops", "id": "triceratops"}
+{"name": "Stegosaurus", "massKg": 5000.0, "category": "animal", "wikiTitle": "Stegosaurus", "qualifier": "Typical stegosaurus", "id": "stegosaurus"}
+{"name": "Brachiosaurus", "massKg": 35000.0, "category": "animal", "wikiTitle": "Brachiosaurus", "qualifier": "Typical brachiosaurus", "id": "brachiosaurus"}
+{"name": "Velociraptor", "massKg": 15.0, "category": "animal", "wikiTitle": "Velociraptor", "qualifier": "Typical velociraptor", "id": "velociraptor"}
+{"name": "Spinosaurus", "massKg": 7500.0, "category": "animal", "wikiTitle": "Spinosaurus", "qualifier": "Typical spinosaurus", "id": "spinosaurus"}
+{"name": "Ankylosaurus", "massKg": 6000.0, "category": "animal", "wikiTitle": "Ankylosaurus", "qualifier": "Typical ankylosaurus", "id": "ankylosaurus"}
+{"name": "Parasaurolophus", "massKg": 2500.0, "category": "animal", "wikiTitle": "Parasaurolophus", "qualifier": "Typical parasaurolophus", "id": "parasaurolophus"}
+{"name": "Diplodocus", "massKg": 15000.0, "category": "animal", "wikiTitle": "Diplodocus", "qualifier": "Typical diplodocus", "id": "diplodocus"}
+{"name": "Allosaurus", "massKg": 1500.0, "category": "animal", "wikiTitle": "Allosaurus", "qualifier": "Typical allosaurus", "id": "allosaurus"}
+{"name": "Apatosaurus", "massKg": 20000.0, "category": "animal", "wikiTitle": "Apatosaurus", "qualifier": "Typical apatosaurus", "id": "apatosaurus"}
+{"name": "Pterodactyl", "massKg": 25.0, "category": "animal", "wikiTitle": "Pterosaur", "qualifier": "Typical pterodactyl", "id": "pterodactyl"}
+{"name": "Mammoth", "massKg": 6000.0, "category": "animal", "wikiTitle": "Mammoth", "qualifier": "Typical mammoth", "id": "mammoth"}
+{"name": "Woolly rhinoceros", "massKg": 2000.0, "category": "animal", "wikiTitle": "Woolly_rhinoceros", "qualifier": "Typical woolly rhinoceros", "id": "woolly-rhinoceros"}
+{"name": "Sabre-toothed cat", "massKg": 200.0, "category": "animal", "wikiTitle": "Machairodus", "qualifier": "Typical sabre-toothed cat", "id": "sabre-toothed-cat"}
+{"name": "Giant ground sloth", "massKg": 1500.0, "category": "animal", "wikiTitle": "Megatherium", "qualifier": "Typical giant ground sloth", "id": "giant-ground-sloth"}
+{"name": "Dodo", "massKg": 10.0, "category": "animal", "wikiTitle": "Dodo", "qualifier": "Typical dodo", "id": "dodo"}
+{"name": "Passenger pigeon", "massKg": 0.34, "category": "animal", "wikiTitle": "Passenger_pigeon", "qualifier": "Typical passenger pigeon", "id": "passenger-pigeon"}
+{"name": "Megalodon tooth", "massKg": 0.6, "category": "nature", "wikiTitle": "Megalodon", "qualifier": "Typical megalodon tooth", "id": "megalodon-tooth"}
+{"name": "Trilobite fossil", "massKg": 0.05, "category": "nature", "wikiTitle": "Trilobite", "qualifier": "Typical trilobite fossil", "id": "trilobite-fossil"}
+{"name": "Acoustic guitar", "massKg": 2.5, "category": "household", "wikiTitle": "Acoustic_guitar", "qualifier": "Typical acoustic guitar", "id": "acoustic-guitar"}
+{"name": "Electric guitar", "massKg": 3.5, "category": "household", "wikiTitle": "Electric_guitar", "qualifier": "Typical electric guitar", "id": "electric-guitar"}
+{"name": "Bass guitar", "massKg": 4.0, "category": "household", "wikiTitle": "Bass_guitar", "qualifier": "Typical bass guitar", "id": "bass-guitar"}
+{"name": "Violin", "massKg": 0.5, "category": "household", "wikiTitle": "Violin", "qualifier": "Typical violin", "id": "violin"}
+{"name": "Viola", "massKg": 0.6, "category": "household", "wikiTitle": "Viola", "qualifier": "Typical viola", "id": "viola"}
+{"name": "Cello", "massKg": 3.0, "category": "household", "wikiTitle": "Cello", "qualifier": "Typical cello", "id": "cello"}
+{"name": "Double bass", "massKg": 10.0, "category": "household", "wikiTitle": "Double_bass", "qualifier": "Typical double bass", "id": "double-bass"}
+{"name": "Harp", "massKg": 35.0, "category": "household", "wikiTitle": "Harp", "qualifier": "Typical harp", "id": "harp"}
+{"name": "Flute", "massKg": 0.3, "category": "household", "wikiTitle": "Flute", "qualifier": "Typical flute", "id": "flute"}
+{"name": "Clarinet", "massKg": 0.7, "category": "household", "wikiTitle": "Clarinet", "qualifier": "Typical clarinet", "id": "clarinet"}
+{"name": "Saxophone", "massKg": 2.5, "category": "household", "wikiTitle": "Saxophone", "qualifier": "Typical saxophone", "id": "saxophone"}
+{"name": "Trumpet", "massKg": 1.2, "category": "household", "wikiTitle": "Trumpet", "qualifier": "Typical trumpet", "id": "trumpet"}
+{"name": "Trombone", "massKg": 1.5, "category": "household", "wikiTitle": "Trombone", "qualifier": "Typical trombone", "id": "trombone"}
+{"name": "French horn", "massKg": 2.0, "category": "household", "wikiTitle": "French_horn", "qualifier": "Typical french horn", "id": "french-horn"}
+{"name": "Tuba", "massKg": 8.0, "category": "household", "wikiTitle": "Tuba", "qualifier": "Typical tuba", "id": "tuba"}
+{"name": "Drum kit", "massKg": 25.0, "category": "household", "wikiTitle": "Drum_kit", "qualifier": "Typical drum kit", "id": "drum-kit"}
+{"name": "Snare drum", "massKg": 3.0, "category": "household", "wikiTitle": "Snare_drum", "qualifier": "Typical snare drum", "id": "snare-drum"}
+{"name": "Cymbal", "massKg": 2.0, "category": "household", "wikiTitle": "Cymbal", "qualifier": "Typical cymbal", "id": "cymbal"}
+{"name": "Bongo drums", "massKg": 3.0, "category": "household", "wikiTitle": "Bongo_drum", "qualifier": "Typical bongo drums", "id": "bongo-drums"}
+{"name": "Conga drum", "massKg": 5.0, "category": "household", "wikiTitle": "Conga", "qualifier": "Typical conga drum", "id": "conga-drum"}
+{"name": "Xylophone", "massKg": 4.0, "category": "household", "wikiTitle": "Xylophone", "qualifier": "Typical xylophone", "id": "xylophone"}
+{"name": "Marimba", "massKg": 80.0, "category": "household", "wikiTitle": "Marimba", "qualifier": "Typical marimba", "id": "marimba"}
+{"name": "Accordion", "massKg": 9.0, "category": "household", "wikiTitle": "Accordion", "qualifier": "Typical accordion", "id": "accordion"}
+{"name": "Harmonica", "massKg": 0.05, "category": "household", "wikiTitle": "Harmonica", "qualifier": "Typical harmonica", "id": "harmonica"}
+{"name": "Ukulele", "massKg": 0.5, "category": "household", "wikiTitle": "Ukulele", "qualifier": "Typical ukulele", "id": "ukulele"}
+{"name": "Banjo", "massKg": 2.5, "category": "household", "wikiTitle": "Banjo", "qualifier": "Typical banjo", "id": "banjo"}
+{"name": "Mandolin", "massKg": 0.7, "category": "household", "wikiTitle": "Mandolin", "qualifier": "Typical mandolin", "id": "mandolin"}
+{"name": "Synthesizer", "massKg": 8.0, "category": "household", "wikiTitle": "Synthesizer", "qualifier": "Typical synthesizer", "id": "synthesizer"}
+{"name": "Keyboard (music)", "massKg": 12.0, "category": "household", "wikiTitle": "Electronic_keyboard", "qualifier": "Typical keyboard (music)", "id": "keyboard-music"}
+{"name": "DJ turntable", "massKg": 5.0, "category": "household", "wikiTitle": "Turntable", "qualifier": "Typical dj turntable", "id": "dj-turntable"}
+{"name": "Microphone", "massKg": 0.5, "category": "household", "wikiTitle": "Microphone", "qualifier": "Typical microphone", "id": "microphone"}
+{"name": "Speaker cabinet", "massKg": 20.0, "category": "household", "wikiTitle": "Loudspeaker", "qualifier": "Typical speaker cabinet", "id": "speaker-cabinet"}
+{"name": "Gong", "massKg": 5.0, "category": "household", "wikiTitle": "Gong", "qualifier": "Typical gong", "id": "gong"}
+{"name": "Triangle (instrument)", "massKg": 0.2, "category": "household", "wikiTitle": "Triangle_(musical_instrument)", "qualifier": "Typical triangle (instrument)", "id": "triangle-instrument"}
+{"name": "Tambourine", "massKg": 0.3, "category": "household", "wikiTitle": "Tambourine", "qualifier": "Typical tambourine", "id": "tambourine"}
+{"name": "Bagpipes", "massKg": 3.0, "category": "household", "wikiTitle": "Bagpipes", "qualifier": "Typical bagpipes", "id": "bagpipes"}
+{"name": "Didgeridoo", "massKg": 2.0, "category": "household", "wikiTitle": "Didgeridoo", "qualifier": "Typical didgeridoo", "id": "didgeridoo"}
+{"name": "Sitar", "massKg": 2.0, "category": "household", "wikiTitle": "Sitar", "qualifier": "Typical sitar", "id": "sitar"}
+{"name": "Tabla", "massKg": 3.0, "category": "household", "wikiTitle": "Tabla", "qualifier": "Typical tabla", "id": "tabla"}
+{"name": "Pan flute", "massKg": 0.2, "category": "household", "wikiTitle": "Pan_flute", "qualifier": "Typical pan flute", "id": "pan-flute"}
+{"name": "Desktop computer", "massKg": 8.0, "category": "household", "wikiTitle": "Desktop_computer", "qualifier": "Typical desktop computer", "id": "desktop-computer"}
+{"name": "Computer monitor", "massKg": 5.0, "category": "household", "wikiTitle": "Computer_monitor", "qualifier": "Typical computer monitor", "id": "computer-monitor"}
+{"name": "Mechanical keyboard", "massKg": 1.2, "category": "household", "wikiTitle": "Computer_keyboard", "qualifier": "Typical mechanical keyboard", "id": "mechanical-keyboard"}
+{"name": "Computer mouse", "massKg": 0.1, "category": "household", "wikiTitle": "Computer_mouse", "qualifier": "Typical computer mouse", "id": "computer-mouse"}
+{"name": "Webcam", "massKg": 0.2, "category": "household", "wikiTitle": "Webcam", "qualifier": "Typical webcam", "id": "webcam"}
+{"name": "Router", "massKg": 0.5, "category": "household", "wikiTitle": "Router_(computing)", "qualifier": "Typical router", "id": "router"}
+{"name": "Modem", "massKg": 0.4, "category": "household", "wikiTitle": "Modem", "qualifier": "Typical modem", "id": "modem"}
+{"name": "External hard drive", "massKg": 0.3, "category": "household", "wikiTitle": "Hard_disk_drive", "qualifier": "Typical external hard drive", "id": "external-hard-drive"}
+{"name": "SSD drive", "massKg": 0.05, "category": "household", "wikiTitle": "Solid-state_drive", "qualifier": "Typical ssd drive", "id": "ssd-drive"}
+{"name": "Graphics card", "massKg": 1.5, "category": "household", "wikiTitle": "Graphics_card", "qualifier": "Typical graphics card", "id": "graphics-card"}
+{"name": "Power supply unit", "massKg": 2.0, "category": "household", "wikiTitle": "Power_supply_unit_(computer)", "qualifier": "Typical power supply unit", "id": "power-supply-unit"}
+{"name": "CPU cooler", "massKg": 0.8, "category": "household", "wikiTitle": "Computer_cooling", "qualifier": "Typical cpu cooler", "id": "cpu-cooler"}
+{"name": "Server rack unit", "massKg": 20.0, "category": "household", "wikiTitle": "Rack_unit", "qualifier": "Typical server rack unit", "id": "server-rack-unit"}
+{"name": "Smartwatch", "massKg": 0.05, "category": "household", "wikiTitle": "Smartwatch", "qualifier": "Typical smartwatch", "id": "smartwatch"}
+{"name": "Fitness tracker", "massKg": 0.03, "category": "household", "wikiTitle": "Activity_tracker", "qualifier": "Typical fitness tracker", "id": "fitness-tracker"}
+{"name": "Wireless earbuds", "massKg": 0.05, "category": "household", "wikiTitle": "Headphones", "qualifier": "Typical wireless earbuds", "id": "wireless-earbuds"}
+{"name": "Over-ear headphones", "massKg": 0.3, "category": "household", "wikiTitle": "Headphones", "qualifier": "Typical over-ear headphones", "id": "over-ear-headphones"}
+{"name": "Bluetooth speaker", "massKg": 0.6, "category": "household", "wikiTitle": "Loudspeaker", "qualifier": "Typical bluetooth speaker", "id": "bluetooth-speaker"}
+{"name": "Soundbar", "massKg": 3.0, "category": "household", "wikiTitle": "Soundbar", "qualifier": "Typical soundbar", "id": "soundbar"}
+{"name": "Projector", "massKg": 3.0, "category": "household", "wikiTitle": "Video_projector", "qualifier": "Typical projector", "id": "projector"}
+{"name": "Drone (consumer)", "massKg": 0.8, "category": "household", "wikiTitle": "Unmanned_aerial_vehicle", "qualifier": "Typical drone (consumer)", "id": "drone-consumer"}
+{"name": "Action camera", "massKg": 0.15, "category": "household", "wikiTitle": "Action_camera", "qualifier": "Typical action camera", "id": "action-camera"}
+{"name": "DSLR camera", "massKg": 0.8, "category": "household", "wikiTitle": "Digital_single-lens_reflex_camera", "qualifier": "Typical dslr camera", "id": "dslr-camera"}
+{"name": "Camera lens", "massKg": 0.6, "category": "household", "wikiTitle": "Camera_lens", "qualifier": "Typical camera lens", "id": "camera-lens"}
+{"name": "Tripod", "massKg": 1.5, "category": "household", "wikiTitle": "Tripod_(photography)", "qualifier": "Typical tripod", "id": "tripod"}
+{"name": "VR headset", "massKg": 0.5, "category": "household", "wikiTitle": "Virtual_reality_headset", "qualifier": "Typical vr headset", "id": "vr-headset"}
+{"name": "Game controller", "massKg": 0.3, "category": "household", "wikiTitle": "Game_controller", "qualifier": "Typical game controller", "id": "game-controller"}
+{"name": "Arcade cabinet", "massKg": 120.0, "category": "household", "wikiTitle": "Arcade_cabinet", "qualifier": "Typical arcade cabinet", "id": "arcade-cabinet"}
+{"name": "Pinball machine", "massKg": 130.0, "category": "household", "wikiTitle": "Pinball", "qualifier": "Typical pinball machine", "id": "pinball-machine"}
+{"name": "3D printer", "massKg": 10.0, "category": "household", "wikiTitle": "3D_printing", "qualifier": "Typical 3d printer", "id": "3d-printer"}
+{"name": "Robot vacuum", "massKg": 4.0, "category": "household", "wikiTitle": "Robotic_vacuum_cleaner", "qualifier": "Typical robot vacuum", "id": "robot-vacuum"}
+{"name": "Smart thermostat", "massKg": 0.2, "category": "household", "wikiTitle": "Thermostat", "qualifier": "Typical smart thermostat", "id": "smart-thermostat"}
+{"name": "Doorbell camera", "massKg": 0.2, "category": "household", "wikiTitle": "Video_doorbell", "qualifier": "Typical doorbell camera", "id": "doorbell-camera"}
+{"name": "NAS device", "massKg": 3.0, "category": "household", "wikiTitle": "Network-attached_storage", "qualifier": "Typical nas device", "id": "nas-device"}
+{"name": "USB hub", "massKg": 0.1, "category": "household", "wikiTitle": "USB_hub", "qualifier": "Typical usb hub", "id": "usb-hub"}
+{"name": "Laptop charger", "massKg": 0.3, "category": "household", "wikiTitle": "Battery_charger", "qualifier": "Typical laptop charger", "id": "laptop-charger"}
+{"name": "Power bank", "massKg": 0.3, "category": "household", "wikiTitle": "Power_bank", "qualifier": "Typical power bank", "id": "power-bank"}
+{"name": "E-reader", "massKg": 0.2, "category": "household", "wikiTitle": "E-reader", "qualifier": "Typical e-reader", "id": "e-reader"}
+{"name": "Calculator", "massKg": 0.1, "category": "household", "wikiTitle": "Calculator", "qualifier": "Typical calculator", "id": "calculator"}
+{"name": "Digital scale", "massKg": 1.5, "category": "household", "wikiTitle": "Weighing_scale", "qualifier": "Typical digital scale", "id": "digital-scale"}
+{"name": "Sushi roll", "massKg": 0.15, "category": "food", "wikiTitle": "Sushi", "qualifier": "Typical sushi roll", "id": "sushi-roll"}
+{"name": "Burrito", "massKg": 0.35, "category": "food", "wikiTitle": "Burrito", "qualifier": "Typical burrito", "id": "burrito"}
+{"name": "Taco", "massKg": 0.12, "category": "food", "wikiTitle": "Taco", "qualifier": "Typical taco", "id": "taco"}
+{"name": "Hot dog", "massKg": 0.1, "category": "food", "wikiTitle": "Hot_dog", "qualifier": "Typical hot dog", "id": "hot-dog"}
+{"name": "Hamburger", "massKg": 0.2, "category": "food", "wikiTitle": "Hamburger", "qualifier": "Typical hamburger", "id": "hamburger"}
+{"name": "Cheeseburger", "massKg": 0.25, "category": "food", "wikiTitle": "Cheeseburger", "qualifier": "Typical cheeseburger", "id": "cheeseburger"}
+{"name": "Pizza slice", "massKg": 0.15, "category": "food", "wikiTitle": "Pizza", "qualifier": "Typical pizza slice", "id": "pizza-slice"}
+{"name": "French fries carton", "massKg": 0.15, "category": "food", "wikiTitle": "French_fries", "qualifier": "Typical french fries carton", "id": "french-fries-carton"}
+{"name": "Onion rings", "massKg": 0.12, "category": "food", "wikiTitle": "Onion_ring", "qualifier": "Typical onion rings", "id": "onion-rings"}
+{"name": "Chicken nuggets", "massKg": 0.1, "category": "food", "wikiTitle": "Chicken_nugget", "qualifier": "Typical chicken nuggets", "id": "chicken-nuggets"}
+{"name": "Fish and chips", "massKg": 0.4, "category": "food", "wikiTitle": "Fish_and_chips", "qualifier": "Typical fish and chips", "id": "fish-and-chips"}
+{"name": "Ramen bowl", "massKg": 0.5, "category": "food", "wikiTitle": "Ramen", "qualifier": "Typical ramen bowl", "id": "ramen-bowl"}
+{"name": "Pho bowl", "massKg": 0.6, "category": "food", "wikiTitle": "Pho", "qualifier": "Typical pho bowl", "id": "pho-bowl"}
+{"name": "Pad thai", "massKg": 0.4, "category": "food", "wikiTitle": "Pad_thai", "qualifier": "Typical pad thai", "id": "pad-thai"}
+{"name": "Curry dish", "massKg": 0.45, "category": "food", "wikiTitle": "Curry", "qualifier": "Typical curry dish", "id": "curry-dish"}
+{"name": "Stir fry", "massKg": 0.4, "category": "food", "wikiTitle": "Stir_frying", "qualifier": "Typical stir fry", "id": "stir-fry"}
+{"name": "Salad bowl", "massKg": 0.35, "category": "food", "wikiTitle": "Salad", "qualifier": "Typical salad bowl", "id": "salad-bowl"}
+{"name": "Soup bowl", "massKg": 0.4, "category": "food", "wikiTitle": "Soup", "qualifier": "Typical soup bowl", "id": "soup-bowl"}
+{"name": "Steak dinner", "massKg": 0.35, "category": "food", "wikiTitle": "Steak", "qualifier": "Typical steak dinner", "id": "steak-dinner"}
+{"name": "Pork chop", "massKg": 0.2, "category": "food", "wikiTitle": "Pork_chop", "qualifier": "Typical pork chop", "id": "pork-chop"}
+{"name": "Lamb chop", "massKg": 0.15, "category": "food", "wikiTitle": "Lamb_and_mutton", "qualifier": "Typical lamb chop", "id": "lamb-chop"}
+{"name": "Bacon pack", "massKg": 0.45, "category": "food", "wikiTitle": "Bacon", "qualifier": "Typical bacon pack", "id": "bacon-pack"}
+{"name": "Sausage pack", "massKg": 0.5, "category": "food", "wikiTitle": "Sausage", "qualifier": "Typical sausage pack", "id": "sausage-pack"}
+{"name": "Deli ham", "massKg": 0.25, "category": "food", "wikiTitle": "Ham", "qualifier": "Typical deli ham", "id": "deli-ham"}
+{"name": "Smoked salmon pack", "massKg": 0.2, "category": "food", "wikiTitle": "Smoked_salmon", "qualifier": "Typical smoked salmon pack", "id": "smoked-salmon-pack"}
+{"name": "Shrimp cocktail", "massKg": 0.2, "category": "food", "wikiTitle": "Shrimp_cocktail", "qualifier": "Typical shrimp cocktail", "id": "shrimp-cocktail"}
+{"name": "Lobster tail", "massKg": 0.15, "category": "food", "wikiTitle": "Lobster", "qualifier": "Typical lobster tail", "id": "lobster-tail"}
+{"name": "Crab legs", "massKg": 0.5, "category": "food", "wikiTitle": "Crab", "qualifier": "Typical crab legs", "id": "crab-legs"}
+{"name": "Oysters dozen", "massKg": 0.6, "category": "food", "wikiTitle": "Oyster", "qualifier": "Typical oysters dozen", "id": "oysters-dozen"}
+{"name": "Sushi platter", "massKg": 0.8, "category": "food", "wikiTitle": "Sushi", "qualifier": "Typical sushi platter", "id": "sushi-platter"}
+{"name": "Birthday cake", "massKg": 1.5, "category": "food", "wikiTitle": "Birthday_cake", "qualifier": "Typical birthday cake", "id": "birthday-cake"}
+{"name": "Wedding cake tier", "massKg": 5.0, "category": "food", "wikiTitle": "Wedding_cake", "qualifier": "Typical wedding cake tier", "id": "wedding-cake-tier"}
+{"name": "Cupcake", "massKg": 0.05, "category": "food", "wikiTitle": "Cupcake", "qualifier": "Typical cupcake", "id": "cupcake"}
+{"name": "Cookie jar", "massKg": 0.3, "category": "food", "wikiTitle": "Cookie", "qualifier": "Typical cookie jar", "id": "cookie-jar"}
+{"name": "Brownie tray", "massKg": 0.4, "category": "food", "wikiTitle": "Chocolate_brownie", "qualifier": "Typical brownie tray", "id": "brownie-tray"}
+{"name": "Pie", "massKg": 0.8, "category": "food", "wikiTitle": "Pie", "qualifier": "Typical pie", "id": "pie"}
+{"name": "Cheesecake", "massKg": 1.2, "category": "food", "wikiTitle": "Cheesecake", "qualifier": "Typical cheesecake", "id": "cheesecake"}
+{"name": "Ice cream tub", "massKg": 0.5, "category": "food", "wikiTitle": "Ice_cream", "qualifier": "Typical ice cream tub", "id": "ice-cream-tub"}
+{"name": "Popsicle box", "massKg": 0.3, "category": "food", "wikiTitle": "Ice_pop", "qualifier": "Typical popsicle box", "id": "popsicle-box"}
+{"name": "Frozen vegetables bag", "massKg": 0.45, "category": "food", "wikiTitle": "Frozen_food", "qualifier": "Typical frozen vegetables bag", "id": "frozen-vegetables-bag"}
+{"name": "Frozen berries bag", "massKg": 0.35, "category": "food", "wikiTitle": "Berry", "qualifier": "Typical frozen berries bag", "id": "frozen-berries-bag"}
+{"name": "Smoothie bottle", "massKg": 0.4, "category": "food", "wikiTitle": "Smoothie", "qualifier": "Typical smoothie bottle", "id": "smoothie-bottle"}
+{"name": "Protein shake", "massKg": 0.35, "category": "food", "wikiTitle": "Protein_shake", "qualifier": "Typical protein shake", "id": "protein-shake"}
+{"name": "Latte cup", "massKg": 0.35, "category": "food", "wikiTitle": "Latte", "qualifier": "Typical latte cup", "id": "latte-cup"}
+{"name": "Espresso cup", "massKg": 0.03, "category": "food", "wikiTitle": "Espresso", "qualifier": "Typical espresso cup", "id": "espresso-cup"}
+{"name": "Tea pot", "massKg": 0.8, "category": "food", "wikiTitle": "Teapot", "qualifier": "Typical tea pot", "id": "tea-pot"}
+{"name": "French press", "massKg": 0.5, "category": "food", "wikiTitle": "French_press", "qualifier": "Typical french press", "id": "french-press"}
+{"name": "Wine case", "massKg": 10.0, "category": "food", "wikiTitle": "Wine", "qualifier": "Typical wine case", "id": "wine-case"}
+{"name": "Beer six-pack", "massKg": 2.0, "category": "food", "wikiTitle": "Beer", "qualifier": "Typical beer six-pack", "id": "beer-six-pack"}
+{"name": "Whiskey bottle", "massKg": 1.2, "category": "food", "wikiTitle": "Whisky", "qualifier": "Typical whiskey bottle", "id": "whiskey-bottle"}
+{"name": "Vodka bottle", "massKg": 1.0, "category": "food", "wikiTitle": "Vodka", "qualifier": "Typical vodka bottle", "id": "vodka-bottle"}
+{"name": "Gin bottle", "massKg": 1.0, "category": "food", "wikiTitle": "Gin", "qualifier": "Typical gin bottle", "id": "gin-bottle"}
+{"name": "Tequila bottle", "massKg": 1.1, "category": "food", "wikiTitle": "Tequila", "qualifier": "Typical tequila bottle", "id": "tequila-bottle"}
+{"name": "Champagne bottle", "massKg": 1.5, "category": "food", "wikiTitle": "Champagne", "qualifier": "Typical champagne bottle", "id": "champagne-bottle"}
+{"name": "Sake bottle", "massKg": 0.7, "category": "food", "wikiTitle": "Sake", "qualifier": "Typical sake bottle", "id": "sake-bottle"}
+{"name": "Kombucha bottle", "massKg": 0.4, "category": "food", "wikiTitle": "Kombucha", "qualifier": "Typical kombucha bottle", "id": "kombucha-bottle"}
+{"name": "Coconut milk can", "massKg": 0.4, "category": "food", "wikiTitle": "Coconut_milk", "qualifier": "Typical coconut milk can", "id": "coconut-milk-can"}
+{"name": "Tomato sauce jar", "massKg": 0.6, "category": "food", "wikiTitle": "Tomato_sauce", "qualifier": "Typical tomato sauce jar", "id": "tomato-sauce-jar"}
+{"name": "Pasta box", "massKg": 0.5, "category": "food", "wikiTitle": "Pasta", "qualifier": "Typical pasta box", "id": "pasta-box"}
+{"name": "Rice bag (10 lb)", "massKg": 4.5, "category": "food", "wikiTitle": "Rice", "qualifier": "Typical rice bag (10 lb)", "id": "rice-bag-10-lb"}
+{"name": "Quinoa bag", "massKg": 0.45, "category": "food", "wikiTitle": "Quinoa", "qualifier": "Typical quinoa bag", "id": "quinoa-bag"}
+{"name": "Lentils bag", "massKg": 0.45, "category": "food", "wikiTitle": "Lentil", "qualifier": "Typical lentils bag", "id": "lentils-bag"}
+{"name": "Chickpeas can", "massKg": 0.4, "category": "food", "wikiTitle": "Chickpea", "qualifier": "Typical chickpeas can", "id": "chickpeas-can"}
+{"name": "Black beans can", "massKg": 0.4, "category": "food", "wikiTitle": "Black_bean", "qualifier": "Typical black beans can", "id": "black-beans-can"}
+{"name": "Olive jar", "massKg": 0.35, "category": "food", "wikiTitle": "Olive", "qualifier": "Typical olive jar", "id": "olive-jar"}
+{"name": "Pickle jar", "massKg": 0.5, "category": "food", "wikiTitle": "Pickled_cucumber", "qualifier": "Typical pickle jar", "id": "pickle-jar"}
+{"name": "Salsa jar", "massKg": 0.4, "category": "food", "wikiTitle": "Salsa_(food)", "qualifier": "Typical salsa jar", "id": "salsa-jar"}
+{"name": "Hummus tub", "massKg": 0.25, "category": "food", "wikiTitle": "Hummus", "qualifier": "Typical hummus tub", "id": "hummus-tub"}
+{"name": "Guacamole tub", "massKg": 0.2, "category": "food", "wikiTitle": "Guacamole", "qualifier": "Typical guacamole tub", "id": "guacamole-tub"}
+{"name": "Tortilla pack", "massKg": 0.35, "category": "food", "wikiTitle": "Tortilla", "qualifier": "Typical tortilla pack", "id": "tortilla-pack"}
+{"name": "Naan bread pack", "massKg": 0.3, "category": "food", "wikiTitle": "Naan", "qualifier": "Typical naan bread pack", "id": "naan-bread-pack"}
+{"name": "Pita bread pack", "massKg": 0.25, "category": "food", "wikiTitle": "Pita", "qualifier": "Typical pita bread pack", "id": "pita-bread-pack"}
+{"name": "Croissant pack", "massKg": 0.25, "category": "food", "wikiTitle": "Croissant", "qualifier": "Typical croissant pack", "id": "croissant-pack"}
+{"name": "Baguette", "massKg": 0.25, "category": "food", "wikiTitle": "Baguette", "qualifier": "Typical baguette", "id": "baguette"}
+{"name": "Sourdough loaf", "massKg": 0.5, "category": "food", "wikiTitle": "Sourdough", "qualifier": "Typical sourdough loaf", "id": "sourdough-loaf"}
+{"name": "Rye bread loaf", "massKg": 0.45, "category": "food", "wikiTitle": "Rye_bread", "qualifier": "Typical rye bread loaf", "id": "rye-bread-loaf"}
+{"name": "Gluten-free bread", "massKg": 0.4, "category": "food", "wikiTitle": "Gluten-free_diet", "qualifier": "Typical gluten-free bread", "id": "gluten-free-bread"}
+{"name": "Granola bag", "massKg": 0.4, "category": "food", "wikiTitle": "Granola", "qualifier": "Typical granola bag", "id": "granola-bag"}
+{"name": "Oatmeal container", "massKg": 0.9, "category": "food", "wikiTitle": "Oatmeal", "qualifier": "Typical oatmeal container", "id": "oatmeal-container"}
+{"name": "Corn flakes box", "massKg": 0.35, "category": "food", "wikiTitle": "Corn_flakes", "qualifier": "Typical corn flakes box", "id": "corn-flakes-box"}
+{"name": "Wheat cereal box", "massKg": 0.4, "category": "food", "wikiTitle": "Breakfast_cereal", "qualifier": "Typical wheat cereal box", "id": "wheat-cereal-box"}
+{"name": "Pop-tarts box", "massKg": 0.35, "category": "food", "wikiTitle": "Pop-Tarts", "qualifier": "Typical pop-tarts box", "id": "pop-tarts-box"}
+{"name": "Peanut butter jar", "massKg": 0.75, "category": "food", "wikiTitle": "Peanut_butter", "qualifier": "Typical peanut butter jar", "id": "peanut-butter-jar"}
+{"name": "Almond butter jar", "massKg": 0.5, "category": "food", "wikiTitle": "Almond_butter", "qualifier": "Typical almond butter jar", "id": "almond-butter-jar"}
+{"name": "Cashews tin", "massKg": 0.45, "category": "food", "wikiTitle": "Cashew", "qualifier": "Typical cashews tin", "id": "cashews-tin"}
+{"name": "Almonds bag", "massKg": 0.45, "category": "food", "wikiTitle": "Almond", "qualifier": "Typical almonds bag", "id": "almonds-bag"}
+{"name": "Walnuts bag", "massKg": 0.35, "category": "food", "wikiTitle": "Walnut", "qualifier": "Typical walnuts bag", "id": "walnuts-bag"}
+{"name": "Pistachios bag", "massKg": 0.3, "category": "food", "wikiTitle": "Pistachio", "qualifier": "Typical pistachios bag", "id": "pistachios-bag"}
+{"name": "Raisins box", "massKg": 0.15, "category": "food", "wikiTitle": "Raisin", "qualifier": "Typical raisins box", "id": "raisins-box"}
+{"name": "Dried apricots bag", "massKg": 0.2, "category": "food", "wikiTitle": "Apricot", "qualifier": "Typical dried apricots bag", "id": "dried-apricots-bag"}
+{"name": "Dates pack", "massKg": 0.25, "category": "food", "wikiTitle": "Date_(fruit)", "qualifier": "Typical dates pack", "id": "dates-pack"}
+{"name": "Fig pack", "massKg": 0.2, "category": "food", "wikiTitle": "Common_fig", "qualifier": "Typical fig pack", "id": "fig-pack"}
+{"name": "Prunes pack", "massKg": 0.2, "category": "food", "wikiTitle": "Prune", "qualifier": "Typical prunes pack", "id": "prunes-pack"}
+{"name": "Gummy bears bag", "massKg": 0.15, "category": "food", "wikiTitle": "Gummy_bear", "qualifier": "Typical gummy bears bag", "id": "gummy-bears-bag"}
+{"name": "Licorice bag", "massKg": 0.12, "category": "food", "wikiTitle": "Licorice_(confectionery)", "qualifier": "Typical licorice bag", "id": "licorice-bag"}
+{"name": "Marshmallows bag", "massKg": 0.2, "category": "food", "wikiTitle": "Marshmallow", "qualifier": "Typical marshmallows bag", "id": "marshmallows-bag"}
+{"name": "Cotton candy", "massKg": 0.03, "category": "food", "wikiTitle": "Cotton_candy", "qualifier": "Typical cotton candy", "id": "cotton-candy"}
+{"name": "Lollipop", "massKg": 0.015, "category": "food", "wikiTitle": "Lollipop", "qualifier": "Typical lollipop", "id": "lollipop"}
+{"name": "Chewing gum pack", "massKg": 0.03, "category": "food", "wikiTitle": "Chewing_gum", "qualifier": "Typical chewing gum pack", "id": "chewing-gum-pack"}
+{"name": "Breath mints tin", "massKg": 0.05, "category": "food", "wikiTitle": "Breath_mint", "qualifier": "Typical breath mints tin", "id": "breath-mints-tin"}
+{"name": "Narwhal tusk (display)", "massKg": 10.0, "category": "nature", "wikiTitle": "Narwhal", "qualifier": "Typical narwhal tusk (display)", "id": "narwhal-tusk-display"}
+{"name": "Dugong", "massKg": 400.0, "category": "animal", "wikiTitle": "Dugong", "qualifier": "Typical dugong", "id": "dugong"}
+{"name": "Sea otter", "massKg": 25.0, "category": "animal", "wikiTitle": "Sea_otter", "qualifier": "Typical sea otter", "id": "sea-otter"}
+{"name": "River otter", "massKg": 10.0, "category": "animal", "wikiTitle": "Otter", "qualifier": "Typical river otter", "id": "river-otter"}
+{"name": "Mink", "massKg": 1.0, "category": "animal", "wikiTitle": "American_mink", "qualifier": "Typical mink", "id": "mink"}
+{"name": "Badger", "massKg": 12.0, "category": "animal", "wikiTitle": "Badger", "qualifier": "Typical badger", "id": "badger"}
+{"name": "Wolverine", "massKg": 15.0, "category": "animal", "wikiTitle": "Wolverine", "qualifier": "Typical wolverine", "id": "wolverine"}
+{"name": "Marten", "massKg": 1.5, "category": "animal", "wikiTitle": "Marten", "qualifier": "Typical marten", "id": "marten"}
+{"name": "Stoat", "massKg": 0.3, "category": "animal", "wikiTitle": "Stoat", "qualifier": "Typical stoat", "id": "stoat"}
+{"name": "Weasel", "massKg": 0.2, "category": "animal", "wikiTitle": "Weasel", "qualifier": "Typical weasel", "id": "weasel"}
+{"name": "Mongoose", "massKg": 1.5, "category": "animal", "wikiTitle": "Mongoose", "qualifier": "Typical mongoose", "id": "mongoose"}
+{"name": "Meerkat", "massKg": 0.7, "category": "animal", "wikiTitle": "Meerkat", "qualifier": "Typical meerkat", "id": "meerkat"}
+{"name": "Lemur", "massKg": 3.0, "category": "animal", "wikiTitle": "Lemur", "qualifier": "Typical lemur", "id": "lemur"}
+{"name": "Capuchin monkey", "massKg": 3.5, "category": "animal", "wikiTitle": "Capuchin_monkey", "qualifier": "Typical capuchin monkey", "id": "capuchin-monkey"}
+{"name": "Howler monkey", "massKg": 8.0, "category": "animal", "wikiTitle": "Howler_monkey", "qualifier": "Typical howler monkey", "id": "howler-monkey"}
+{"name": "Spider monkey", "massKg": 7.0, "category": "animal", "wikiTitle": "Spider_monkey", "qualifier": "Typical spider monkey", "id": "spider-monkey"}
+{"name": "Baboon", "massKg": 30.0, "category": "animal", "wikiTitle": "Baboon", "qualifier": "Typical baboon", "id": "baboon"}
+{"name": "Mandrill", "massKg": 35.0, "category": "animal", "wikiTitle": "Mandrill", "qualifier": "Typical mandrill", "id": "mandrill"}
+{"name": "Gibbon", "massKg": 7.0, "category": "animal", "wikiTitle": "Gibbon", "qualifier": "Typical gibbon", "id": "gibbon"}
+{"name": "Orangutan", "massKg": 75.0, "category": "animal", "wikiTitle": "Orangutan", "qualifier": "Typical orangutan", "id": "orangutan"}
+{"name": "Chimpanzee", "massKg": 50.0, "category": "animal", "wikiTitle": "Chimpanzee", "qualifier": "Typical chimpanzee", "id": "chimpanzee"}
+{"name": "Bonobo", "massKg": 40.0, "category": "animal", "wikiTitle": "Bonobo", "qualifier": "Typical bonobo", "id": "bonobo"}
+{"name": "Proboscis monkey", "massKg": 20.0, "category": "animal", "wikiTitle": "Proboscis_monkey", "qualifier": "Typical proboscis monkey", "id": "proboscis-monkey"}
+{"name": "Panda", "massKg": 100.0, "category": "animal", "wikiTitle": "Giant_panda", "qualifier": "Typical panda", "id": "panda"}
+{"name": "Red panda", "massKg": 5.0, "category": "animal", "wikiTitle": "Red_panda", "qualifier": "Typical red panda", "id": "red-panda"}
+{"name": "Sun bear", "massKg": 50.0, "category": "animal", "wikiTitle": "Sun_bear", "qualifier": "Typical sun bear", "id": "sun-bear"}
+{"name": "Black bear", "massKg": 150.0, "category": "animal", "wikiTitle": "American_black_bear", "qualifier": "Typical black bear", "id": "black-bear"}
+{"name": "Brown bear", "massKg": 300.0, "category": "animal", "wikiTitle": "Brown_bear", "qualifier": "Typical brown bear", "id": "brown-bear"}
+{"name": "Sloth bear", "massKg": 140.0, "category": "animal", "wikiTitle": "Sloth_bear", "qualifier": "Typical sloth bear", "id": "sloth-bear"}
+{"name": "Spectacled bear", "massKg": 130.0, "category": "animal", "wikiTitle": "Spectacled_bear", "qualifier": "Typical spectacled bear", "id": "spectacled-bear"}
+{"name": "Arctic fox", "massKg": 4.0, "category": "animal", "wikiTitle": "Arctic_fox", "qualifier": "Typical arctic fox", "id": "arctic-fox"}
+{"name": "Fennec fox", "massKg": 1.5, "category": "animal", "wikiTitle": "Fennec_fox", "qualifier": "Typical fennec fox", "id": "fennec-fox"}
+{"name": "Bat (fruit)", "massKg": 0.15, "category": "animal", "wikiTitle": "Fruit_bat", "qualifier": "Typical bat (fruit)", "id": "bat-fruit"}
+{"name": "Vampire bat", "massKg": 0.04, "category": "animal", "wikiTitle": "Vampire_bat", "qualifier": "Typical vampire bat", "id": "vampire-bat"}
+{"name": "Flying squirrel", "massKg": 0.15, "category": "animal", "wikiTitle": "Flying_squirrel", "qualifier": "Typical flying squirrel", "id": "flying-squirrel"}
+{"name": "Chipmunk", "massKg": 0.12, "category": "animal", "wikiTitle": "Chipmunk", "qualifier": "Typical chipmunk", "id": "chipmunk"}
+{"name": "Prairie dog", "massKg": 1.5, "category": "animal", "wikiTitle": "Prairie_dog", "qualifier": "Typical prairie dog", "id": "prairie-dog"}
+{"name": "Groundhog", "massKg": 4.0, "category": "animal", "wikiTitle": "Groundhog", "qualifier": "Typical groundhog", "id": "groundhog"}
+{"name": "Marmot", "massKg": 4.0, "category": "animal", "wikiTitle": "Marmot", "qualifier": "Typical marmot", "id": "marmot"}
+{"name": "Capybara", "massKg": 50.0, "category": "animal", "wikiTitle": "Capybara", "qualifier": "Typical capybara", "id": "capybara"}
+{"name": "Agouti", "massKg": 3.0, "category": "animal", "wikiTitle": "Agouti", "qualifier": "Typical agouti", "id": "agouti"}
+{"name": "Pacarana", "massKg": 15.0, "category": "animal", "wikiTitle": "Pacarana", "qualifier": "Typical pacarana", "id": "pacarana"}
+{"name": "Nutria", "massKg": 8.0, "category": "animal", "wikiTitle": "Coypu", "qualifier": "Typical nutria", "id": "nutria"}
+{"name": "Muskrat", "massKg": 1.5, "category": "animal", "wikiTitle": "Muskrat", "qualifier": "Typical muskrat", "id": "muskrat"}
+{"name": "Bandicoot", "massKg": 1.5, "category": "animal", "wikiTitle": "Bandicoot", "qualifier": "Typical bandicoot", "id": "bandicoot"}
+{"name": "Quokka", "massKg": 3.0, "category": "animal", "wikiTitle": "Quokka", "qualifier": "Typical quokka", "id": "quokka"}
+{"name": "Wallaby", "massKg": 15.0, "category": "animal", "wikiTitle": "Wallaby", "qualifier": "Typical wallaby", "id": "wallaby"}
+{"name": "Tasmanian devil", "massKg": 8.0, "category": "animal", "wikiTitle": "Tasmanian_devil", "qualifier": "Typical tasmanian devil", "id": "tasmanian-devil"}
+{"name": "Thylacine (estimate)", "massKg": 25.0, "category": "animal", "wikiTitle": "Thylacine", "qualifier": "Typical thylacine (estimate)", "id": "thylacine-estimate"}
+{"name": "Bandicoot rat", "massKg": 0.5, "category": "animal", "wikiTitle": "Bandicoot", "qualifier": "Typical bandicoot rat", "id": "bandicoot-rat"}
+{"name": "Stapler", "massKg": 0.3, "category": "household", "wikiTitle": "Stapler", "qualifier": "Typical stapler", "id": "stapler"}
+{"name": "Hole punch", "massKg": 0.5, "category": "household", "wikiTitle": "Hole_punch", "qualifier": "Typical hole punch", "id": "hole-punch"}
+{"name": "Paper shredder", "massKg": 8.0, "category": "household", "wikiTitle": "Paper_shredder", "qualifier": "Typical paper shredder", "id": "paper-shredder"}
+{"name": "Whiteboard", "massKg": 10.0, "category": "household", "wikiTitle": "Whiteboard", "qualifier": "Typical whiteboard", "id": "whiteboard"}
+{"name": "Cork board", "massKg": 2.0, "category": "household", "wikiTitle": "Bulletin_board", "qualifier": "Typical cork board", "id": "cork-board"}
+{"name": "Filing cabinet", "massKg": 35.0, "category": "household", "wikiTitle": "Filing_cabinet", "qualifier": "Typical filing cabinet", "id": "filing-cabinet"}
+{"name": "Copy machine", "massKg": 80.0, "category": "household", "wikiTitle": "Photocopier", "qualifier": "Typical copy machine", "id": "copy-machine"}
+{"name": "Fax machine", "massKg": 10.0, "category": "household", "wikiTitle": "Fax", "qualifier": "Typical fax machine", "id": "fax-machine"}
+{"name": "Laminator", "massKg": 5.0, "category": "household", "wikiTitle": "Laminator", "qualifier": "Typical laminator", "id": "laminator"}
+{"name": "Label maker", "massKg": 0.5, "category": "household", "wikiTitle": "Label_printer", "qualifier": "Typical label maker", "id": "label-maker"}
+{"name": "Paper ream", "massKg": 2.5, "category": "household", "wikiTitle": "Paper", "qualifier": "Typical paper ream", "id": "paper-ream"}
+{"name": "Binder", "massKg": 0.5, "category": "household", "wikiTitle": "Ring_binder", "qualifier": "Typical binder", "id": "binder"}
+{"name": "Notebook", "massKg": 0.3, "category": "household", "wikiTitle": "Notebook", "qualifier": "Typical notebook", "id": "notebook"}
+{"name": "Clipboard", "massKg": 0.2, "category": "household", "wikiTitle": "Clipboard", "qualifier": "Typical clipboard", "id": "clipboard"}
+{"name": "Desk organizer", "massKg": 0.5, "category": "household", "wikiTitle": "Desk", "qualifier": "Typical desk organizer", "id": "desk-organizer"}
+{"name": "Trash shredder bin", "massKg": 3.0, "category": "household", "wikiTitle": "Waste_container", "qualifier": "Typical trash shredder bin", "id": "trash-shredder-bin"}
+{"name": "Water cooler", "massKg": 15.0, "category": "household", "wikiTitle": "Water_cooler", "qualifier": "Typical water cooler", "id": "water-cooler"}
+{"name": "Coffee urn", "massKg": 5.0, "category": "household", "wikiTitle": "Coffee_urn", "qualifier": "Typical coffee urn", "id": "coffee-urn"}
+{"name": "Vending machine", "massKg": 300.0, "category": "household", "wikiTitle": "Vending_machine", "qualifier": "Typical vending machine", "id": "vending-machine"}
+{"name": "ATM machine", "massKg": 800.0, "category": "household", "wikiTitle": "Automated_teller_machine", "qualifier": "Typical atm machine", "id": "atm-machine"}
+{"name": "Parking meter", "massKg": 40.0, "category": "other", "wikiTitle": "Parking_meter", "qualifier": "Typical parking meter", "id": "parking-meter"}
+{"name": "Traffic light", "massKg": 15.0, "category": "other", "wikiTitle": "Traffic_light", "qualifier": "Typical traffic light", "id": "traffic-light"}
+{"name": "Stop sign", "massKg": 5.0, "category": "other", "wikiTitle": "Stop_sign", "qualifier": "Typical stop sign", "id": "stop-sign"}
+{"name": "Fire hydrant", "massKg": 80.0, "category": "other", "wikiTitle": "Fire_hydrant", "qualifier": "Typical fire hydrant", "id": "fire-hydrant"}
+{"name": "Manhole cover", "massKg": 50.0, "category": "other", "wikiTitle": "Manhole", "qualifier": "Typical manhole cover", "id": "manhole-cover"}
+{"name": "Park bench", "massKg": 50.0, "category": "other", "wikiTitle": "Bench", "qualifier": "Typical park bench", "id": "park-bench"}
+{"name": "Bus stop shelter", "massKg": 200.0, "category": "other", "wikiTitle": "Bus_stop", "qualifier": "Typical bus stop shelter", "id": "bus-stop-shelter"}
+{"name": "Phone booth", "massKg": 150.0, "category": "other", "wikiTitle": "Telephone_booth", "qualifier": "Typical phone booth", "id": "phone-booth"}
+{"name": "Mailbox", "massKg": 15.0, "category": "other", "wikiTitle": "Post_box", "qualifier": "Typical mailbox", "id": "mailbox"}
+{"name": "Flagpole", "massKg": 20.0, "category": "other", "wikiTitle": "Flagpole", "qualifier": "Typical flagpole", "id": "flagpole"}
+{"name": "Statue (small)", "massKg": 50.0, "category": "other", "wikiTitle": "Statue", "qualifier": "Typical statue (small)", "id": "statue-small"}
+{"name": "Fountain (garden)", "massKg": 200.0, "category": "other", "wikiTitle": "Fountain", "qualifier": "Typical fountain (garden)", "id": "fountain-garden"}
+{"name": "Wind chime", "massKg": 0.5, "category": "other", "wikiTitle": "Wind_chime", "qualifier": "Typical wind chime", "id": "wind-chime"}
+{"name": "Garden gnome", "massKg": 2.0, "category": "other", "wikiTitle": "Garden_gnome", "qualifier": "Typical garden gnome", "id": "garden-gnome"}
+{"name": "Bird bath", "massKg": 15.0, "category": "other", "wikiTitle": "Bird_bath", "qualifier": "Typical bird bath", "id": "bird-bath"}
+{"name": "Bird feeder", "massKg": 1.5, "category": "other", "wikiTitle": "Bird_feeder", "qualifier": "Typical bird feeder", "id": "bird-feeder"}
+{"name": "Compost bin", "massKg": 10.0, "category": "other", "wikiTitle": "Compost", "qualifier": "Typical compost bin", "id": "compost-bin"}
+{"name": "Rain barrel", "massKg": 20.0, "category": "other", "wikiTitle": "Rain_barrel", "qualifier": "Typical rain barrel", "id": "rain-barrel"}
+{"name": "Greenhouse panel", "massKg": 5.0, "category": "other", "wikiTitle": "Greenhouse", "qualifier": "Typical greenhouse panel", "id": "greenhouse-panel"}
+{"name": "Shed (garden)", "massKg": 150.0, "category": "other", "wikiTitle": "Shed", "qualifier": "Typical shed (garden)", "id": "shed-garden"}
+{"name": "Fence post", "massKg": 8.0, "category": "other", "wikiTitle": "Fence", "qualifier": "Typical fence post", "id": "fence-post"}
+{"name": "Gate (metal)", "massKg": 25.0, "category": "other", "wikiTitle": "Gate", "qualifier": "Typical gate (metal)", "id": "gate-metal"}
+{"name": "Mailbox package", "massKg": 0.5, "category": "other", "wikiTitle": "Package", "qualifier": "Typical mailbox package", "id": "mailbox-package"}
+{"name": "Shipping pallet", "massKg": 15.0, "category": "other", "wikiTitle": "Pallet", "qualifier": "Typical shipping pallet", "id": "shipping-pallet"}
+{"name": "Cardboard box (large)", "massKg": 0.5, "category": "other", "wikiTitle": "Cardboard_box", "qualifier": "Typical cardboard box (large)", "id": "cardboard-box-large"}
+{"name": "Wooden crate", "massKg": 10.0, "category": "other", "wikiTitle": "Crate", "qualifier": "Typical wooden crate", "id": "wooden-crate"}
+{"name": "Barrel", "massKg": 15.0, "category": "other", "wikiTitle": "Barrel", "qualifier": "Typical barrel", "id": "barrel"}
+{"name": "Oil drum", "massKg": 180.0, "category": "other", "wikiTitle": "Drum_(container)", "qualifier": "Typical oil drum", "id": "oil-drum"}
+{"name": "Propane tank", "massKg": 18.0, "category": "other", "wikiTitle": "Propane", "qualifier": "Typical propane tank", "id": "propane-tank"}
+{"name": "Oxygen tank", "massKg": 5.0, "category": "other", "wikiTitle": "Oxygen_tank", "qualifier": "Typical oxygen tank", "id": "oxygen-tank"}
+{"name": "Firewood bundle", "massKg": 10.0, "category": "nature", "wikiTitle": "Firewood", "qualifier": "Typical firewood bundle", "id": "firewood-bundle"}
+{"name": "Charcoal bag", "massKg": 8.0, "category": "nature", "wikiTitle": "Charcoal", "qualifier": "Typical charcoal bag", "id": "charcoal-bag"}
+{"name": "Kindling bundle", "massKg": 2.0, "category": "nature", "wikiTitle": "Kindling", "qualifier": "Typical kindling bundle", "id": "kindling-bundle"}
+{"name": "Tiki torch", "massKg": 1.5, "category": "other", "wikiTitle": "Tiki_torch", "qualifier": "Typical tiki torch", "id": "tiki-torch"}
+{"name": "Lantern", "massKg": 0.5, "category": "other", "wikiTitle": "Lantern", "qualifier": "Typical lantern", "id": "lantern"}
+{"name": "Flashlight", "massKg": 0.2, "category": "other", "wikiTitle": "Flashlight", "qualifier": "Typical flashlight", "id": "flashlight"}
+{"name": "Headlamp", "massKg": 0.15, "category": "other", "wikiTitle": "Headlamp", "qualifier": "Typical headlamp", "id": "headlamp"}
+{"name": "Camping lantern", "massKg": 0.5, "category": "other", "wikiTitle": "Lantern", "qualifier": "Typical camping lantern", "id": "camping-lantern"}
+{"name": "Compass", "massKg": 0.05, "category": "other", "wikiTitle": "Compass", "qualifier": "Typical compass", "id": "compass"}
+{"name": "Binoculars", "massKg": 0.6, "category": "other", "wikiTitle": "Binoculars", "qualifier": "Typical binoculars", "id": "binoculars"}
+{"name": "Telescope", "massKg": 5.0, "category": "other", "wikiTitle": "Telescope", "qualifier": "Typical telescope", "id": "telescope"}
+{"name": "Microscope", "massKg": 3.0, "category": "other", "wikiTitle": "Microscope", "qualifier": "Typical microscope", "id": "microscope"}
+{"name": "Globe", "massKg": 2.0, "category": "other", "wikiTitle": "Globe", "qualifier": "Typical globe", "id": "globe"}
+{"name": "World atlas", "massKg": 1.5, "category": "other", "wikiTitle": "Atlas", "qualifier": "Typical world atlas", "id": "world-atlas"}
+{"name": "Chess set", "massKg": 0.8, "category": "other", "wikiTitle": "Chess", "qualifier": "Typical chess set", "id": "chess-set"}
+{"name": "Board game box", "massKg": 1.0, "category": "other", "wikiTitle": "Board_game", "qualifier": "Typical board game box", "id": "board-game-box"}
+{"name": "Puzzle box", "massKg": 0.5, "category": "other", "wikiTitle": "Jigsaw_puzzle", "qualifier": "Typical puzzle box", "id": "puzzle-box"}
+{"name": "Lego set box", "massKg": 0.8, "category": "other", "wikiTitle": "Lego", "qualifier": "Typical lego set box", "id": "lego-set-box"}
+{"name": "Toy car", "massKg": 0.2, "category": "other", "wikiTitle": "Toy", "qualifier": "Typical toy car", "id": "toy-car"}
+{"name": "Teddy bear", "massKg": 0.3, "category": "other", "wikiTitle": "Teddy_bear", "qualifier": "Typical teddy bear", "id": "teddy-bear"}
+{"name": "Doll", "massKg": 0.3, "category": "other", "wikiTitle": "Doll", "qualifier": "Typical doll", "id": "doll"}
+{"name": "Action figure", "massKg": 0.15, "category": "other", "wikiTitle": "Action_figure", "qualifier": "Typical action figure", "id": "action-figure"}
+{"name": "Rubik's cube", "massKg": 0.1, "category": "other", "wikiTitle": "Rubik's_Cube", "qualifier": "Typical rubik's cube", "id": "rubik-s-cube"}
+{"name": "Yo-yo", "massKg": 0.05, "category": "other", "wikiTitle": "Yo-yo", "qualifier": "Typical yo-yo", "id": "yo-yo"}
+{"name": "Kite", "massKg": 0.2, "category": "other", "wikiTitle": "Kite", "qualifier": "Typical kite", "id": "kite"}
+{"name": "Balloon", "massKg": 0.01, "category": "other", "wikiTitle": "Balloon", "qualifier": "Typical balloon", "id": "balloon"}
+{"name": "Pi\u00f1ata", "massKg": 0.5, "category": "other", "wikiTitle": "Pinata", "qualifier": "Typical pi\u00f1ata", "id": "pi-ata"}
+{"name": "Christmas tree", "massKg": 15.0, "category": "other", "wikiTitle": "Christmas_tree", "qualifier": "Typical christmas tree", "id": "christmas-tree"}
+{"name": "Wreath", "massKg": 1.0, "category": "other", "wikiTitle": "Wreath", "qualifier": "Typical wreath", "id": "wreath"}
+{"name": "Jack-o-lantern", "massKg": 3.0, "category": "other", "wikiTitle": "Jack-o'-lantern", "qualifier": "Typical jack-o-lantern", "id": "jack-o-lantern"}
+{"name": "Easter basket", "massKg": 0.5, "category": "other", "wikiTitle": "Easter_basket", "qualifier": "Typical easter basket", "id": "easter-basket"}
+{"name": "Wedding ring box", "massKg": 0.05, "category": "other", "wikiTitle": "Wedding_ring", "qualifier": "Typical wedding ring box", "id": "wedding-ring-box"}
+{"name": "Trophy", "massKg": 2.0, "category": "other", "wikiTitle": "Trophy", "qualifier": "Typical trophy", "id": "trophy"}
+{"name": "Medal", "massKg": 0.05, "category": "other", "wikiTitle": "Medal", "qualifier": "Typical medal", "id": "medal"}
+{"name": "Certificate frame", "massKg": 0.5, "category": "other", "wikiTitle": "Certificate", "qualifier": "Typical certificate frame", "id": "certificate-frame"}
+{"name": "Diploma frame", "massKg": 0.8, "category": "other", "wikiTitle": "Diploma", "qualifier": "Typical diploma frame", "id": "diploma-frame"}
+{"name": "Urn (decorative)", "massKg": 2.0, "category": "other", "wikiTitle": "Urn", "qualifier": "Typical urn (decorative)", "id": "urn-decorative"}
+{"name": "Hourglass", "massKg": 0.3, "category": "other", "wikiTitle": "Hourglass", "qualifier": "Typical hourglass", "id": "hourglass"}
+{"name": "Sundial", "massKg": 5.0, "category": "other", "wikiTitle": "Sundial", "qualifier": "Typical sundial", "id": "sundial"}
+{"name": "Weather vane", "massKg": 3.0, "category": "other", "wikiTitle": "Weather_vane", "qualifier": "Typical weather vane", "id": "weather-vane"}
+{"name": "Barometer", "massKg": 0.5, "category": "other", "wikiTitle": "Barometer", "qualifier": "Typical barometer", "id": "barometer"}
+{"name": "Thermometer", "massKg": 0.05, "category": "other", "wikiTitle": "Thermometer", "qualifier": "Typical thermometer", "id": "thermometer"}
+{"name": "Rain gauge", "massKg": 0.3, "category": "other", "wikiTitle": "Rain_gauge", "qualifier": "Typical rain gauge", "id": "rain-gauge"}
+{"name": "Anemometer", "massKg": 1.0, "category": "other", "wikiTitle": "Anemometer", "qualifier": "Typical anemometer", "id": "anemometer"}
+{"name": "Lightning rod", "massKg": 3.0, "category": "other", "wikiTitle": "Lightning_rod", "qualifier": "Typical lightning rod", "id": "lightning-rod"}
+{"name": "Solar panel", "massKg": 20.0, "category": "other", "wikiTitle": "Solar_panel", "qualifier": "Typical solar panel", "id": "solar-panel"}
+{"name": "Wind turbine (small)", "massKg": 50.0, "category": "other", "wikiTitle": "Wind_turbine", "qualifier": "Typical wind turbine (small)", "id": "wind-turbine-small"}
+{"name": "Battery pack (EV)", "massKg": 450.0, "category": "vehicle", "wikiTitle": "Electric_vehicle_battery", "qualifier": "Typical battery pack (ev)", "id": "battery-pack-ev"}
+{"name": "Car battery", "massKg": 15.0, "category": "vehicle", "wikiTitle": "Automotive_battery", "qualifier": "Typical car battery", "id": "car-battery"}
+{"name": "Tire", "massKg": 10.0, "category": "vehicle", "wikiTitle": "Tire", "qualifier": "Typical tire", "id": "tire"}
+{"name": "Car wheel", "massKg": 12.0, "category": "vehicle", "wikiTitle": "Wheel", "qualifier": "Typical car wheel", "id": "car-wheel"}
+{"name": "Hubcap", "massKg": 0.5, "category": "vehicle", "wikiTitle": "Hubcap", "qualifier": "Typical hubcap", "id": "hubcap"}
+{"name": "License plate", "massKg": 0.5, "category": "vehicle", "wikiTitle": "Vehicle_registration_plate", "qualifier": "Typical license plate", "id": "license-plate"}
+{"name": "Car jack", "massKg": 3.0, "category": "vehicle", "wikiTitle": "Jack_(device)", "qualifier": "Typical car jack", "id": "car-jack"}
+{"name": "Jumper cables", "massKg": 2.0, "category": "vehicle", "wikiTitle": "Jumper_cables", "qualifier": "Typical jumper cables", "id": "jumper-cables"}
+{"name": "Roof rack", "massKg": 8.0, "category": "vehicle", "wikiTitle": "Roof_rack", "qualifier": "Typical roof rack", "id": "roof-rack"}
+{"name": "Bike rack", "massKg": 10.0, "category": "vehicle", "wikiTitle": "Bicycle_carrier", "qualifier": "Typical bike rack", "id": "bike-rack"}
+{"name": "Trailer hitch", "massKg": 15.0, "category": "vehicle", "wikiTitle": "Trailer_hitch", "qualifier": "Typical trailer hitch", "id": "trailer-hitch"}
+{"name": "Boat anchor", "massKg": 10.0, "category": "vehicle", "wikiTitle": "Anchor", "qualifier": "Typical boat anchor", "id": "boat-anchor"}
+{"name": "Life jacket", "massKg": 0.8, "category": "sport", "wikiTitle": "Life_jacket", "qualifier": "Typical life jacket", "id": "life-jacket"}
+{"name": "Life raft", "massKg": 25.0, "category": "sport", "wikiTitle": "Life_raft", "qualifier": "Typical life raft", "id": "life-raft"}
+{"name": "Flare gun", "massKg": 0.5, "category": "sport", "wikiTitle": "Flare_gun", "qualifier": "Typical flare gun", "id": "flare-gun"}
+{"name": "Whistle", "massKg": 0.02, "category": "sport", "wikiTitle": "Whistle", "qualifier": "Typical whistle", "id": "whistle"}
+{"name": "Stopwatch", "massKg": 0.05, "category": "sport", "wikiTitle": "Stopwatch", "qualifier": "Typical stopwatch", "id": "stopwatch"}
+{"name": "Scoreboard", "massKg": 200.0, "category": "sport", "wikiTitle": "Scoreboard", "qualifier": "Typical scoreboard", "id": "scoreboard"}
+{"name": "Referee flag", "massKg": 0.1, "category": "sport", "wikiTitle": "Flag", "qualifier": "Typical referee flag", "id": "referee-flag"}
+{"name": "Megaphone", "massKg": 0.5, "category": "sport", "wikiTitle": "Megaphone", "qualifier": "Typical megaphone", "id": "megaphone"}
+{"name": "Coach clipboard", "massKg": 0.3, "category": "sport", "wikiTitle": "Clipboard", "qualifier": "Typical coach clipboard", "id": "coach-clipboard"}
+{"name": "Chalk line reel", "massKg": 0.5, "category": "sport", "wikiTitle": "Chalk_line", "qualifier": "Typical chalk line reel", "id": "chalk-line-reel"}
+{"name": "Measuring tape", "massKg": 0.3, "category": "household", "wikiTitle": "Tape_measure", "qualifier": "Typical measuring tape", "id": "measuring-tape"}
+{"name": "Level tool", "massKg": 0.5, "category": "household", "wikiTitle": "Spirit_level", "qualifier": "Typical level tool", "id": "level-tool"}
+{"name": "Stud finder", "massKg": 0.2, "category": "household", "wikiTitle": "Stud_finder", "qualifier": "Typical stud finder", "id": "stud-finder"}
+{"name": "Multimeter", "massKg": 0.3, "category": "household", "wikiTitle": "Multimeter", "qualifier": "Typical multimeter", "id": "multimeter"}
+{"name": "Soldering iron", "massKg": 0.3, "category": "household", "wikiTitle": "Soldering_iron", "qualifier": "Typical soldering iron", "id": "soldering-iron"}
+{"name": "Heat gun", "massKg": 0.8, "category": "household", "wikiTitle": "Heat_gun", "qualifier": "Typical heat gun", "id": "heat-gun"}
+{"name": "Workbench", "massKg": 40.0, "category": "household", "wikiTitle": "Workbench", "qualifier": "Typical workbench", "id": "workbench"}
+{"name": "Vise", "massKg": 5.0, "category": "household", "wikiTitle": "Vise", "qualifier": "Typical vise", "id": "vise"}
+{"name": "Anvil", "massKg": 50.0, "category": "household", "wikiTitle": "Anvil", "qualifier": "Typical anvil", "id": "anvil"}
+{"name": "Forge (small)", "massKg": 80.0, "category": "household", "wikiTitle": "Forge", "qualifier": "Typical forge (small)", "id": "forge-small"}
+{"name": "Kiln (pottery)", "massKg": 50.0, "category": "household", "wikiTitle": "Kiln", "qualifier": "Typical kiln (pottery)", "id": "kiln-pottery"}
+{"name": "Pottery wheel", "massKg": 30.0, "category": "household", "wikiTitle": "Potter's_wheel", "qualifier": "Typical pottery wheel", "id": "pottery-wheel"}
+{"name": "Sewing machine", "massKg": 8.0, "category": "household", "wikiTitle": "Sewing_machine", "qualifier": "Typical sewing machine", "id": "sewing-machine"}
+{"name": "Spinning wheel", "massKg": 5.0, "category": "household", "wikiTitle": "Spinning_wheel", "qualifier": "Typical spinning wheel", "id": "spinning-wheel"}
+{"name": "Loom", "massKg": 25.0, "category": "household", "wikiTitle": "Loom", "qualifier": "Typical loom", "id": "loom"}
+{"name": "Quilting frame", "massKg": 10.0, "category": "household", "wikiTitle": "Quilting", "qualifier": "Typical quilting frame", "id": "quilting-frame"}
+{"name": "Knitting needles", "massKg": 0.05, "category": "household", "wikiTitle": "Knitting_needle", "qualifier": "Typical knitting needles", "id": "knitting-needles"}
+{"name": "Yarn skein", "massKg": 0.1, "category": "household", "wikiTitle": "Yarn", "qualifier": "Typical yarn skein", "id": "yarn-skein"}
+{"name": "Fabric bolt", "massKg": 2.0, "category": "household", "wikiTitle": "Textile", "qualifier": "Typical fabric bolt", "id": "fabric-bolt"}
+{"name": "Mannequin", "massKg": 15.0, "category": "household", "wikiTitle": "Mannequin", "qualifier": "Typical mannequin", "id": "mannequin"}
+{"name": "Dress form", "massKg": 5.0, "category": "household", "wikiTitle": "Dress_form", "qualifier": "Typical dress form", "id": "dress-form"}
+{"name": "Ironing mat", "massKg": 0.5, "category": "household", "wikiTitle": "Ironing_board", "qualifier": "Typical ironing mat", "id": "ironing-mat"}
+{"name": "Lint roller", "massKg": 0.1, "category": "household", "wikiTitle": "Lint_roller", "qualifier": "Typical lint roller", "id": "lint-roller"}
+{"name": "Clothes hanger pack", "massKg": 0.3, "category": "household", "wikiTitle": "Clothes_hanger", "qualifier": "Typical clothes hanger pack", "id": "clothes-hanger-pack"}
+{"name": "Garment bag", "massKg": 0.3, "category": "household", "wikiTitle": "Garment_bag", "qualifier": "Typical garment bag", "id": "garment-bag"}
+{"name": "Steamer", "massKg": 2.0, "category": "household", "wikiTitle": "Clothes_steamer", "qualifier": "Typical steamer", "id": "steamer"}
+{"name": "Shoe rack", "massKg": 3.0, "category": "household", "wikiTitle": "Shoe_rack", "qualifier": "Typical shoe rack", "id": "shoe-rack"}
+{"name": "Coat rack", "massKg": 2.0, "category": "household", "wikiTitle": "Coat_rack", "qualifier": "Typical coat rack", "id": "coat-rack"}
+{"name": "Umbrella stand", "massKg": 1.0, "category": "household", "wikiTitle": "Umbrella_stand", "qualifier": "Typical umbrella stand", "id": "umbrella-stand"}
+{"name": "Key bowl", "massKg": 0.2, "category": "household", "wikiTitle": "Bowl", "qualifier": "Typical key bowl", "id": "key-bowl"}
+{"name": "Door mat", "massKg": 1.5, "category": "household", "wikiTitle": "Doormat", "qualifier": "Typical door mat", "id": "door-mat"}
+{"name": "Welcome sign", "massKg": 1.0, "category": "household", "wikiTitle": "Sign", "qualifier": "Typical welcome sign", "id": "welcome-sign"}
+{"name": "House number plaque", "massKg": 0.5, "category": "other", "wikiTitle": "House_number", "qualifier": "Typical house number plaque", "id": "house-number-plaque"}
+{"name": "Door knocker", "massKg": 0.5, "category": "other", "wikiTitle": "Door_knocker", "qualifier": "Typical door knocker", "id": "door-knocker"}
+{"name": "Doorbell", "massKg": 0.2, "category": "other", "wikiTitle": "Doorbell", "qualifier": "Typical doorbell", "id": "doorbell"}
+{"name": "House key", "massKg": 0.01, "category": "other", "wikiTitle": "Key_(lock)", "qualifier": "Typical house key", "id": "house-key"}
+{"name": "Padlock", "massKg": 0.2, "category": "other", "wikiTitle": "Padlock", "qualifier": "Typical padlock", "id": "padlock"}
+{"name": "Combination lock", "massKg": 0.15, "category": "other", "wikiTitle": "Combination_lock", "qualifier": "Typical combination lock", "id": "combination-lock"}
+{"name": "Bike lock", "massKg": 1.0, "category": "vehicle", "wikiTitle": "Bicycle_lock", "qualifier": "Typical bike lock", "id": "bike-lock"}
+{"name": "Chain lock", "massKg": 2.0, "category": "vehicle", "wikiTitle": "Chain", "qualifier": "Typical chain lock", "id": "chain-lock"}
+{"name": "Cable lock", "massKg": 0.5, "category": "vehicle", "wikiTitle": "Lock_(security_device)", "qualifier": "Typical cable lock", "id": "cable-lock"}

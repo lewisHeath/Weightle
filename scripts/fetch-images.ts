@@ -68,6 +68,33 @@ async function resolveDownloadUrl(imageKey: string): Promise<string> {
   throw lastError ?? new Error(`Commons file not found for ${fileName}`);
 }
 
+async function resolveImageSource(imageKey: string): Promise<string> {
+  if (imageKey.startsWith("https://en.wikipedia.org/wiki/")) {
+    const title = decodeURIComponent(
+      imageKey.replace("https://en.wikipedia.org/wiki/", ""),
+    );
+    const api = new URL("https://en.wikipedia.org/w/api.php");
+    api.searchParams.set("action", "query");
+    api.searchParams.set("titles", title);
+    api.searchParams.set("prop", "pageimages");
+    api.searchParams.set("piprop", "original");
+    api.searchParams.set("format", "json");
+    const res = await fetch(api.toString(), {
+      headers: { "User-Agent": USER_AGENT },
+    });
+    if (res.ok) {
+      const data = (await res.json()) as {
+        query?: {
+          pages?: Record<string, { original?: { source: string } }>;
+        };
+      };
+      const page = Object.values(data.query?.pages ?? {})[0];
+      if (page?.original?.source) return page.original.source;
+    }
+  }
+  return resolveDownloadUrl(imageKey);
+}
+
 async function fetchCommonsUrl(title: string): Promise<string> {
   const api = new URL("https://commons.wikimedia.org/w/api.php");
   api.searchParams.set("action", "query");
@@ -131,7 +158,7 @@ async function fetchAndUpload(obj: ObjectEntry): Promise<boolean> {
 
   const sourceUrl = obj.imageKey.startsWith("https://upload.wikimedia.org/")
     ? obj.imageKey
-    : await resolveDownloadUrl(obj.imageKey);
+    : await resolveImageSource(obj.imageKey);
   const res = await fetchWithRetry(sourceUrl);
   if (!res.ok) {
     throw new Error(`Failed to fetch ${obj.id}: ${res.status} (${sourceUrl})`);
@@ -162,8 +189,11 @@ async function main() {
   let fail = 0;
   for (const obj of objects) {
     try {
-      if (await fetchAndUpload(obj)) ok++;
-      await sleep(1200);
+      const uploaded = await fetchAndUpload(obj);
+      if (uploaded) {
+        ok++;
+        await sleep(1200);
+      }
     } catch (e) {
       fail++;
       console.error(`Error for ${obj.id}:`, e);
