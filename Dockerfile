@@ -1,4 +1,5 @@
 FROM node:22-alpine AS base
+RUN apk add --no-cache libc6-compat
 
 FROM base AS deps
 WORKDIR /app
@@ -10,6 +11,8 @@ WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 ENV NEXT_TELEMETRY_DISABLED=1
+ENV NEXT_PUBLIC_SITE_URL=https://weightle.app
+ENV NEXT_PUBLIC_IMAGE_BASE_URL=https://cdn.weightle.app
 RUN npm run build
 
 FROM base AS runner
