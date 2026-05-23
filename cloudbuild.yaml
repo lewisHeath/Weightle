@@ -1,0 +1,48 @@
+# Deploy via Google Cloud Build (connect GitHub in GCP console).
+# See docs/GCP-CLOUD-BUILD-DEPLOY.md
+
+steps:
+  - name: node:22
+    entrypoint: npm
+    args: ["ci"]
+
+  - name: node:22
+    entrypoint: npm
+    args: ["run", "validate-dataset"]
+
+  - name: node:22
+    entrypoint: npm
+    args: ["run", "build"]
+    env:
+      - NEXT_PUBLIC_SITE_URL=https://weightle.app
+      - NEXT_PUBLIC_IMAGE_BASE_URL=https://cdn.weightle.app
+
+  - name: gcr.io/cloud-builders/docker
+    args:
+      - build
+      - -t
+      - ${_REGION}-docker.pkg.dev/$PROJECT_ID/weightle/app:$SHORT_SHA
+      - .
+
+  - name: gcr.io/cloud-builders/docker
+    args:
+      - push
+      - ${_REGION}-docker.pkg.dev/$PROJECT_ID/weightle/app:$SHORT_SHA
+
+  - name: gcr.io/google.com/cloudsdktool/cloud-sdk
+    entrypoint: gcloud
+    args:
+      - run
+      - deploy
+      - weightle
+      - --image=${_REGION}-docker.pkg.dev/$PROJECT_ID/weightle/app:$SHORT_SHA
+      - --region=${_REGION}
+      - --platform=managed
+      - --allow-unauthenticated
+      - --set-env-vars=NEXT_PUBLIC_SITE_URL=https://weightle.app,NEXT_PUBLIC_IMAGE_BASE_URL=https://cdn.weightle.app
+
+substitutions:
+  _REGION: europe-west2
+
+options:
+  logging: CLOUD_LOGGING_ONLY
