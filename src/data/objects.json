@@ -1296,7 +1296,7 @@
     "qualifier": "Typical golf tee",
     "sourceUrl": "https://en.wikipedia.org/wiki/Golf_tee",
     "category": "sport",
-    "imageKey": "https://en.wikipedia.org/wiki/Golf_tee",
+    "imageKey": "golf-tee.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -1306,7 +1306,7 @@
     "qualifier": "Typical table tennis ball",
     "sourceUrl": "https://en.wikipedia.org/wiki/Table_tennis_ball",
     "category": "sport",
-    "imageKey": "https://en.wikipedia.org/wiki/Table_tennis_ball",
+    "imageKey": "table-tennis-ball.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -1706,7 +1706,7 @@
     "qualifier": "Typical rooster",
     "sourceUrl": "https://en.wikipedia.org/wiki/Rooster",
     "category": "animal",
-    "imageKey": "https://en.wikipedia.org/wiki/Rooster",
+    "imageKey": "rooster.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -1756,7 +1756,7 @@
     "qualifier": "Typical tennis racket",
     "sourceUrl": "https://en.wikipedia.org/wiki/Tennis_racket",
     "category": "sport",
-    "imageKey": "https://en.wikipedia.org/wiki/Tennis_racket",
+    "imageKey": "tennis-racket.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -1766,7 +1766,7 @@
     "qualifier": "Typical badminton racket",
     "sourceUrl": "https://en.wikipedia.org/wiki/Badminton_racket",
     "category": "sport",
-    "imageKey": "https://en.wikipedia.org/wiki/Badminton_racket",
+    "imageKey": "badminton-racket.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -1786,7 +1786,7 @@
     "qualifier": "Typical hockey stick",
     "sourceUrl": "https://en.wikipedia.org/wiki/Hockey_stick",
     "category": "sport",
-    "imageKey": "https://en.wikipedia.org/wiki/Hockey_stick",
+    "imageKey": "hockey-stick.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -1796,7 +1796,7 @@
     "qualifier": "Typical frisbee",
     "sourceUrl": "https://en.wikipedia.org/wiki/Flying_disc",
     "category": "sport",
-    "imageKey": "https://en.wikipedia.org/wiki/Flying_disc",
+    "imageKey": "frisbee.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -1876,7 +1876,7 @@
     "qualifier": "Typical coffee mug",
     "sourceUrl": "https://en.wikipedia.org/wiki/Coffee_mug",
     "category": "household",
-    "imageKey": "https://en.wikipedia.org/wiki/Coffee_mug",
+    "imageKey": "coffee-mug.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -1896,7 +1896,7 @@
     "qualifier": "Typical plate",
     "sourceUrl": "https://en.wikipedia.org/wiki/Plate",
     "category": "household",
-    "imageKey": "https://en.wikipedia.org/wiki/Plate",
+    "imageKey": "plate.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -1966,7 +1966,7 @@
     "qualifier": "Typical frozen pizza",
     "sourceUrl": "https://en.wikipedia.org/wiki/Frozen_pizza",
     "category": "food",
-    "imageKey": "https://en.wikipedia.org/wiki/Frozen_pizza",
+    "imageKey": "frozen-pizza.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -1986,7 +1986,7 @@
     "qualifier": "Typical turkey breast",
     "sourceUrl": "https://en.wikipedia.org/wiki/Turkey_meat",
     "category": "food",
-    "imageKey": "https://en.wikipedia.org/wiki/Turkey_meat",
+    "imageKey": "turkey-breast.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -2006,7 +2006,7 @@
     "qualifier": "Typical tuna can",
     "sourceUrl": "https://en.wikipedia.org/wiki/Canned_tuna",
     "category": "food",
-    "imageKey": "https://en.wikipedia.org/wiki/Canned_tuna",
+    "imageKey": "tuna-can.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -2086,7 +2086,7 @@
     "qualifier": "Typical asparagus bunch",
     "sourceUrl": "https://en.wikipedia.org/wiki/Asparagus",
     "category": "food",
-    "imageKey": "https://en.wikipedia.org/wiki/Asparagus",
+    "imageKey": "asparagus-bunch.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -2176,7 +2176,7 @@
     "qualifier": "Typical chihuahua",
     "sourceUrl": "https://en.wikipedia.org/wiki/Chihuahua",
     "category": "animal",
-    "imageKey": "https://en.wikipedia.org/wiki/Chihuahua",
+    "imageKey": "chihuahua.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -2606,7 +2606,7 @@
     "qualifier": "Typical seal",
     "sourceUrl": "https://en.wikipedia.org/wiki/Pinniped",
     "category": "animal",
-    "imageKey": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Pinnipeds_vertical_version_montage.jpg",
+    "imageKey": "seal.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -2796,7 +2796,7 @@
     "qualifier": "Typical clam",
     "sourceUrl": "https://en.wikipedia.org/wiki/Clam",
     "category": "animal",
-    "imageKey": "https://en.wikipedia.org/wiki/Clam",
+    "imageKey": "clam.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -2896,7 +2896,7 @@
     "qualifier": "Typical bass fish",
     "sourceUrl": "https://en.wikipedia.org/wiki/Bass_(fish)",
     "category": "animal",
-    "imageKey": "https://en.wikipedia.org/wiki/Bass_(fish)",
+    "imageKey": "bass-fish.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -2936,7 +2936,7 @@
     "qualifier": "Typical pike",
     "sourceUrl": "https://en.wikipedia.org/wiki/Pike_(fish)",
     "category": "animal",
-    "imageKey": "https://en.wikipedia.org/wiki/Pike_(fish)",
+    "imageKey": "pike.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -2966,7 +2966,7 @@
     "qualifier": "Typical angelfish",
     "sourceUrl": "https://en.wikipedia.org/wiki/Freshwater_angelfish",
     "category": "animal",
-    "imageKey": "https://en.wikipedia.org/wiki/Freshwater_angelfish",
+    "imageKey": "angelfish.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -2996,7 +2996,7 @@
     "qualifier": "Typical sturgeon",
     "sourceUrl": "https://en.wikipedia.org/wiki/Sturgeon",
     "category": "animal",
-    "imageKey": "https://en.wikipedia.org/wiki/Sturgeon",
+    "imageKey": "sturgeon.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -3186,7 +3186,7 @@
     "qualifier": "Typical ironing board",
     "sourceUrl": "https://en.wikipedia.org/wiki/Ironing_board",
     "category": "household",
-    "imageKey": "https://en.wikipedia.org/wiki/Ironing_board",
+    "imageKey": "ironing-board.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -3226,7 +3226,7 @@
     "qualifier": "Typical stand mixer",
     "sourceUrl": "https://en.wikipedia.org/wiki/Stand_mixer",
     "category": "household",
-    "imageKey": "https://en.wikipedia.org/wiki/Stand_mixer",
+    "imageKey": "stand-mixer.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -3256,7 +3256,7 @@
     "qualifier": "Typical air fryer",
     "sourceUrl": "https://en.wikipedia.org/wiki/Air_fryer",
     "category": "household",
-    "imageKey": "https://en.wikipedia.org/wiki/Air_fryer",
+    "imageKey": "air-fryer.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -3266,7 +3266,7 @@
     "qualifier": "Typical coffee maker",
     "sourceUrl": "https://en.wikipedia.org/wiki/Coffee_maker",
     "category": "household",
-    "imageKey": "https://en.wikipedia.org/wiki/Coffee_maker",
+    "imageKey": "coffee-maker.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -3316,7 +3316,7 @@
     "qualifier": "Typical fan",
     "sourceUrl": "https://en.wikipedia.org/wiki/Electric_fan",
     "category": "household",
-    "imageKey": "https://en.wikipedia.org/wiki/Electric_fan",
+    "imageKey": "fan.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -3466,7 +3466,7 @@
     "qualifier": "Typical drill",
     "sourceUrl": "https://en.wikipedia.org/wiki/Power_drill",
     "category": "household",
-    "imageKey": "https://en.wikipedia.org/wiki/Power_drill",
+    "imageKey": "drill.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -3546,7 +3546,7 @@
     "qualifier": "Typical rake",
     "sourceUrl": "https://en.wikipedia.org/wiki/Rake",
     "category": "household",
-    "imageKey": "https://en.wikipedia.org/wiki/Rake",
+    "imageKey": "rake.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -3636,7 +3636,7 @@
     "qualifier": "Typical armchair",
     "sourceUrl": "https://en.wikipedia.org/wiki/Armchair",
     "category": "household",
-    "imageKey": "https://en.wikipedia.org/wiki/Armchair",
+    "imageKey": "armchair.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -3646,7 +3646,7 @@
     "qualifier": "Typical coffee table",
     "sourceUrl": "https://en.wikipedia.org/wiki/Coffee_table",
     "category": "household",
-    "imageKey": "https://en.wikipedia.org/wiki/Coffee_table",
+    "imageKey": "coffee-table.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -3676,7 +3676,7 @@
     "qualifier": "Typical bookshelf",
     "sourceUrl": "https://en.wikipedia.org/wiki/Bookshelf",
     "category": "household",
-    "imageKey": "https://en.wikipedia.org/wiki/Bookshelf",
+    "imageKey": "bookshelf.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -3686,7 +3686,7 @@
     "qualifier": "Typical wardrobe",
     "sourceUrl": "https://en.wikipedia.org/wiki/Wardrobe",
     "category": "household",
-    "imageKey": "https://en.wikipedia.org/wiki/Wardrobe",
+    "imageKey": "wardrobe.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -3756,7 +3756,7 @@
     "qualifier": "Typical area rug",
     "sourceUrl": "https://en.wikipedia.org/wiki/Rug",
     "category": "household",
-    "imageKey": "https://en.wikipedia.org/wiki/Rug",
+    "imageKey": "area-rug.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -3766,7 +3766,7 @@
     "qualifier": "Typical floor lamp",
     "sourceUrl": "https://en.wikipedia.org/wiki/Floor_lamp",
     "category": "household",
-    "imageKey": "https://en.wikipedia.org/wiki/Floor_lamp",
+    "imageKey": "floor-lamp.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -3776,7 +3776,7 @@
     "qualifier": "Typical desk lamp",
     "sourceUrl": "https://en.wikipedia.org/wiki/Desk_lamp",
     "category": "household",
-    "imageKey": "https://en.wikipedia.org/wiki/Desk_lamp",
+    "imageKey": "desk-lamp.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -3956,7 +3956,7 @@
     "qualifier": "Typical basketball hoop",
     "sourceUrl": "https://en.wikipedia.org/wiki/Basketball_hoop",
     "category": "sport",
-    "imageKey": "https://en.wikipedia.org/wiki/Basketball_hoop",
+    "imageKey": "basketball-hoop.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -3976,7 +3976,7 @@
     "qualifier": "Typical exercise bike",
     "sourceUrl": "https://en.wikipedia.org/wiki/Exercise_bicycle",
     "category": "sport",
-    "imageKey": "https://en.wikipedia.org/wiki/Exercise_bicycle",
+    "imageKey": "exercise-bike.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -4056,7 +4056,7 @@
     "qualifier": "Typical jump rope",
     "sourceUrl": "https://en.wikipedia.org/wiki/Jump_rope",
     "category": "sport",
-    "imageKey": "https://en.wikipedia.org/wiki/Jump_rope",
+    "imageKey": "jump-rope.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -4106,7 +4106,7 @@
     "qualifier": "Typical pair of skis",
     "sourceUrl": "https://en.wikipedia.org/wiki/Ski",
     "category": "sport",
-    "imageKey": "https://en.wikipedia.org/wiki/Ski",
+    "imageKey": "pair-of-skis.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -4216,7 +4216,7 @@
     "qualifier": "Typical golf bag",
     "sourceUrl": "https://en.wikipedia.org/wiki/Golf_bag",
     "category": "sport",
-    "imageKey": "https://en.wikipedia.org/wiki/Golf_bag",
+    "imageKey": "golf-bag.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -4226,7 +4226,7 @@
     "qualifier": "Typical golf club set",
     "sourceUrl": "https://en.wikipedia.org/wiki/Golf_club",
     "category": "sport",
-    "imageKey": "https://en.wikipedia.org/wiki/Golf_club",
+    "imageKey": "golf-club-set.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -4286,7 +4286,7 @@
     "qualifier": "Typical dartboard",
     "sourceUrl": "https://en.wikipedia.org/wiki/Dartboard",
     "category": "sport",
-    "imageKey": "https://en.wikipedia.org/wiki/Dartboard",
+    "imageKey": "dartboard.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -4346,7 +4346,7 @@
     "qualifier": "Typical suv",
     "sourceUrl": "https://en.wikipedia.org/wiki/Sport_utility_vehicle",
     "category": "vehicle",
-    "imageKey": "https://en.wikipedia.org/wiki/Sport_utility_vehicle",
+    "imageKey": "suv.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -4476,7 +4476,7 @@
     "qualifier": "Typical subway car",
     "sourceUrl": "https://en.wikipedia.org/wiki/Passenger_rail_car",
     "category": "vehicle",
-    "imageKey": "https://en.wikipedia.org/wiki/Passenger_rail_car",
+    "imageKey": "subway-car.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -4496,7 +4496,7 @@
     "qualifier": "Typical freight train car",
     "sourceUrl": "https://en.wikipedia.org/wiki/Freight_car",
     "category": "vehicle",
-    "imageKey": "https://en.wikipedia.org/wiki/Freight_car",
+    "imageKey": "freight-train-car.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -4596,7 +4596,7 @@
     "qualifier": "Typical camper trailer",
     "sourceUrl": "https://en.wikipedia.org/wiki/Travel_trailer",
     "category": "vehicle",
-    "imageKey": "https://en.wikipedia.org/wiki/Travel_trailer",
+    "imageKey": "camper-trailer.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -4836,7 +4836,7 @@
     "qualifier": "Typical electric scooter",
     "sourceUrl": "https://en.wikipedia.org/wiki/Electric_scooter",
     "category": "vehicle",
-    "imageKey": "https://en.wikipedia.org/wiki/Electric_scooter",
+    "imageKey": "electric-scooter.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -4926,7 +4926,7 @@
     "qualifier": "Typical cable car",
     "sourceUrl": "https://en.wikipedia.org/wiki/Cable_car",
     "category": "vehicle",
-    "imageKey": "https://en.wikipedia.org/wiki/Cable_car",
+    "imageKey": "cable-car.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -4986,7 +4986,7 @@
     "qualifier": "Typical log",
     "sourceUrl": "https://en.wikipedia.org/wiki/Log",
     "category": "nature",
-    "imageKey": "https://en.wikipedia.org/wiki/Log",
+    "imageKey": "log.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -5036,7 +5036,7 @@
     "qualifier": "Typical sunflower",
     "sourceUrl": "https://en.wikipedia.org/wiki/Sunflower",
     "category": "nature",
-    "imageKey": "https://en.wikipedia.org/wiki/Sunflower",
+    "imageKey": "sunflower.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -5106,7 +5106,7 @@
     "qualifier": "Typical pine cone",
     "sourceUrl": "https://en.wikipedia.org/wiki/Pine_cone",
     "category": "nature",
-    "imageKey": "https://en.wikipedia.org/wiki/Pine_cone",
+    "imageKey": "pine-cone.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -5566,7 +5566,7 @@
     "qualifier": "Typical apple tree",
     "sourceUrl": "https://en.wikipedia.org/wiki/Apple_tree",
     "category": "nature",
-    "imageKey": "https://en.wikipedia.org/wiki/Apple_tree",
+    "imageKey": "apple-tree.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -5736,7 +5736,7 @@
     "qualifier": "Typical nutella jar",
     "sourceUrl": "https://en.wikipedia.org/wiki/Nutella",
     "category": "food",
-    "imageKey": "https://en.wikipedia.org/wiki/Nutella",
+    "imageKey": "nutella-jar.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -5746,7 +5746,7 @@
     "qualifier": "Typical instant noodles pack",
     "sourceUrl": "https://en.wikipedia.org/wiki/Instant_noodle",
     "category": "food",
-    "imageKey": "https://en.wikipedia.org/wiki/Instant_noodle",
+    "imageKey": "instant-noodles-pack.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -5776,7 +5776,7 @@
     "qualifier": "Typical potato chips bag",
     "sourceUrl": "https://en.wikipedia.org/wiki/Potato_chip",
     "category": "food",
-    "imageKey": "https://en.wikipedia.org/wiki/Potato_chip",
+    "imageKey": "potato-chips-bag.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -5916,7 +5916,7 @@
     "qualifier": "Typical fish food container",
     "sourceUrl": "https://en.wikipedia.org/wiki/Fish_food",
     "category": "food",
-    "imageKey": "https://en.wikipedia.org/wiki/Fish_food",
+    "imageKey": "fish-food-container.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -5926,7 +5926,7 @@
     "qualifier": "Typical akita",
     "sourceUrl": "https://en.wikipedia.org/wiki/Akita_(dog)",
     "category": "animal",
-    "imageKey": "https://en.wikipedia.org/wiki/Akita_(dog)",
+    "imageKey": "akita.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -5936,7 +5936,7 @@
     "qualifier": "Typical samoyed",
     "sourceUrl": "https://en.wikipedia.org/wiki/Samoyed_(dog)",
     "category": "animal",
-    "imageKey": "https://en.wikipedia.org/wiki/Samoyed_(dog)",
+    "imageKey": "samoyed.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -5966,7 +5966,7 @@
     "qualifier": "Typical saint bernard",
     "sourceUrl": "https://en.wikipedia.org/wiki/St._Bernard_(dog)",
     "category": "animal",
-    "imageKey": "https://en.wikipedia.org/wiki/St._Bernard_(dog)",
+    "imageKey": "saint-bernard.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -6036,7 +6036,7 @@
     "qualifier": "Typical boxer",
     "sourceUrl": "https://en.wikipedia.org/wiki/Boxer_(dog)",
     "category": "animal",
-    "imageKey": "https://en.wikipedia.org/wiki/Boxer_(dog)",
+    "imageKey": "boxer.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -6046,7 +6046,7 @@
     "qualifier": "Typical dalmatian",
     "sourceUrl": "https://en.wikipedia.org/wiki/Dalmatian_(dog)",
     "category": "animal",
-    "imageKey": "https://en.wikipedia.org/wiki/Dalmatian_(dog)",
+    "imageKey": "dalmatian.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -6336,7 +6336,7 @@
     "qualifier": "Typical toy poodle",
     "sourceUrl": "https://en.wikipedia.org/wiki/Toy_Poodle",
     "category": "animal",
-    "imageKey": "https://en.wikipedia.org/wiki/Toy_Poodle",
+    "imageKey": "toy-poodle.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -6346,7 +6346,7 @@
     "qualifier": "Typical bichon frise",
     "sourceUrl": "https://en.wikipedia.org/wiki/Bichon_Frises",
     "category": "animal",
-    "imageKey": "https://en.wikipedia.org/wiki/Bichon_Frises",
+    "imageKey": "bichon-frise.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -6356,7 +6356,7 @@
     "qualifier": "Typical maltese dog",
     "sourceUrl": "https://en.wikipedia.org/wiki/Maltese_(dog)",
     "category": "animal",
-    "imageKey": "https://en.wikipedia.org/wiki/Maltese_(dog)",
+    "imageKey": "maltese-dog.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -6366,7 +6366,7 @@
     "qualifier": "Typical papillon dog",
     "sourceUrl": "https://en.wikipedia.org/wiki/Papillon_(dog)",
     "category": "animal",
-    "imageKey": "https://en.wikipedia.org/wiki/Papillon_(dog)",
+    "imageKey": "papillon-dog.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -6376,7 +6376,7 @@
     "qualifier": "Typical pomeranian",
     "sourceUrl": "https://en.wikipedia.org/wiki/Pomeranian_(dog)",
     "category": "animal",
-    "imageKey": "https://en.wikipedia.org/wiki/Pomeranian_(dog)",
+    "imageKey": "pomeranian.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -6556,7 +6556,7 @@
     "qualifier": "Typical penguin (adelie)",
     "sourceUrl": "https://en.wikipedia.org/wiki/Adelie_penguin",
     "category": "animal",
-    "imageKey": "https://en.wikipedia.org/wiki/Adelie_penguin",
+    "imageKey": "penguin-adelie.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -6816,7 +6816,7 @@
     "qualifier": "Typical nightingale",
     "sourceUrl": "https://en.wikipedia.org/wiki/Nightingale",
     "category": "animal",
-    "imageKey": "https://en.wikipedia.org/wiki/Nightingale",
+    "imageKey": "nightingale.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -7446,7 +7446,7 @@
     "qualifier": "Typical acoustic guitar",
     "sourceUrl": "https://en.wikipedia.org/wiki/Acoustic_guitar",
     "category": "household",
-    "imageKey": "https://en.wikipedia.org/wiki/Acoustic_guitar",
+    "imageKey": "acoustic-guitar.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -7686,7 +7686,7 @@
     "qualifier": "Typical ukulele",
     "sourceUrl": "https://en.wikipedia.org/wiki/Ukulele",
     "category": "household",
-    "imageKey": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Kumalae_ukulele_of_c._1910.webm",
+    "imageKey": "ukulele.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -7696,7 +7696,7 @@
     "qualifier": "Typical banjo",
     "sourceUrl": "https://en.wikipedia.org/wiki/Banjo",
     "category": "household",
-    "imageKey": "https://en.wikipedia.org/wiki/Banjo",
+    "imageKey": "banjo.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -7736,7 +7736,7 @@
     "qualifier": "Typical dj turntable",
     "sourceUrl": "https://en.wikipedia.org/wiki/Turntable",
     "category": "household",
-    "imageKey": "https://en.wikipedia.org/wiki/Turntable",
+    "imageKey": "dj-turntable.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -7866,7 +7866,7 @@
     "qualifier": "Typical mechanical keyboard",
     "sourceUrl": "https://en.wikipedia.org/wiki/Computer_keyboard",
     "category": "household",
-    "imageKey": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Typing_example.ogv",
+    "imageKey": "mechanical-keyboard.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -7986,7 +7986,7 @@
     "qualifier": "Typical fitness tracker",
     "sourceUrl": "https://en.wikipedia.org/wiki/Activity_tracker",
     "category": "household",
-    "imageKey": "https://en.wikipedia.org/wiki/Activity_tracker",
+    "imageKey": "fitness-tracker.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -8056,7 +8056,7 @@
     "qualifier": "Typical action camera",
     "sourceUrl": "https://en.wikipedia.org/wiki/Action_camera",
     "category": "household",
-    "imageKey": "https://en.wikipedia.org/wiki/Action_camera",
+    "imageKey": "action-camera.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -8136,7 +8136,7 @@
     "qualifier": "Typical 3d printer",
     "sourceUrl": "https://en.wikipedia.org/wiki/3D_printing",
     "category": "household",
-    "imageKey": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Robot_3D_print_timelapse_on_RepRapPro_Fisher.webm",
+    "imageKey": "3d-printer.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -8166,7 +8166,7 @@
     "qualifier": "Typical doorbell camera",
     "sourceUrl": "https://en.wikipedia.org/wiki/Video_doorbell",
     "category": "household",
-    "imageKey": "https://en.wikipedia.org/wiki/Video_doorbell",
+    "imageKey": "doorbell-camera.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -8206,7 +8206,7 @@
     "qualifier": "Typical power bank",
     "sourceUrl": "https://en.wikipedia.org/wiki/Power_bank",
     "category": "household",
-    "imageKey": "https://en.wikipedia.org/wiki/Power_bank",
+    "imageKey": "power-bank.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -8496,7 +8496,7 @@
     "qualifier": "Typical shrimp cocktail",
     "sourceUrl": "https://en.wikipedia.org/wiki/Shrimp_cocktail",
     "category": "food",
-    "imageKey": "https://en.wikipedia.org/wiki/Shrimp_cocktail",
+    "imageKey": "shrimp-cocktail.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -8666,7 +8666,7 @@
     "qualifier": "Typical protein shake",
     "sourceUrl": "https://en.wikipedia.org/wiki/Protein_shake",
     "category": "food",
-    "imageKey": "https://en.wikipedia.org/wiki/Protein_shake",
+    "imageKey": "protein-shake.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -8876,7 +8876,7 @@
     "qualifier": "Typical black beans can",
     "sourceUrl": "https://en.wikipedia.org/wiki/Black_bean",
     "category": "food",
-    "imageKey": "https://en.wikipedia.org/wiki/Black_bean",
+    "imageKey": "black-beans-can.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -9076,7 +9076,7 @@
     "qualifier": "Typical almond butter jar",
     "sourceUrl": "https://en.wikipedia.org/wiki/Almond_butter",
     "category": "food",
-    "imageKey": "https://en.wikipedia.org/wiki/Almond_butter",
+    "imageKey": "almond-butter-jar.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -9146,7 +9146,7 @@
     "qualifier": "Typical dates pack",
     "sourceUrl": "https://en.wikipedia.org/wiki/Date_(fruit)",
     "category": "food",
-    "imageKey": "https://en.wikipedia.org/wiki/Date_(fruit)",
+    "imageKey": "dates-pack.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -9156,7 +9156,7 @@
     "qualifier": "Typical fig pack",
     "sourceUrl": "https://en.wikipedia.org/wiki/Common_fig",
     "category": "food",
-    "imageKey": "https://en.wikipedia.org/wiki/Common_fig",
+    "imageKey": "fig-pack.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -9186,7 +9186,7 @@
     "qualifier": "Typical licorice bag",
     "sourceUrl": "https://en.wikipedia.org/wiki/Licorice_(confectionery)",
     "category": "food",
-    "imageKey": "https://en.wikipedia.org/wiki/Licorice_(confectionery)",
+    "imageKey": "licorice-bag.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -9236,7 +9236,7 @@
     "qualifier": "Typical breath mints tin",
     "sourceUrl": "https://en.wikipedia.org/wiki/Breath_mint",
     "category": "food",
-    "imageKey": "https://en.wikipedia.org/wiki/Breath_mint",
+    "imageKey": "breath-mints-tin.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -9566,7 +9566,7 @@
     "qualifier": "Typical bat (fruit)",
     "sourceUrl": "https://en.wikipedia.org/wiki/Fruit_bat",
     "category": "animal",
-    "imageKey": "https://en.wikipedia.org/wiki/Fruit_bat",
+    "imageKey": "bat-fruit.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -9666,7 +9666,7 @@
     "qualifier": "Typical nutria",
     "sourceUrl": "https://en.wikipedia.org/wiki/Coypu",
     "category": "animal",
-    "imageKey": "https://en.wikipedia.org/wiki/Coypu",
+    "imageKey": "nutria.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -9826,7 +9826,7 @@
     "qualifier": "Typical laminator",
     "sourceUrl": "https://en.wikipedia.org/wiki/Laminator",
     "category": "household",
-    "imageKey": "https://en.wikipedia.org/wiki/Laminator",
+    "imageKey": "laminator.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -9906,7 +9906,7 @@
     "qualifier": "Typical water cooler",
     "sourceUrl": "https://en.wikipedia.org/wiki/Water_cooler",
     "category": "household",
-    "imageKey": "https://en.wikipedia.org/wiki/Water_cooler",
+    "imageKey": "water-cooler.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -9916,7 +9916,7 @@
     "qualifier": "Typical coffee urn",
     "sourceUrl": "https://en.wikipedia.org/wiki/Coffee_urn",
     "category": "household",
-    "imageKey": "https://en.wikipedia.org/wiki/Coffee_urn",
+    "imageKey": "coffee-urn.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -9936,7 +9936,7 @@
     "qualifier": "Typical atm machine",
     "sourceUrl": "https://en.wikipedia.org/wiki/Automated_teller_machine",
     "category": "household",
-    "imageKey": "https://en.wikipedia.org/wiki/Automated_teller_machine",
+    "imageKey": "atm-machine.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -9996,7 +9996,7 @@
     "qualifier": "Typical park bench",
     "sourceUrl": "https://en.wikipedia.org/wiki/Bench",
     "category": "other",
-    "imageKey": "https://en.wikipedia.org/wiki/Bench",
+    "imageKey": "park-bench.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -10116,7 +10116,7 @@
     "qualifier": "Typical rain barrel",
     "sourceUrl": "https://en.wikipedia.org/wiki/Rain_barrel",
     "category": "other",
-    "imageKey": "https://en.wikipedia.org/wiki/Rain_barrel",
+    "imageKey": "rain-barrel.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -10166,7 +10166,7 @@
     "qualifier": "Typical mailbox package",
     "sourceUrl": "https://en.wikipedia.org/wiki/Package",
     "category": "other",
-    "imageKey": "https://en.wikipedia.org/wiki/Package",
+    "imageKey": "mailbox-package.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -10266,7 +10266,7 @@
     "qualifier": "Typical kindling bundle",
     "sourceUrl": "https://en.wikipedia.org/wiki/Kindling",
     "category": "nature",
-    "imageKey": "https://en.wikipedia.org/wiki/Kindling",
+    "imageKey": "kindling-bundle.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -10426,7 +10426,7 @@
     "qualifier": "Typical toy car",
     "sourceUrl": "https://en.wikipedia.org/wiki/Toy",
     "category": "other",
-    "imageKey": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Toy_car_%28AM_1996.165.95%29.jpg",
+    "imageKey": "toy-car.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -10506,7 +10506,7 @@
     "qualifier": "Typical piñata",
     "sourceUrl": "https://en.wikipedia.org/wiki/Pinata",
     "category": "other",
-    "imageKey": "https://en.wikipedia.org/wiki/Pinata",
+    "imageKey": "pi-ata.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -10586,7 +10586,7 @@
     "qualifier": "Typical certificate frame",
     "sourceUrl": "https://en.wikipedia.org/wiki/Certificate",
     "category": "other",
-    "imageKey": "https://en.wikipedia.org/wiki/Certificate",
+    "imageKey": "certificate-frame.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -10786,7 +10786,7 @@
     "qualifier": "Typical jumper cables",
     "sourceUrl": "https://en.wikipedia.org/wiki/Jumper_cables",
     "category": "vehicle",
-    "imageKey": "https://en.wikipedia.org/wiki/Jumper_cables",
+    "imageKey": "jumper-cables.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -10806,7 +10806,7 @@
     "qualifier": "Typical bike rack",
     "sourceUrl": "https://en.wikipedia.org/wiki/Bicycle_carrier",
     "category": "vehicle",
-    "imageKey": "https://en.wikipedia.org/wiki/Bicycle_carrier",
+    "imageKey": "bike-rack.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -10816,7 +10816,7 @@
     "qualifier": "Typical trailer hitch",
     "sourceUrl": "https://en.wikipedia.org/wiki/Trailer_hitch",
     "category": "vehicle",
-    "imageKey": "https://en.wikipedia.org/wiki/Trailer_hitch",
+    "imageKey": "trailer-hitch.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -10836,7 +10836,7 @@
     "qualifier": "Typical life jacket",
     "sourceUrl": "https://en.wikipedia.org/wiki/Life_jacket",
     "category": "sport",
-    "imageKey": "https://en.wikipedia.org/wiki/Life_jacket",
+    "imageKey": "life-jacket.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -10846,7 +10846,7 @@
     "qualifier": "Typical life raft",
     "sourceUrl": "https://en.wikipedia.org/wiki/Life_raft",
     "category": "sport",
-    "imageKey": "https://en.wikipedia.org/wiki/Life_raft",
+    "imageKey": "life-raft.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -11146,7 +11146,7 @@
     "qualifier": "Typical ironing mat",
     "sourceUrl": "https://en.wikipedia.org/wiki/Ironing_board",
     "category": "household",
-    "imageKey": "https://en.wikipedia.org/wiki/Ironing_board",
+    "imageKey": "ironing-mat.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -11156,7 +11156,7 @@
     "qualifier": "Typical lint roller",
     "sourceUrl": "https://en.wikipedia.org/wiki/Lint_roller",
     "category": "household",
-    "imageKey": "https://en.wikipedia.org/wiki/Lint_roller",
+    "imageKey": "lint-roller.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -11206,7 +11206,7 @@
     "qualifier": "Typical coat rack",
     "sourceUrl": "https://en.wikipedia.org/wiki/Coat_rack",
     "category": "household",
-    "imageKey": "https://en.wikipedia.org/wiki/Coat_rack",
+    "imageKey": "coat-rack.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -11236,7 +11236,7 @@
     "qualifier": "Typical door mat",
     "sourceUrl": "https://en.wikipedia.org/wiki/Doormat",
     "category": "household",
-    "imageKey": "https://en.wikipedia.org/wiki/Doormat",
+    "imageKey": "door-mat.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -11256,7 +11256,7 @@
     "qualifier": "Typical house number plaque",
     "sourceUrl": "https://en.wikipedia.org/wiki/House_number",
     "category": "other",
-    "imageKey": "https://en.wikipedia.org/wiki/House_number",
+    "imageKey": "house-number-plaque.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -11286,7 +11286,7 @@
     "qualifier": "Typical house key",
     "sourceUrl": "https://en.wikipedia.org/wiki/Key_(lock)",
     "category": "other",
-    "imageKey": "https://en.wikipedia.org/wiki/Key_(lock)",
+    "imageKey": "house-key.webp",
     "attribution": "Wikimedia Commons"
   },
   {
@@ -11336,7 +11336,7 @@
     "qualifier": "Typical cable lock",
     "sourceUrl": "https://en.wikipedia.org/wiki/Lock_(security_device)",
     "category": "vehicle",
-    "imageKey": "https://en.wikipedia.org/wiki/Lock_(security_device)",
+    "imageKey": "cable-lock.webp",
     "attribution": "Wikimedia Commons"
   }
 ]

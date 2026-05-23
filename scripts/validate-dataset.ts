@@ -34,6 +34,16 @@ for (const obj of objects) {
     console.error(`Missing image/attribution for ${obj.id}`);
     errors++;
   }
+  if (obj.imageKey.includes("en.wikipedia.org/wiki/")) {
+    console.error(
+      `Invalid imageKey (Wikipedia page URL, not an image): ${obj.id}`,
+    );
+    errors++;
+  }
+  if (/\.(webm|ogv)$/i.test(obj.imageKey)) {
+    console.error(`Invalid imageKey (video format): ${obj.id}`);
+    errors++;
+  }
 }
 
 const pairs: { objectAId: string; objectBId: string }[] = JSON.parse(

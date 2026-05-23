@@ -1,0 +1,13 @@
+{
+  "auditedAt": "2026-05-23T19:46:47.141Z",
+  "total": 1134,
+  "cdnOk": 1133,
+  "brokenCount": 0,
+  "byIssue": {
+    "wikipedia_page_url": 0,
+    "video_or_unsupported": 0,
+    "cdn_missing": 0,
+    "remote_fetch_failed": 0
+  },
+  "broken": []
+}
