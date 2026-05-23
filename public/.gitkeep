@@ -1,0 +1,1 @@
+# Keeps public/ in git so Docker COPY succeeds in Cloud Build.
