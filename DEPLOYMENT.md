@@ -27,19 +27,13 @@ git remote add origin git@github.com:YOUR_USER/weightle.git
 git push -u origin main
 ```
 
-### 2. GitHub Actions secrets
+### 2. Connect GitHub to Cloud Build (deploy path)
 
-In the repo: **Settings → Secrets and variables → Actions → New repository secret**
+Deploys run via **Google Cloud Build**, not GitHub Actions. See [docs/GCP-CLOUD-BUILD-DEPLOY.md](docs/GCP-CLOUD-BUILD-DEPLOY.md).
 
-| Secret | What it is |
-|--------|------------|
-| `GCP_PROJECT_ID` | Your GCP project ID (e.g. `weightle-prod`) |
-| `WORKLOAD_IDENTITY_PROVIDER` | Workload Identity provider resource name (see [docs/GCP-WORKLOAD-IDENTITY.md](docs/GCP-WORKLOAD-IDENTITY.md)) |
-| `GCP_SERVICE_ACCOUNT` | `github-deploy@weightle-prod.iam.gserviceaccount.com` |
+Pushes to `main` trigger the **Weightle-Build** Cloud Build trigger (`cloudbuild.yaml`: validate → build → deploy Cloud Run).
 
-If Google blocks JSON key creation, use Workload Identity — do **not** disable the security policy.
-
-Optional (for uploading images from your machine or a separate workflow later):
+Optional GitHub secrets (only if you add a workflow for R2 image uploads later):
 
 | Secret | What it is |
 |--------|------------|
@@ -47,8 +41,6 @@ Optional (for uploading images from your machine or a separate workflow later):
 | `R2_ACCESS_KEY_ID` | R2 API token access key |
 | `R2_SECRET_ACCESS_KEY` | R2 API token secret |
 | `R2_BUCKET_NAME` | `weightle-images` |
-
-Pushes to `main` run `.github/workflows/deploy.yml` (validate dataset → build → deploy Cloud Run).
 
 ---
 
@@ -76,7 +68,12 @@ gcloud artifacts repositories create weightle \
   --description="Weightle app images"
 ```
 
-### 3. Service account for GitHub Actions
+### 3. Service account (optional — GitHub Actions only)
+
+Skip this if you use Cloud Build (recommended). Cloud Build uses its own service account.
+
+<details>
+<summary>If you ever switch to GitHub Actions + Workload Identity</summary>
 
 ```bash
 gcloud iam service-accounts create github-deploy \
@@ -93,16 +90,15 @@ gcloud projects add-iam-policy-binding weightle-prod \
 gcloud projects add-iam-policy-binding weightle-prod \
   --member="serviceAccount:github-deploy@weightle-prod.iam.gserviceaccount.com" \
   --role="roles/iam.serviceAccountUser"
-
-gcloud iam service-accounts keys create gcp-sa-key.json \
-  --iam-account=github-deploy@weightle-prod.iam.gserviceaccount.com
 ```
 
-Copy the contents of `gcp-sa-key.json` into GitHub secret `GCP_SA_KEY`, then **delete the local file**.
+See [docs/GCP-WORKLOAD-IDENTITY.md](docs/GCP-WORKLOAD-IDENTITY.md).
+
+</details>
 
 ### 4. First deploy
 
-Push to `main` or run the workflow manually. Note the Cloud Run URL:
+Push to `main` (Cloud Build trigger) or run a build manually in GCP. Note the Cloud Run URL:
 
 ```bash
 gcloud run services describe weightle --region=europe-west2 --format='value(status.url)'
@@ -220,6 +216,9 @@ These are planned refinements, not blockers for v1:
 
 **Google 404 on weightle.app but run.app URL works**  
 Cloudflare cannot set the `Host` header via Transform Rules. Use **Cloud Run custom domain mapping** (Phase 4 step 3) or a **Cloudflare Worker** ([docs/CLOUDFLARE-WORKER-PROXY.md](docs/CLOUDFLARE-WORKER-PROXY.md)).
+
+**GitHub Action fails on deploy**  
+This project deploys via **Cloud Build**, not GitHub Actions. Remove or disable `.github/workflows/deploy.yml` if present — it fails without Workload Identity secrets.
 
 **GitHub Action fails on Docker push**  
 Ensure Artifact Registry repo `weightle` exists in `europe-west2` and SA has `artifactregistry.writer`.
