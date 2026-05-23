@@ -1,19 +1,14 @@
 import { readFileSync } from "fs";
 import { join } from "path";
+import {
+  isValidPair,
+  MAX_WEIGHT_RATIO,
+  MIN_WEIGHT_RATIO,
+  weightRatio,
+} from "../src/lib/pairs";
+import type { WeightleObject } from "../src/lib/types";
 
-const MIN_RATIO = 1.2;
-
-interface ObjectEntry {
-  id: string;
-  name: string;
-  massKg: number;
-  qualifier: string;
-  sourceUrl: string;
-  imageKey: string;
-  attribution: string;
-}
-
-const objects: ObjectEntry[] = JSON.parse(
+const objects: WeightleObject[] = JSON.parse(
   readFileSync(join(process.cwd(), "src/data/objects.json"), "utf-8"),
 );
 
@@ -51,14 +46,17 @@ for (const pair of pairs) {
   const a = byId.get(pair.objectAId);
   const b = byId.get(pair.objectBId);
   if (!a || !b) {
-    console.error(`Pair references missing object: ${pair.objectAId} ${pair.objectBId}`);
+    console.error(
+      `Pair references missing object: ${pair.objectAId} ${pair.objectBId}`,
+    );
     errors++;
     continue;
   }
-  const lighter = Math.min(a.massKg, b.massKg);
-  const heavier = Math.max(a.massKg, b.massKg);
-  if (heavier / lighter < MIN_RATIO) {
-    console.error(`Pair too close: ${pair.objectAId} vs ${pair.objectBId}`);
+  if (!isValidPair(a, b)) {
+    const ratio = weightRatio(a, b).toFixed(2);
+    console.error(
+      `Invalid pair ratio ${ratio} (${MIN_WEIGHT_RATIO}–${MAX_WEIGHT_RATIO}): ${pair.objectAId} vs ${pair.objectBId}`,
+    );
     errors++;
   }
 }
@@ -68,6 +66,4 @@ if (errors > 0) {
   process.exit(1);
 }
 
-console.log(
-  `OK: ${objects.length} objects, ${pairs.length} pairs`,
-);
+console.log(`OK: ${objects.length} objects, ${pairs.length} pairs`);

@@ -197,7 +197,7 @@ Test https://weightle.app
 These are planned refinements, not blockers for v1:
 
 1. **More objects** — grow `objects.json` toward ~100+ hand-curated items
-2. **Harder pairs** — raise `MIN_WEIGHT_RATIO` in `src/lib/pairs.ts` or add difficulty tiers
+2. **Harder pairs** — tune `MIN_WEIGHT_RATIO` / `MAX_WEIGHT_RATIO` in `src/lib/pairs.ts` (currently 1.08–1.35 for close comparisons)
 3. **Image pipeline in CI** — optional workflow to run `fetch-images.ts` on data changes
 4. **Analytics** — Cloudflare Web Analytics or Plausible (privacy-friendly)
 5. **Custom domain on Cloud Run** — optional if using Transform Rule Host header fix above

@@ -298,5 +298,755 @@
     "category": "animal",
     "imageKey": "hummingbird.webp",
     "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "house-mouse",
+    "name": "House mouse",
+    "massKg": 0.025,
+    "qualifier": "Average adult house mouse",
+    "sourceUrl": "https://en.wikipedia.org/wiki/House_mouse",
+    "category": "animal",
+    "imageKey": "house-mouse.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "house-sparrow",
+    "name": "House sparrow",
+    "massKg": 0.028,
+    "qualifier": "Average adult",
+    "sourceUrl": "https://en.wikipedia.org/wiki/House_sparrow",
+    "category": "animal",
+    "imageKey": "house-sparrow.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "gold-coin",
+    "name": "Gold coin",
+    "massKg": 0.031,
+    "qualifier": "Typical 1 oz gold bullion coin",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Gold_coin",
+    "category": "other",
+    "imageKey": "gold-coin.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "golf-ball",
+    "name": "Golf ball",
+    "massKg": 0.046,
+    "qualifier": "Regulation golf ball",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Golf_ball",
+    "category": "sport",
+    "imageKey": "golf-ball.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "tennis-ball",
+    "name": "Tennis ball",
+    "massKg": 0.058,
+    "qualifier": "Regulation tennis ball",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Tennis_ball",
+    "category": "sport",
+    "imageKey": "tennis-ball.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "carrot",
+    "name": "Carrot",
+    "massKg": 0.072,
+    "qualifier": "Average medium carrot",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Carrot",
+    "category": "food",
+    "imageKey": "carrot.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "tomato",
+    "name": "Tomato",
+    "massKg": 0.12,
+    "qualifier": "Average medium tomato",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Tomato",
+    "category": "food",
+    "imageKey": "tomato.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "baseball",
+    "name": "Baseball",
+    "massKg": 0.145,
+    "qualifier": "Regulation baseball",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Baseball_(ball)",
+    "category": "sport",
+    "imageKey": "baseball.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "avocado",
+    "name": "Avocado",
+    "massKg": 0.17,
+    "qualifier": "Average Hass avocado",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Avocado",
+    "category": "food",
+    "imageKey": "avocado.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "orange",
+    "name": "Orange",
+    "massKg": 0.18,
+    "qualifier": "Average medium orange",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Orange_(fruit)",
+    "category": "food",
+    "imageKey": "orange.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "potato",
+    "name": "Potato",
+    "massKg": 0.17,
+    "qualifier": "Average medium potato",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Potato",
+    "category": "food",
+    "imageKey": "potato.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "hockey-puck",
+    "name": "Hockey puck",
+    "massKg": 0.17,
+    "qualifier": "Regulation NHL puck",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Ice_hockey_puck",
+    "category": "sport",
+    "imageKey": "hockey-puck.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "cricket-ball",
+    "name": "Cricket ball",
+    "massKg": 0.16,
+    "qualifier": "Regulation cricket ball",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Cricket_ball",
+    "category": "sport",
+    "imageKey": "cricket-ball.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "tablet",
+    "name": "Tablet computer",
+    "massKg": 0.48,
+    "qualifier": "Typical 10-inch tablet",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Tablet_computer",
+    "category": "household",
+    "imageKey": "tablet.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "grapefruit",
+    "name": "Grapefruit",
+    "massKg": 0.35,
+    "qualifier": "Average medium grapefruit",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Grapefruit",
+    "category": "food",
+    "imageKey": "grapefruit.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "american-football",
+    "name": "American football",
+    "massKg": 0.41,
+    "qualifier": "Regulation NFL football",
+    "sourceUrl": "https://en.wikipedia.org/wiki/American_football_(ball)",
+    "category": "sport",
+    "imageKey": "american-football.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "soccer-ball",
+    "name": "Soccer ball",
+    "massKg": 0.43,
+    "qualifier": "Regulation size 5 ball",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Ball_(association_football)",
+    "category": "sport",
+    "imageKey": "soccer-ball.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "loaf-of-bread",
+    "name": "Loaf of bread",
+    "massKg": 0.45,
+    "qualifier": "Standard sandwich loaf",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Bread",
+    "category": "food",
+    "imageKey": "loaf-of-bread.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "hardcover-book",
+    "name": "Hardcover book",
+    "massKg": 0.5,
+    "qualifier": "Average hardcover novel",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Hardcover",
+    "category": "household",
+    "imageKey": "hardcover-book.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "barn-owl",
+    "name": "Barn owl",
+    "massKg": 0.5,
+    "qualifier": "Average adult barn owl",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Barn_owl",
+    "category": "animal",
+    "imageKey": "barn-owl.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "beer-bottle",
+    "name": "Beer bottle",
+    "massKg": 0.55,
+    "qualifier": "Standard 12 oz bottle, full",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Beer_bottle",
+    "category": "food",
+    "imageKey": "beer-bottle.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "dozen-eggs",
+    "name": "Carton of eggs",
+    "massKg": 0.68,
+    "qualifier": "Standard dozen large eggs",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Egg_as_food",
+    "category": "food",
+    "imageKey": "dozen-eggs.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "pair-of-sneakers",
+    "name": "Pair of sneakers",
+    "massKg": 0.8,
+    "qualifier": "Average adult running shoes",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Sneakers",
+    "category": "household",
+    "imageKey": "pair-of-sneakers.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "electric-kettle",
+    "name": "Electric kettle",
+    "massKg": 1.1,
+    "qualifier": "Typical 1.7 L kettle",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Electric_kettle",
+    "category": "household",
+    "imageKey": "electric-kettle.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "pineapple",
+    "name": "Pineapple",
+    "massKg": 1.2,
+    "qualifier": "Average whole pineapple",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Pineapple",
+    "category": "food",
+    "imageKey": "pineapple.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "wine-bottle",
+    "name": "Wine bottle",
+    "massKg": 1.2,
+    "qualifier": "Standard 750 ml bottle, full",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Wine_bottle",
+    "category": "food",
+    "imageKey": "wine-bottle.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "coconut",
+    "name": "Coconut",
+    "massKg": 1.3,
+    "qualifier": "Average whole coconut with husk",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Coconut",
+    "category": "food",
+    "imageKey": "coconut.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "bowling-pin",
+    "name": "Bowling pin",
+    "massKg": 1.6,
+    "qualifier": "Standard ten-pin bowling pin",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Bowling_pin",
+    "category": "sport",
+    "imageKey": "bowling-pin.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "toaster",
+    "name": "Toaster",
+    "massKg": 2.5,
+    "qualifier": "Typical two-slice toaster",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Toaster",
+    "category": "household",
+    "imageKey": "toaster.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "bag-of-rice",
+    "name": "Bag of rice",
+    "massKg": 2,
+    "qualifier": "Standard 5 lb bag of rice",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Rice",
+    "category": "food",
+    "imageKey": "bag-of-rice.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "rabbit",
+    "name": "Rabbit",
+    "massKg": 2,
+    "qualifier": "Average adult domestic rabbit",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Rabbit",
+    "category": "animal",
+    "imageKey": "rabbit.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "skateboard",
+    "name": "Skateboard",
+    "massKg": 2.3,
+    "qualifier": "Average complete skateboard",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Skateboard",
+    "category": "vehicle",
+    "imageKey": "skateboard.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "cast-iron-skillet",
+    "name": "Cast iron skillet",
+    "massKg": 3.6,
+    "qualifier": "Typical 12-inch skillet",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Cast-iron_cookware",
+    "category": "household",
+    "imageKey": "cast-iron-skillet.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "gallon-of-milk",
+    "name": "Gallon of milk",
+    "massKg": 3.9,
+    "qualifier": "Standard US gallon jug, full",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Milk",
+    "category": "food",
+    "imageKey": "gallon-of-milk.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "gaming-console",
+    "name": "Gaming console",
+    "massKg": 4.5,
+    "qualifier": "Typical home game console",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Video_game_console",
+    "category": "household",
+    "imageKey": "gaming-console.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "pumpkin",
+    "name": "Pumpkin",
+    "massKg": 4.5,
+    "qualifier": "Average carving pumpkin",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Pumpkin",
+    "category": "food",
+    "imageKey": "pumpkin.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "bald-eagle",
+    "name": "Bald eagle",
+    "massKg": 4.5,
+    "qualifier": "Average adult bald eagle",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Bald_eagle",
+    "category": "animal",
+    "imageKey": "bald-eagle.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "home-printer",
+    "name": "Home printer",
+    "massKg": 6,
+    "qualifier": "Typical inkjet all-in-one",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Inkjet_printer",
+    "category": "household",
+    "imageKey": "home-printer.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "red-fox",
+    "name": "Red fox",
+    "massKg": 7.5,
+    "qualifier": "Average adult red fox",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Red_fox",
+    "category": "animal",
+    "imageKey": "red-fox.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "vacuum-cleaner",
+    "name": "Vacuum cleaner",
+    "massKg": 8,
+    "qualifier": "Typical upright vacuum",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Vacuum_cleaner",
+    "category": "household",
+    "imageKey": "vacuum-cleaner.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "dumbbell",
+    "name": "Dumbbell",
+    "massKg": 10,
+    "qualifier": "Single 10 kg dumbbell",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Dumbbell",
+    "category": "sport",
+    "imageKey": "dumbbell.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "toolbox",
+    "name": "Toolbox",
+    "massKg": 12,
+    "qualifier": "Filled metal toolbox",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Toolbox",
+    "category": "household",
+    "imageKey": "toolbox.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "flat-screen-tv",
+    "name": "Flat-screen TV",
+    "massKg": 15,
+    "qualifier": "Typical 55-inch LED TV",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Television_set",
+    "category": "household",
+    "imageKey": "flat-screen-tv.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "office-chair",
+    "name": "Office chair",
+    "massKg": 15,
+    "qualifier": "Typical adjustable desk chair",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Office_chair",
+    "category": "household",
+    "imageKey": "office-chair.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "beaver",
+    "name": "Beaver",
+    "massKg": 18,
+    "qualifier": "Average adult North American beaver",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Beaver",
+    "category": "animal",
+    "imageKey": "beaver.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "kayak",
+    "name": "Kayak",
+    "massKg": 18,
+    "qualifier": "Average single recreational kayak",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Kayak",
+    "category": "vehicle",
+    "imageKey": "kayak.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "cinder-block",
+    "name": "Cinder block",
+    "massKg": 17,
+    "qualifier": "Standard concrete masonry unit",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Concrete_masonry_unit",
+    "category": "nature",
+    "imageKey": "cinder-block.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "canoe",
+    "name": "Canoe",
+    "massKg": 25,
+    "qualifier": "Average aluminum canoe",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Canoe",
+    "category": "vehicle",
+    "imageKey": "canoe.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "queen-mattress",
+    "name": "Queen mattress",
+    "massKg": 30,
+    "qualifier": "Typical queen-size mattress",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Mattress",
+    "category": "household",
+    "imageKey": "queen-mattress.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "window-ac-unit",
+    "name": "Window AC unit",
+    "massKg": 30,
+    "qualifier": "Typical window air conditioner",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Air_conditioning",
+    "category": "household",
+    "imageKey": "window-ac-unit.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "office-desk",
+    "name": "Office desk",
+    "massKg": 35,
+    "qualifier": "Typical office desk",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Desk",
+    "category": "household",
+    "imageKey": "office-desk.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "gray-wolf",
+    "name": "Gray wolf",
+    "massKg": 40,
+    "qualifier": "Average adult gray wolf",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Gray_wolf",
+    "category": "animal",
+    "imageKey": "gray-wolf.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "domestic-goat",
+    "name": "Domestic goat",
+    "massKg": 50,
+    "qualifier": "Average adult goat",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Goat",
+    "category": "animal",
+    "imageKey": "domestic-goat.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "adult-human",
+    "name": "Adult human",
+    "massKg": 73,
+    "qualifier": "Global average adult body mass",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Human_body_weight",
+    "category": "other",
+    "imageKey": "adult-human.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "washing-machine",
+    "name": "Washing machine",
+    "massKg": 75,
+    "qualifier": "Typical front-load washer",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Washing_machine",
+    "category": "household",
+    "imageKey": "washing-machine.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "domestic-sheep",
+    "name": "Domestic sheep",
+    "massKg": 80,
+    "qualifier": "Average adult sheep",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Sheep",
+    "category": "animal",
+    "imageKey": "domestic-sheep.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "red-kangaroo",
+    "name": "Red kangaroo",
+    "massKg": 85,
+    "qualifier": "Average adult male red kangaroo",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Red_kangaroo",
+    "category": "animal",
+    "imageKey": "red-kangaroo.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "ostrich",
+    "name": "Ostrich",
+    "massKg": 100,
+    "qualifier": "Average adult ostrich",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Ostrich",
+    "category": "animal",
+    "imageKey": "ostrich.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "domestic-pig",
+    "name": "Domestic pig",
+    "massKg": 100,
+    "qualifier": "Average market-weight pig",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Domestic_pig",
+    "category": "animal",
+    "imageKey": "domestic-pig.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "african-lion",
+    "name": "African lion",
+    "massKg": 190,
+    "qualifier": "Average adult male lion",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Lion",
+    "category": "animal",
+    "imageKey": "african-lion.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "siberian-tiger",
+    "name": "Siberian tiger",
+    "massKg": 220,
+    "qualifier": "Average adult male Siberian tiger",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Siberian_tiger",
+    "category": "animal",
+    "imageKey": "siberian-tiger.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "western-gorilla",
+    "name": "Western gorilla",
+    "massKg": 160,
+    "qualifier": "Average adult male western gorilla",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Western_gorilla",
+    "category": "animal",
+    "imageKey": "western-gorilla.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "polar-bear",
+    "name": "Polar bear",
+    "massKg": 450,
+    "qualifier": "Average adult male polar bear",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Polar_bear",
+    "category": "animal",
+    "imageKey": "polar-bear.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "moose",
+    "name": "Moose",
+    "massKg": 450,
+    "qualifier": "Average adult male moose",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Moose",
+    "category": "animal",
+    "imageKey": "moose.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "saltwater-crocodile",
+    "name": "Saltwater crocodile",
+    "massKg": 450,
+    "qualifier": "Average adult male saltwater crocodile",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Saltwater_crocodile",
+    "category": "animal",
+    "imageKey": "saltwater-crocodile.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "golf-cart",
+    "name": "Golf cart",
+    "massKg": 410,
+    "qualifier": "Typical electric golf cart",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Golf_cart",
+    "category": "vehicle",
+    "imageKey": "golf-cart.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "bottlenose-dolphin",
+    "name": "Bottlenose dolphin",
+    "massKg": 150,
+    "qualifier": "Average adult bottlenose dolphin",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Bottlenose_dolphin",
+    "category": "animal",
+    "imageKey": "bottlenose-dolphin.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "dairy-cow",
+    "name": "Dairy cow",
+    "massKg": 700,
+    "qualifier": "Average adult Holstein cow",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Cattle",
+    "category": "animal",
+    "imageKey": "dairy-cow.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "giraffe",
+    "name": "Giraffe",
+    "massKg": 1200,
+    "qualifier": "Average adult male giraffe",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Giraffe",
+    "category": "animal",
+    "imageKey": "giraffe.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "pickup-truck",
+    "name": "Pickup truck",
+    "massKg": 2500,
+    "qualifier": "Average full-size pickup curb weight",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Pickup_truck",
+    "category": "vehicle",
+    "imageKey": "pickup-truck.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "white-rhinoceros",
+    "name": "White rhinoceros",
+    "massKg": 2300,
+    "qualifier": "Average adult white rhino",
+    "sourceUrl": "https://en.wikipedia.org/wiki/White_rhinoceros",
+    "category": "animal",
+    "imageKey": "white-rhinoceros.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "forklift",
+    "name": "Forklift",
+    "massKg": 4000,
+    "qualifier": "Typical warehouse forklift",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Forklift",
+    "category": "vehicle",
+    "imageKey": "forklift.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "hippopotamus",
+    "name": "Hippopotamus",
+    "massKg": 1500,
+    "qualifier": "Average adult hippopotamus",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Hippopotamus",
+    "category": "animal",
+    "imageKey": "hippopotamus.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "semi-truck",
+    "name": "Semi truck",
+    "massKg": 8000,
+    "qualifier": "Typical loaded tractor-trailer (empty trailer)",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Semi-trailer_truck",
+    "category": "vehicle",
+    "imageKey": "semi-truck.webp",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "jet-ski",
+    "name": "Jet ski",
+    "massKg": 300,
+    "qualifier": "Typical personal watercraft",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Personal_watercraft",
+    "category": "vehicle",
+    "imageKey": "jet-ski.webp",
+    "attribution": "Wikimedia Commons"
   }
 ]

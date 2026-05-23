@@ -1,14 +1,13 @@
 import { readFileSync, writeFileSync } from "fs";
 import { join } from "path";
+import {
+  isValidPair,
+  MAX_WEIGHT_RATIO,
+  MIN_WEIGHT_RATIO,
+} from "../src/lib/pairs";
+import type { WeightleObject } from "../src/lib/types";
 
-const MIN_RATIO = 1.2;
-
-interface ObjectEntry {
-  id: string;
-  massKg: number;
-}
-
-const objects: ObjectEntry[] = JSON.parse(
+const objects: WeightleObject[] = JSON.parse(
   readFileSync(join(process.cwd(), "src/data/objects.json"), "utf-8"),
 );
 
@@ -18,9 +17,7 @@ for (let i = 0; i < objects.length; i++) {
   for (let j = i + 1; j < objects.length; j++) {
     const a = objects[i];
     const b = objects[j];
-    const lighter = Math.min(a.massKg, b.massKg);
-    const heavier = Math.max(a.massKg, b.massKg);
-    if (heavier / lighter >= MIN_RATIO) {
+    if (isValidPair(a, b)) {
       pairs.push({
         id: `${a.id}__${b.id}`,
         objectAId: a.id,
@@ -34,4 +31,6 @@ writeFileSync(
   join(process.cwd(), "src/data/pairs.json"),
   JSON.stringify(pairs, null, 2) + "\n",
 );
-console.log(`Generated ${pairs.length} pairs`);
+console.log(
+  `Generated ${pairs.length} pairs (ratio ${MIN_WEIGHT_RATIO}–${MAX_WEIGHT_RATIO})`,
+);

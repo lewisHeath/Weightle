@@ -53,7 +53,22 @@ const objects: ObjectEntry[] = JSON.parse(readFileSync(objectsPath, "utf-8"));
 /** Resolve download URL via Commons API (handles bad paths / thumb links). */
 async function resolveDownloadUrl(imageKey: string): Promise<string> {
   const fileName = fileNameFromImageKey(imageKey);
-  const title = `File:${fileName.replace(/_/g, " ")}`;
+  const titles = [
+    `File:${fileName}`,
+    `File:${fileName.replace(/_/g, " ")}`,
+  ];
+  let lastError: Error | undefined;
+  for (const title of [...new Set(titles)]) {
+    try {
+      return await fetchCommonsUrl(title);
+    } catch (e) {
+      lastError = e instanceof Error ? e : new Error(String(e));
+    }
+  }
+  throw lastError ?? new Error(`Commons file not found for ${fileName}`);
+}
+
+async function fetchCommonsUrl(title: string): Promise<string> {
   const api = new URL("https://commons.wikimedia.org/w/api.php");
   api.searchParams.set("action", "query");
   api.searchParams.set("titles", title);
@@ -114,7 +129,9 @@ async function fetchAndUpload(obj: ObjectEntry): Promise<boolean> {
     return false;
   }
 
-  const sourceUrl = await resolveDownloadUrl(obj.imageKey);
+  const sourceUrl = obj.imageKey.startsWith("https://upload.wikimedia.org/")
+    ? obj.imageKey
+    : await resolveDownloadUrl(obj.imageKey);
   const res = await fetchWithRetry(sourceUrl);
   if (!res.ok) {
     throw new Error(`Failed to fetch ${obj.id}: ${res.status} (${sourceUrl})`);
