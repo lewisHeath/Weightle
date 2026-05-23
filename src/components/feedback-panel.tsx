@@ -24,17 +24,17 @@ export function FeedbackPanel({ guess }: FeedbackPanelProps) {
       className={cn(
         "rounded-lg border p-4",
         guess.correct
-          ? "border-emerald-600/40 bg-emerald-600/10"
-          : "border-red-600/40 bg-red-600/10",
+          ? "border-success/40 bg-success-soft"
+          : "border-danger/40 bg-danger-soft",
       )}
     >
       <p
         className={cn(
           "text-lg font-semibold",
-          guess.correct ? "text-emerald-700 dark:text-emerald-300" : "text-red-700 dark:text-red-300",
+          guess.correct ? "text-success" : "text-danger",
         )}
       >
-        {guess.correct ? "Correct!" : "Not quite"}
+        {guess.correct ? "✅ Correct!" : "❌ Not quite"}
       </p>
       <p className="mt-1 text-muted-foreground">{message}</p>
       {!guess.correct && (

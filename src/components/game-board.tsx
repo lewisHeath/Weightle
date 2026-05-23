@@ -14,6 +14,7 @@ import {
   ROUNDS_PER_GAME,
 } from "@/lib/game";
 import { resolvePair, getHeavierId } from "@/lib/pairs";
+import { cn } from "@/lib/utils";
 import {
   saveDailyCompletion,
   incrementUnlimitedPlayed,
@@ -144,13 +145,19 @@ export function GameBoard({ mode }: GameBoardProps) {
           <span>
             Round {roundIndex + 1} of {ROUNDS_PER_GAME}
           </span>
-          <span className="capitalize">{mode}</span>
+          <span
+            className={cn(
+              "rounded-full border border-border bg-muted px-2.5 py-0.5 text-xs font-medium text-muted-foreground",
+            )}
+          >
+            {mode === "daily" ? "📅 Daily" : "♾️ Unlimited"}
+          </span>
         </div>
         <Progress value={progress} />
       </div>
 
       <p className="text-center text-lg font-medium">
-        Which is heavier?
+        ⚖️ Which is heavier?
       </p>
 
       <div className="flex gap-3 sm:gap-4">
@@ -182,7 +189,7 @@ export function GameBoard({ mode }: GameBoardProps) {
         <>
           <FeedbackPanel guess={lastGuess} />
           <Button size="lg" className="w-full" onClick={handleContinue}>
-            {roundIndex + 1 >= ROUNDS_PER_GAME ? "See results" : "Continue"}
+            {roundIndex + 1 >= ROUNDS_PER_GAME ? "🏆 See results" : "Continue ➡️"}
           </Button>
         </>
       )}

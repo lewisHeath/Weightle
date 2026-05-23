@@ -15,7 +15,7 @@ export function DailyCountdown() {
 
   return (
     <p className="text-sm text-muted-foreground">
-      Next daily in{" "}
+      ⏰ Next daily in{" "}
       <span className="font-medium text-foreground">
         {formatCountdown(remaining)}
       </span>

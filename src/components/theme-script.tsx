@@ -7,7 +7,7 @@ export function ThemeScript() {
     var root = document.documentElement;
     root.classList.remove('light', 'dark');
     if (t === 'light') root.classList.add('light');
-    else if (t === 'dark') root.classList.add('dark');
+    else root.classList.add('dark');
   } catch (e) {}
 })();
 `;

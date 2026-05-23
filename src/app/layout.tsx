@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     process.env.NEXT_PUBLIC_SITE_URL ?? "https://weightle.app",
   ),
   openGraph: {
-    title: "Weightle",
+    title: "Weightle ⚖️",
     description: "Which object is heavier? Play the daily puzzle.",
     siteName: "Weightle",
   },
@@ -26,16 +26,22 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" className="dark" suppressHydrationWarning>
       <head>
         <ThemeScript />
       </head>
       <body className="flex min-h-screen flex-col antialiased">
         <ThemeProvider>
-          <header className="shrink-0 border-b">
+          <header className="shrink-0 border-b border-border bg-card/80 backdrop-blur-sm">
             <div className="mx-auto flex max-w-2xl items-center justify-between px-4 py-4">
-              <Link href="/" className="text-xl font-bold tracking-tight">
-                Weightle
+              <Link
+                href="/"
+                className="flex items-center gap-2 text-xl font-bold tracking-tight"
+              >
+                <span aria-hidden className="text-2xl leading-none">
+                  ⚖️
+                </span>
+                <span>Weightle</span>
               </Link>
               <nav className="flex items-center gap-1 sm:gap-2">
                 <ThemeToggle />

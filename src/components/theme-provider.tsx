@@ -21,7 +21,7 @@ const ThemeContext = createContext<ThemeContextValue | null>(null);
 const STORAGE_KEY = "weightle-theme";
 
 function getSystemTheme(): "light" | "dark" {
-  if (typeof window === "undefined") return "light";
+  if (typeof window === "undefined") return "dark";
   return window.matchMedia("(prefers-color-scheme: dark)").matches
     ? "dark"
     : "light";
@@ -35,8 +35,8 @@ function applyTheme(theme: Theme) {
 }
 
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
-  const [theme, setThemeState] = useState<Theme>("system");
-  const [resolvedTheme, setResolvedTheme] = useState<"light" | "dark">("light");
+  const [theme, setThemeState] = useState<Theme>("dark");
+  const [resolvedTheme, setResolvedTheme] = useState<"light" | "dark">("dark");
 
   const resolve = useCallback((t: Theme) => {
     return t === "system" ? getSystemTheme() : t;
@@ -58,7 +58,7 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
     const initial: Theme =
       stored === "light" || stored === "dark" || stored === "system"
         ? stored
-        : "system";
+        : "dark";
     setThemeState(initial);
     const resolved = resolve(initial);
     setResolvedTheme(resolved);
@@ -67,9 +67,10 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
     const mq = window.matchMedia("(prefers-color-scheme: dark)");
     const onChange = () => {
       const current = localStorage.getItem(STORAGE_KEY) as Theme | null;
-      if (current === "system" || !current) {
+      if (current === "system") {
         const r = getSystemTheme();
         setResolvedTheme(r);
+        applyTheme("system");
       }
     };
     mq.addEventListener("change", onChange);

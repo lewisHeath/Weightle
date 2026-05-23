@@ -28,7 +28,7 @@ export function HomeStats() {
       <DailyCountdown />
       {stats && stats.dailyStreak > 0 && (
         <p className="text-sm text-muted-foreground">
-          Daily streak:{" "}
+          🔥 Daily streak:{" "}
           <span className="font-semibold text-foreground">
             {stats.dailyStreak}
           </span>
@@ -36,7 +36,7 @@ export function HomeStats() {
       )}
       {playedToday && todayScore !== null && (
         <p className="text-sm">
-          Today&apos;s daily:{" "}
+          Today&apos;s daily: 📅{" "}
           <span className="font-semibold">{todayScore}/5</span>
           {" · "}
           <Link href="/play/daily" className="underline text-muted-foreground">

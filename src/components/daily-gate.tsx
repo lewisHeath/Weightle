@@ -27,9 +27,9 @@ export function DailyGate() {
     return (
       <div className="space-y-6">
         <div className="text-center">
-          <h1 className="text-2xl font-bold">Daily Weightle</h1>
+          <h1 className="text-2xl font-bold">📅 Daily Weightle</h1>
           <p className="mt-2 text-muted-foreground">
-            You&apos;ve already played today. Come back after midnight UTC.
+            You&apos;ve already played today. Come back after midnight UTC ⏰
           </p>
         </div>
         <ResultsSummary
@@ -39,7 +39,7 @@ export function DailyGate() {
         />
         <div className="flex justify-center">
           <Button asChild variant="secondary">
-            <Link href="/play/unlimited">Play Unlimited</Link>
+            <Link href="/play/unlimited">♾️ Play Unlimited</Link>
           </Button>
         </div>
       </div>
@@ -49,7 +49,7 @@ export function DailyGate() {
   return (
     <div className="space-y-6">
       <div className="text-center">
-        <h1 className="text-2xl font-bold">Daily Weightle</h1>
+        <h1 className="text-2xl font-bold">📅 Daily Weightle</h1>
         <p className="mt-1 text-sm text-muted-foreground">
           {getUtcDateString()} · Same puzzle for everyone
         </p>

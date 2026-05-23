@@ -20,7 +20,7 @@ export function HowToPlay() {
       </DialogTrigger>
       <DialogContent>
         <DialogHeader>
-          <DialogTitle>How to play Weightle</DialogTitle>
+          <DialogTitle>⚖️ How to play Weightle</DialogTitle>
           <DialogDescription asChild>
             <div className="space-y-3 pt-2 text-left text-muted-foreground">
               <p>
@@ -33,11 +33,11 @@ export function HowToPlay() {
                 far off you were.
               </p>
               <p>
-                <strong className="text-foreground">Daily Weightle</strong> is
+                <strong className="text-foreground">📅 Daily Weightle</strong> is
                 the same puzzle for everyone and resets at midnight UTC.
               </p>
               <p>
-                <strong className="text-foreground">Unlimited</strong> gives you
+                <strong className="text-foreground">♾️ Unlimited</strong> gives you
                 a fresh random set every time.
               </p>
             </div>

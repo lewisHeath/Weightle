@@ -5,6 +5,7 @@ import { ObjectImage } from "@/components/object-image";
 import { Button } from "@/components/ui/button";
 import { objectsById, getImageUrl } from "@/lib/data";
 import { formatMass, formatMassDelta } from "@/lib/format-mass";
+import { getScoreEmoji } from "@/lib/category-emoji";
 import { pairs } from "@/lib/data";
 import { resolvePair } from "@/lib/pairs";
 import type { GameMode, RoundGuess } from "@/lib/types";
@@ -32,14 +33,16 @@ export function ResultsSummary({
   return (
     <div className="mx-auto flex w-full max-w-lg flex-col gap-6">
       <div className="text-center">
-        <h1 className="text-3xl font-bold">Results</h1>
+        <h1 className="text-3xl font-bold">
+          {getScoreEmoji(score, 5)} Results
+        </h1>
         <p className="mt-2 text-5xl font-bold tabular-nums">
           {score}
           <span className="text-2xl text-muted-foreground">/5</span>
         </p>
         {totalKgOff > 0 && (
           <p className="mt-2 text-muted-foreground">
-            Total weight off: {formatMassDelta(totalKgOff)}
+            📏 Total weight off: {formatMassDelta(totalKgOff)}
           </p>
         )}
       </div>
@@ -70,11 +73,11 @@ export function ResultsSummary({
                 <span
                   className={
                     guess.correct
-                      ? "font-medium text-emerald-600 dark:text-emerald-400"
-                      : "font-medium text-red-600 dark:text-red-400"
+                      ? "font-medium text-success"
+                      : "font-medium text-danger"
                   }
                 >
-                  {guess.correct ? "✓" : "✗"} Round {i + 1}
+                  {guess.correct ? "✅" : "❌"} Round {i + 1}
                 </span>
                 <p className="truncate text-muted-foreground">
                   Picked {picked.name} · Heavier: {heavier.name} (
@@ -94,16 +97,16 @@ export function ResultsSummary({
       <div className="flex flex-col gap-2">
         {onShare && (
           <Button variant="outline" onClick={onShare}>
-            {shareCopied ? "Copied!" : "Share results"}
+            {shareCopied ? "✅ Copied!" : "📋 Share results"}
           </Button>
         )}
         {mode === "daily" ? (
           <Button asChild variant="secondary">
-            <Link href="/play/unlimited">Play Unlimited</Link>
+            <Link href="/play/unlimited">♾️ Play Unlimited</Link>
           </Button>
         ) : onPlayAgain ? (
           <Button variant="secondary" onClick={onPlayAgain}>
-            Play again
+            Play again 🔁
           </Button>
         ) : (
           <Button asChild variant="secondary">
@@ -111,7 +114,7 @@ export function ResultsSummary({
           </Button>
         )}
         <Button asChild variant="ghost">
-          <Link href="/">Back home</Link>
+          <Link href="/">🏠 Back home</Link>
         </Button>
       </div>
     </div>
