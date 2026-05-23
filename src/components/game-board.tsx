@@ -27,7 +27,7 @@ interface GameBoardProps {
 
 export function GameBoard({ mode }: GameBoardProps) {
   const router = useRouter();
-  const [sessionSeed] = useState(() => crypto.randomUUID());
+  const [sessionSeed, setSessionSeed] = useState(() => crypto.randomUUID());
   const pairIds = useMemo(
     () => getPairIdsForMode(mode, sessionSeed),
     [mode, sessionSeed],
@@ -96,6 +96,15 @@ export function GameBoard({ mode }: GameBoardProps) {
     });
   }, [guesses, mode]);
 
+  const handlePlayAgain = useCallback(() => {
+    setSessionSeed(crypto.randomUUID());
+    setRoundIndex(0);
+    setGuesses([]);
+    setRevealed(false);
+    setFinished(false);
+    setShareCopied(false);
+  }, []);
+
   if (finished) {
     return (
       <ResultsSummary
@@ -104,6 +113,7 @@ export function GameBoard({ mode }: GameBoardProps) {
         guesses={guesses}
         onShare={handleShare}
         shareCopied={shareCopied}
+        onPlayAgain={mode === "unlimited" ? handlePlayAgain : undefined}
       />
     );
   }

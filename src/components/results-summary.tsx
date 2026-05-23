@@ -15,6 +15,7 @@ interface ResultsSummaryProps {
   guesses: RoundGuess[];
   onShare?: () => void;
   shareCopied?: boolean;
+  onPlayAgain?: () => void;
 }
 
 export function ResultsSummary({
@@ -23,6 +24,7 @@ export function ResultsSummary({
   guesses,
   onShare,
   shareCopied,
+  onPlayAgain,
 }: ResultsSummaryProps) {
   const score = guesses.filter((g) => g.correct).length;
   const totalKgOff = guesses.reduce((sum, g) => sum + g.kgOff, 0);
@@ -98,6 +100,10 @@ export function ResultsSummary({
         {mode === "daily" ? (
           <Button asChild variant="secondary">
             <Link href="/play/unlimited">Play Unlimited</Link>
+          </Button>
+        ) : onPlayAgain ? (
+          <Button variant="secondary" onClick={onPlayAgain}>
+            Play again
           </Button>
         ) : (
           <Button asChild variant="secondary">
