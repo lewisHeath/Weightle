@@ -160,14 +160,31 @@ Then update each entry in `src/data/objects.json`: set `"imageKey": "{id}.webp"`
 
 **SSL/TLS** → Edge Certificates → enable **Always Use HTTPS**
 
-### 3. Cache (recommended)
+### 3. Custom domain on Cloud Run (Option A — region limited)
+
+**Domain mappings are NOT available in `europe-west2` (London).** If Google shows that error, skip this and use **Cloudflare Worker** below or redeploy to **`europe-west1`** (Belgium).
+
+If your service is in a supported region: ☰ → **Cloud Run** → **Domain mappings** → [Add mapping](https://console.cloud.google.com/run/domains).
+
+### 3b. Cloudflare Worker proxy (works in europe-west2 — use this)
+
+Cloudflare cannot set `Host` via Transform Rules. Use a Worker instead:
+
+1. Cloudflare → **Workers & Pages** → **Create Worker** → name `weightle-proxy`
+2. Paste the script from [docs/CLOUDFLARE-WORKER-PROXY.md](docs/CLOUDFLARE-WORKER-PROXY.md)
+3. **Deploy** → **Settings** → **Triggers** → add routes `weightle.app/*` and `www.weightle.app/*`
+4. Keep DNS proxied (orange cloud), SSL **Full (strict)**
+
+Test https://weightle.app
+
+### 4. Cache (recommended)
 
 **Caching** → Cache Rules:
 
 - **Bypass** cache for HTML: URI Path does not start with `/_next/static`
 - Or: Cache Everything for `/_next/static/*` with long TTL
 
-### 4. Verify
+### 5. Verify
 
 - https://weightle.app loads
 - https://cdn.weightle.app/objects/apple.webp loads (after R2 upload)
@@ -183,7 +200,7 @@ These are planned refinements, not blockers for v1:
 2. **Harder pairs** — raise `MIN_WEIGHT_RATIO` in `src/lib/pairs.ts` or add difficulty tiers
 3. **Image pipeline in CI** — optional workflow to run `fetch-images.ts` on data changes
 4. **Analytics** — Cloudflare Web Analytics or Plausible (privacy-friendly)
-5. **Custom domain on Cloud Run** — optional; Cloudflare CNAME to `*.run.app` is enough
+5. **Custom domain on Cloud Run** — optional if using Transform Rule Host header fix above
 
 ---
 
@@ -200,6 +217,9 @@ These are planned refinements, not blockers for v1:
 ---
 
 ## Troubleshooting
+
+**Google 404 on weightle.app but run.app URL works**  
+Cloudflare cannot set the `Host` header via Transform Rules. Use **Cloud Run custom domain mapping** (Phase 4 step 3) or a **Cloudflare Worker** ([docs/CLOUDFLARE-WORKER-PROXY.md](docs/CLOUDFLARE-WORKER-PROXY.md)).
 
 **GitHub Action fails on Docker push**  
 Ensure Artifact Registry repo `weightle` exists in `europe-west2` and SA has `artifactregistry.writer`.
