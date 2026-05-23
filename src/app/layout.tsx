@@ -58,10 +58,13 @@ export default function RootLayout({
           <main className="mx-auto w-full max-w-2xl flex-1 px-4 py-8">
             {children}
           </main>
-          <footer className="mt-auto shrink-0 border-t py-4 text-center text-sm text-muted-foreground">
+          <footer className="mt-auto shrink-0 border-t border-border/40 py-4 text-center text-sm text-muted-foreground/80">
             <p>
               Weights are estimates with stated assumptions.{" "}
-              <Link href="/credits" className="underline hover:text-foreground">
+              <Link
+                href="/credits"
+                className="underline decoration-border/60 underline-offset-2 hover:text-foreground/80"
+              >
                 Image credits
               </Link>
             </p>
