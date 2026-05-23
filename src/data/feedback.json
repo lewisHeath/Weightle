@@ -1,0 +1,27 @@
+{
+  "correct": [
+    "Spot on! 🎯",
+    "You felt that one ⚖️",
+    "Heavy hitter! 💪",
+    "Nailed it! ✅",
+    "Your scale senses are sharp! 🧠",
+    "That's the heavy one! 🏆",
+    "Gravity agrees with you 🌍",
+    "Impressive guess! ⭐"
+  ],
+  "wrong_close": [
+    "So close! 😅",
+    "Almost had it…",
+    "Tricky one — nearly! 🤏",
+    "Off by a whisker!",
+    "You were in the ballpark ⚾"
+  ],
+  "wrong_far": [
+    "Way off! 😬",
+    "Not even close…",
+    "The scales have spoken 📉",
+    "Oof — that was a heavy miss",
+    "Back to weighing school! 📚",
+    "Gravity wins this round 🪨"
+  ]
+}

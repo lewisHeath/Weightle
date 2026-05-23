@@ -1,0 +1,302 @@
+[
+  {
+    "id": "apple",
+    "name": "Apple",
+    "massKg": 0.18,
+    "qualifier": "Average medium apple",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Apple",
+    "category": "food",
+    "imageKey": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Red_Apple.jpg/320px-Red_Apple.jpg",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "banana",
+    "name": "Banana",
+    "massKg": 0.12,
+    "qualifier": "Average medium banana",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Banana",
+    "category": "food",
+    "imageKey": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Banana-Single.jpg/320px-Banana-Single.jpg",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "watermelon",
+    "name": "Watermelon",
+    "massKg": 9,
+    "qualifier": "Average whole watermelon",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Watermelon",
+    "category": "food",
+    "imageKey": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Watermelon.jpg/320px-Watermelon.jpg",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "basketball",
+    "name": "Basketball",
+    "massKg": 0.62,
+    "qualifier": "Regulation size 7 ball",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Basketball_(ball)",
+    "category": "sport",
+    "imageKey": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Basketball.png/320px-Basketball.png",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "bowling-ball",
+    "name": "Bowling ball",
+    "massKg": 6.8,
+    "qualifier": "Standard 15 lb ball",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Bowling_ball",
+    "category": "sport",
+    "imageKey": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Bowling_ball.jpg/320px-Bowling_ball.jpg",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "house-cat",
+    "name": "House cat",
+    "massKg": 4.5,
+    "qualifier": "Average domestic adult cat",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Cat",
+    "category": "animal",
+    "imageKey": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Cat_August_2010-3.jpg/320px-Cat_August_2010-3.jpg",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "golden-retriever",
+    "name": "Golden retriever",
+    "massKg": 32,
+    "qualifier": "Average adult dog",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Golden_Retriever",
+    "category": "animal",
+    "imageKey": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Golden_Retriever_Dukedestiny01.jpg/320px-Golden_Retriever_Dukedestiny01.jpg",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "horse",
+    "name": "Horse",
+    "massKg": 500,
+    "qualifier": "Average adult riding horse",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Horse",
+    "category": "animal",
+    "imageKey": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Nokota_Horses_cropped.jpg/320px-Nokota_Horses_cropped.jpg",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "african-elephant",
+    "name": "African elephant",
+    "massKg": 6000,
+    "qualifier": "Average adult male African bush elephant",
+    "sourceUrl": "https://en.wikipedia.org/wiki/African_elephant",
+    "category": "animal",
+    "imageKey": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/African_Bush_Elephant.jpg/320px-African_Bush_Elephant.jpg",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "blue-whale",
+    "name": "Blue whale",
+    "massKg": 150000,
+    "qualifier": "Average adult",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Blue_whale",
+    "category": "animal",
+    "imageKey": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Anim1754_-_Flickr_-_NOAA_Photo_Library.jpg/320px-Anim1754_-_Flickr_-_NOAA_Photo_Library.jpg",
+    "attribution": "Wikimedia Commons / NOAA"
+  },
+  {
+    "id": "emperor-penguin",
+    "name": "Emperor penguin",
+    "massKg": 35,
+    "qualifier": "Average adult",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Emperor_penguin",
+    "category": "animal",
+    "imageKey": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Emperor_Penguin_Manchot_empereur.jpg/320px-Emperor_Penguin_Manchot_empereur.jpg",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "grizzly-bear",
+    "name": "Grizzly bear",
+    "massKg": 270,
+    "qualifier": "Average adult male",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Grizzly_bear",
+    "category": "animal",
+    "imageKey": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/GrizzlyBearJeanBeaufort.jpg/320px-GrizzlyBearJeanBeaufort.jpg",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "smartphone",
+    "name": "Smartphone",
+    "massKg": 0.2,
+    "qualifier": "Typical modern smartphone",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Smartphone",
+    "category": "household",
+    "imageKey": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Smartphone_icon.svg/320px-Smartphone_icon.svg.png",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "laptop",
+    "name": "Laptop",
+    "massKg": 1.8,
+    "qualifier": "Average 15-inch laptop",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Laptop",
+    "category": "household",
+    "imageKey": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/ASUS_Laptop.jpg/320px-ASUS_Laptop.jpg",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "microwave",
+    "name": "Microwave oven",
+    "massKg": 15,
+    "qualifier": "Typical countertop model",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Microwave_oven",
+    "category": "household",
+    "imageKey": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Microwave_oven.jpg/320px-Microwave_oven.jpg",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "piano-upright",
+    "name": "Upright piano",
+    "massKg": 220,
+    "qualifier": "Standard upright piano",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Piano",
+    "category": "household",
+    "imageKey": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Steinway_Vertical_Lifestyle.jpg/320px-Steinway_Vertical_Lifestyle.jpg",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "car-sedan",
+    "name": "Sedan car",
+    "massKg": 1400,
+    "qualifier": "Average mid-size sedan curb weight",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Sedan_(automobile)",
+    "category": "vehicle",
+    "imageKey": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/2018_Toyota_Camry_XLE.jpg/320px-2018_Toyota_Camry_XLE.jpg",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "bicycle",
+    "name": "Bicycle",
+    "massKg": 12,
+    "qualifier": "Average road bike",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Bicycle",
+    "category": "vehicle",
+    "imageKey": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Bicycle_in_alley.jpg/320px-Bicycle_in_alley.jpg",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "motorcycle",
+    "name": "Motorcycle",
+    "massKg": 230,
+    "qualifier": "Average street motorcycle",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Motorcycle",
+    "category": "vehicle",
+    "imageKey": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Motorcycle_on_road.jpg/320px-Motorcycle_on_road.jpg",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "school-bus",
+    "name": "School bus",
+    "massKg": 11000,
+    "qualifier": "Typical full-size school bus",
+    "sourceUrl": "https://en.wikipedia.org/wiki/School_bus",
+    "category": "vehicle",
+    "imageKey": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Yellow_school_bus.jpg/320px-Yellow_school_bus.jpg",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "brick",
+    "name": "Clay brick",
+    "massKg": 2.7,
+    "qualifier": "Standard modular brick",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Brick",
+    "category": "nature",
+    "imageKey": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Brick_wall.jpg/320px-Brick_wall.jpg",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "gold-bar",
+    "name": "Gold bar",
+    "massKg": 12.4,
+    "qualifier": "Standard 400 troy oz Good Delivery bar",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Gold_bar",
+    "category": "other",
+    "imageKey": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Gold_bars.jpg/320px-Gold_bars.jpg",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "elephant-seal",
+    "name": "Elephant seal",
+    "massKg": 2200,
+    "qualifier": "Average adult male southern elephant seal",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Elephant_seal",
+    "category": "animal",
+    "imageKey": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Elephant_seal.jpg/320px-Elephant_seal.jpg",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "great-white-shark",
+    "name": "Great white shark",
+    "massKg": 1100,
+    "qualifier": "Average adult",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Great_white_shark",
+    "category": "animal",
+    "imageKey": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/White_shark.jpg/320px-White_shark.jpg",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "soda-can",
+    "name": "Soda can",
+    "massKg": 0.37,
+    "qualifier": "Standard 12 fl oz aluminum can, full",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Aluminum_can",
+    "category": "food",
+    "imageKey": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Soft_drink_can.jpg/320px-Soft_drink_can.jpg",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "bag-of-flour",
+    "name": "Bag of flour",
+    "massKg": 2.27,
+    "qualifier": "Standard 5 lb bag",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Flour",
+    "category": "food",
+    "imageKey": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Flour_in_bowl.jpg/320px-Flour_in_bowl.jpg",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "grand-piano",
+    "name": "Grand piano",
+    "massKg": 480,
+    "qualifier": "Concert grand piano",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Grand_piano",
+    "category": "household",
+    "imageKey": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Steinway_grand_piano.jpg/320px-Steinway_grand_piano.jpg",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "refrigerator",
+    "name": "Refrigerator",
+    "massKg": 90,
+    "qualifier": "Typical full-size fridge",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Refrigerator",
+    "category": "household",
+    "imageKey": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Refrigerator.jpg/320px-Refrigerator.jpg",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "oak-tree",
+    "name": "Mature oak tree",
+    "massKg": 14000,
+    "qualifier": "Estimated mass of mature oak",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Oak",
+    "category": "nature",
+    "imageKey": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Quercus_robur.jpg/320px-Quercus_robur.jpg",
+    "attribution": "Wikimedia Commons"
+  },
+  {
+    "id": "hummingbird",
+    "name": "Hummingbird",
+    "massKg": 0.004,
+    "qualifier": "Average adult ruby-throated hummingbird",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Hummingbird",
+    "category": "animal",
+    "imageKey": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Ruby-throated_hummingbird.jpg/320px-Ruby-throated_hummingbird.jpg",
+    "attribution": "Wikimedia Commons"
+  }
+]
