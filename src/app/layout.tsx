@@ -20,6 +20,15 @@ export const metadata: Metadata = {
     description: "Which object is heavier? Play the daily puzzle.",
     siteName: "Weightle",
   },
+  appleWebApp: {
+    capable: true,
+    title: "Weightle",
+    statusBarStyle: "black-translucent",
+  },
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#f8fafc" },
+    { media: "(prefers-color-scheme: dark)", color: "#000000" },
+  ],
 };
 
 export default function RootLayout({

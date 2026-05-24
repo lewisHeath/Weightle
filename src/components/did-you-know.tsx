@@ -1,5 +1,5 @@
-import type { WeightleObject } from "./types";
-import { formatMass } from "./format-mass";
+import type { WeightleObject } from "@/lib/types";
+import { formatMass } from "@/lib/format-mass";
 
 export function DidYouKnow({ object }: { object: WeightleObject }) {
   return (
