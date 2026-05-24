@@ -9,6 +9,7 @@ import {
   isAdsDemoMode,
   type AdPlacement,
 } from "@/lib/ads";
+import { onAdsenseReady } from "@/lib/adsense-ready";
 import { cn } from "@/lib/utils";
 
 interface AdUnitProps {
@@ -33,22 +34,36 @@ export function AdUnit({
 
   useEffect(() => {
     pushed.current = false;
-  }, [consent, slotId]);
+  }, [showAds, personalized, placement]);
 
   useEffect(() => {
-    if (!showAds || demoMode || pushed.current) {
-      return;
-    }
-    try {
-      window.adsbygoogle = window.adsbygoogle ?? [];
-      window.adsbygoogle.push(
-        personalized ? {} : { requestNonPersonalizedAds: true },
-      );
-      pushed.current = true;
-    } catch {
-      // Ad blockers or script not ready
-    }
-  }, [showAds, demoMode, personalized]);
+    if (!showAds || demoMode) return;
+
+    const pushAd = () => {
+      if (pushed.current) return;
+      try {
+        window.adsbygoogle = window.adsbygoogle ?? [];
+        window.adsbygoogle.push(
+          personalized ? {} : { requestNonPersonalizedAds: true },
+        );
+        pushed.current = true;
+      } catch {
+        // Script not ready yet
+      }
+    };
+
+    pushAd();
+    const unsubscribe = onAdsenseReady(pushAd);
+    const retry = window.setInterval(() => {
+      pushAd();
+      if (pushed.current) window.clearInterval(retry);
+    }, 500);
+
+    return () => {
+      unsubscribe();
+      window.clearInterval(retry);
+    };
+  }, [showAds, demoMode, personalized, placement]);
 
   if (!showAds) {
     return null;
@@ -84,8 +99,8 @@ export function AdUnit({
         style={{ display: "block", textAlign: "center" }}
         data-ad-client={clientId}
         data-ad-slot={slotId}
-        data-ad-format={sidebar ? "vertical" : "auto"}
-        data-full-width-responsive={sidebar ? "false" : "true"}
+        data-ad-format="auto"
+        data-full-width-responsive="true"
         {...(!personalized ? { "data-npa": "1" } : {})}
       />
     </div>
