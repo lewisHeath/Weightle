@@ -21,8 +21,7 @@ import {
 } from "@/lib/storage";
 import { getUtcDateString } from "@/lib/utc-date";
 import type { GameMode, RoundGuess } from "@/lib/types";
-import { useSound } from "@/components/sound-provider";
-import { unlockAudio } from "@/lib/sounds";
+import { useGameFeedback } from "@/hooks/use-game-feedback";
 import { useGameKeyboard } from "@/hooks/use-game-keyboard";
 
 interface GameBoardProps {
@@ -31,7 +30,7 @@ interface GameBoardProps {
 
 export function GameBoard({ mode }: GameBoardProps) {
   const router = useRouter();
-  const { play } = useSound();
+  const { feedback } = useGameFeedback();
   const [sessionSeed, setSessionSeed] = useState(() => crypto.randomUUID());
   const pairIds = useMemo(
     () => getPairIdsForMode(mode, sessionSeed),
@@ -57,19 +56,18 @@ export function GameBoard({ mode }: GameBoardProps) {
       if (revealed || !currentPairId) return;
       const guess = buildGuess(currentPairId, pickedId, roundIndex);
       if (!guess) return;
-      unlockAudio();
-      play("pick");
-      play(guess.correct ? "correct" : "wrong");
+      feedback("pick");
+      feedback(guess.correct ? "correct" : "wrong");
       setGuesses((g) => [...g, guess]);
       setRevealed(true);
     },
-    [revealed, currentPairId, roundIndex, play],
+    [revealed, currentPairId, roundIndex, feedback],
   );
 
   const handleContinue = useCallback(() => {
     if (roundIndex + 1 >= ROUNDS_PER_GAME) {
       const score = guesses.filter((g) => g.correct).length;
-      play("complete", { score, total: ROUNDS_PER_GAME });
+      feedback("complete", { score, total: ROUNDS_PER_GAME });
       setGuesses((finalGuesses) => {
         const score = finalGuesses.filter((g) => g.correct).length;
         const totalKgOff = finalGuesses.reduce((s, g) => s + g.kgOff, 0);
@@ -89,10 +87,10 @@ export function GameBoard({ mode }: GameBoardProps) {
       setFinished(true);
       return;
     }
-    play("continue");
+    feedback("continue");
     setRoundIndex((r) => r + 1);
     setRevealed(false);
-  }, [roundIndex, mode, guesses, play]);
+  }, [roundIndex, mode, guesses, feedback]);
 
   const handleShare = useCallback(() => {
     const score = guesses.filter((g) => g.correct).length;
@@ -102,21 +100,21 @@ export function GameBoard({ mode }: GameBoardProps) {
       "https://weightle.app",
     ];
     void navigator.clipboard.writeText(lines.join("\n")).then(() => {
-      play("share");
+      feedback("share");
       setShareCopied(true);
       setTimeout(() => setShareCopied(false), 2000);
     });
-  }, [guesses, mode, play]);
+  }, [guesses, mode, feedback]);
 
   const handlePlayAgain = useCallback(() => {
-    play("playAgain");
+    feedback("playAgain");
     setSessionSeed(crypto.randomUUID());
     setRoundIndex(0);
     setGuesses([]);
     setRevealed(false);
     setFinished(false);
     setShareCopied(false);
-  }, [play]);
+  }, [feedback]);
 
   useGameKeyboard({
     enabled: !finished && !!resolved,
