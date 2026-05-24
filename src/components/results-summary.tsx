@@ -9,6 +9,7 @@ import { getScoreEmoji } from "@/lib/category-emoji";
 import { pairs } from "@/lib/data";
 import { resolvePair } from "@/lib/pairs";
 import type { GameMode, RoundGuess } from "@/lib/types";
+import { PerfectCelebration } from "@/components/perfect-celebration";
 
 interface ResultsSummaryProps {
   mode: GameMode;
@@ -29,14 +30,22 @@ export function ResultsSummary({
 }: ResultsSummaryProps) {
   const score = guesses.filter((g) => g.correct).length;
   const totalKgOff = guesses.reduce((sum, g) => sum + g.kgOff, 0);
+  const perfect = score === 5;
 
   return (
     <div className="mx-auto flex w-full max-w-lg flex-col gap-6">
+      <PerfectCelebration active={perfect} />
       <div className="text-center">
         <h1 className="text-3xl font-bold">
-          {getScoreEmoji(score, 5)} Results
+          {perfect ? "🏆 Perfect!" : `${getScoreEmoji(score, 5)} Results`}
         </h1>
-        <p className="mt-2 text-5xl font-bold tabular-nums">
+        <p
+          className={
+            perfect
+              ? "mt-2 text-5xl font-bold tabular-nums text-success"
+              : "mt-2 text-5xl font-bold tabular-nums"
+          }
+        >
           {score}
           <span className="text-2xl text-muted-foreground">/5</span>
         </p>
