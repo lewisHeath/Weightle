@@ -14,6 +14,12 @@ steps:
     args:
       - build
       - --progress=plain
+      - --build-arg
+      - NEXT_PUBLIC_ADSENSE_CLIENT_ID=${_ADSENSE_CLIENT_ID}
+      - --build-arg
+      - NEXT_PUBLIC_ADSENSE_SLOT_SIDEBAR_LEFT=${_ADSENSE_SLOT_LEFT}
+      - --build-arg
+      - NEXT_PUBLIC_ADSENSE_SLOT_SIDEBAR_RIGHT=${_ADSENSE_SLOT_RIGHT}
       - -t
       - ${_REGION}-docker.pkg.dev/$PROJECT_ID/${_AR_REPO}/${_IMAGE_NAME}:$SHORT_SHA
       - .
@@ -39,6 +45,9 @@ substitutions:
   _REGION: europe-west2
   _AR_REPO: weightle
   _IMAGE_NAME: app
+  _ADSENSE_CLIENT_ID: ca-pub-4645143064426091
+  _ADSENSE_SLOT_LEFT: "4179362274"
+  _ADSENSE_SLOT_RIGHT: "8406759196"
 
 options:
   logging: CLOUD_LOGGING_ONLY

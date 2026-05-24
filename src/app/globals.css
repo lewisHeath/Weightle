@@ -272,6 +272,20 @@ html.light body {
   animation: card-shake 0.35s ease-in-out;
 }
 
+.ad-unit {
+  min-height: 50px;
+}
+
+.ad-layout {
+  min-height: 0;
+}
+
+@media (max-width: 1279px) {
+  .ad-rail {
+    display: none;
+  }
+}
+
 /* Play routes: compact mobile chrome, hide footer */
 html.play-mode footer {
   display: none;
@@ -295,5 +309,10 @@ html.play-mode footer {
     flex: 1;
     padding-top: 0.5rem;
     padding-bottom: calc(0.5rem + env(safe-area-inset-bottom));
+  }
+
+  html.play-mode .ad-layout {
+    min-height: 0;
+    flex: 1;
   }
 }
