@@ -23,6 +23,7 @@ import { getUtcDateString } from "@/lib/utc-date";
 import type { GameMode, RoundGuess } from "@/lib/types";
 import { useSound } from "@/components/sound-provider";
 import { unlockAudio } from "@/lib/sounds";
+import { useGameKeyboard } from "@/hooks/use-game-keyboard";
 
 interface GameBoardProps {
   mode: GameMode;
@@ -117,6 +118,18 @@ export function GameBoard({ mode }: GameBoardProps) {
     setShareCopied(false);
   }, [play]);
 
+  useGameKeyboard({
+    enabled: !finished && !!resolved,
+    revealed,
+    onPickLeft: () => {
+      if (resolved) handlePick(resolved.a.id);
+    },
+    onPickRight: () => {
+      if (resolved) handlePick(resolved.b.id);
+    },
+    onContinue: handleContinue,
+  });
+
   if (finished) {
     return (
       <ResultsSummary
@@ -195,6 +208,33 @@ export function GameBoard({ mode }: GameBoardProps) {
           }
         />
       </div>
+
+      <p className="text-center text-xs text-muted-foreground">
+        <kbd className="rounded border border-border bg-muted px-1.5 py-0.5 font-mono text-[10px]">
+          1
+        </kbd>{" "}
+        /{" "}
+        <kbd className="rounded border border-border bg-muted px-1.5 py-0.5 font-mono text-[10px]">
+          2
+        </kbd>{" "}
+        or{" "}
+        <kbd className="rounded border border-border bg-muted px-1.5 py-0.5 font-mono text-[10px]">
+          ←
+        </kbd>{" "}
+        <kbd className="rounded border border-border bg-muted px-1.5 py-0.5 font-mono text-[10px]">
+          →
+        </kbd>{" "}
+        to pick
+        {revealed && (
+          <>
+            {" · "}
+            <kbd className="rounded border border-border bg-muted px-1.5 py-0.5 font-mono text-[10px]">
+              Enter
+            </kbd>{" "}
+            to continue
+          </>
+        )}
+      </p>
 
       {revealed && lastGuess && (
         <>
