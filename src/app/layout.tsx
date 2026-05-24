@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { HowToPlay } from "@/components/how-to-play";
+import { SoundProvider } from "@/components/sound-provider";
+import { SoundToggle } from "@/components/sound-toggle";
 import { ThemeProvider } from "@/components/theme-provider";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { ThemeScript } from "@/components/theme-script";
@@ -32,6 +34,7 @@ export default function RootLayout({
       </head>
       <body className="flex min-h-screen flex-col antialiased">
         <ThemeProvider>
+          <SoundProvider>
           <header className="shrink-0 border-b border-border bg-card/80 backdrop-blur-sm">
             <div className="mx-auto flex max-w-2xl items-center justify-between px-4 py-4">
               <Link
@@ -44,6 +47,7 @@ export default function RootLayout({
                 <span>Weightle</span>
               </Link>
               <nav className="flex items-center gap-1 sm:gap-2">
+                <SoundToggle />
                 <ThemeToggle />
                 <HowToPlay />
                 <Link
@@ -69,6 +73,7 @@ export default function RootLayout({
               </Link>
             </p>
           </footer>
+          </SoundProvider>
         </ThemeProvider>
       </body>
     </html>

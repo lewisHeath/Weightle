@@ -21,6 +21,8 @@ import {
 } from "@/lib/storage";
 import { getUtcDateString } from "@/lib/utc-date";
 import type { GameMode, RoundGuess } from "@/lib/types";
+import { useSound } from "@/components/sound-provider";
+import { unlockAudio } from "@/lib/sounds";
 
 interface GameBoardProps {
   mode: GameMode;
@@ -28,6 +30,7 @@ interface GameBoardProps {
 
 export function GameBoard({ mode }: GameBoardProps) {
   const router = useRouter();
+  const { play } = useSound();
   const [sessionSeed, setSessionSeed] = useState(() => crypto.randomUUID());
   const pairIds = useMemo(
     () => getPairIdsForMode(mode, sessionSeed),
@@ -53,14 +56,19 @@ export function GameBoard({ mode }: GameBoardProps) {
       if (revealed || !currentPairId) return;
       const guess = buildGuess(currentPairId, pickedId, roundIndex);
       if (!guess) return;
+      unlockAudio();
+      play("pick");
+      play(guess.correct ? "correct" : "wrong");
       setGuesses((g) => [...g, guess]);
       setRevealed(true);
     },
-    [revealed, currentPairId, roundIndex],
+    [revealed, currentPairId, roundIndex, play],
   );
 
   const handleContinue = useCallback(() => {
     if (roundIndex + 1 >= ROUNDS_PER_GAME) {
+      const score = guesses.filter((g) => g.correct).length;
+      play("complete", { score, total: ROUNDS_PER_GAME });
       setGuesses((finalGuesses) => {
         const score = finalGuesses.filter((g) => g.correct).length;
         const totalKgOff = finalGuesses.reduce((s, g) => s + g.kgOff, 0);
@@ -80,9 +88,10 @@ export function GameBoard({ mode }: GameBoardProps) {
       setFinished(true);
       return;
     }
+    play("continue");
     setRoundIndex((r) => r + 1);
     setRevealed(false);
-  }, [roundIndex, mode]);
+  }, [roundIndex, mode, guesses, play]);
 
   const handleShare = useCallback(() => {
     const score = guesses.filter((g) => g.correct).length;
@@ -92,19 +101,21 @@ export function GameBoard({ mode }: GameBoardProps) {
       "https://weightle.app",
     ];
     void navigator.clipboard.writeText(lines.join("\n")).then(() => {
+      play("share");
       setShareCopied(true);
       setTimeout(() => setShareCopied(false), 2000);
     });
-  }, [guesses, mode]);
+  }, [guesses, mode, play]);
 
   const handlePlayAgain = useCallback(() => {
+    play("playAgain");
     setSessionSeed(crypto.randomUUID());
     setRoundIndex(0);
     setGuesses([]);
     setRevealed(false);
     setFinished(false);
     setShareCopied(false);
-  }, []);
+  }, [play]);
 
   if (finished) {
     return (
