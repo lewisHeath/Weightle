@@ -44,6 +44,11 @@ export function HomeStats() {
           </Link>
         </p>
       )}
+      {stats && (stats.dailyHistory.length > 0 || stats.unlimitedGamesPlayed > 0) && (
+        <Link href="/stats" className="text-sm text-muted-foreground underline">
+          View all stats
+        </Link>
+      )}
     </div>
   );
 }

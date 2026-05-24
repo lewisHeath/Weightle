@@ -51,10 +51,10 @@ export default function RootLayout({
                 <ThemeToggle />
                 <HowToPlay />
                 <Link
-                  href="/credits"
+                  href="/stats"
                   className="text-sm text-muted-foreground hover:text-foreground"
                 >
-                  Credits
+                  Stats
                 </Link>
               </nav>
             </div>
