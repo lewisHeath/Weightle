@@ -5,6 +5,7 @@ import { getCorrectMessage, getWrongMessage } from "@/lib/feedback";
 import { objectsById } from "@/lib/data";
 import { cn } from "@/lib/utils";
 import type { RoundGuess } from "@/lib/types";
+import { DidYouKnow } from "@/components/did-you-know";
 
 interface FeedbackPanelProps {
   guess: RoundGuess;
@@ -22,7 +23,7 @@ export function FeedbackPanel({ guess }: FeedbackPanelProps) {
   return (
     <div
       className={cn(
-        "rounded-lg border p-4",
+        "animate-feedback-in rounded-lg border p-4",
         guess.correct
           ? "border-success/40 bg-success-soft"
           : "border-danger/40 bg-danger-soft",
@@ -52,6 +53,7 @@ export function FeedbackPanel({ guess }: FeedbackPanelProps) {
           {heavier.name} at {formatMass(heavier.massKg)} beats the other.
         </p>
       )}
+      <DidYouKnow object={heavier} />
     </div>
   );
 }
