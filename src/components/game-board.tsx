@@ -14,7 +14,7 @@ import {
   ROUNDS_PER_GAME,
 } from "@/lib/game";
 import { resolvePair, getHeavierId } from "@/lib/pairs";
-import { cn } from "@/lib/utils";
+import { cn, randomSessionId } from "@/lib/utils";
 import {
   saveDailyCompletion,
   incrementUnlimitedPlayed,
@@ -31,7 +31,7 @@ interface GameBoardProps {
 export function GameBoard({ mode }: GameBoardProps) {
   const router = useRouter();
   const { feedback } = useGameFeedback();
-  const [sessionSeed, setSessionSeed] = useState(() => crypto.randomUUID());
+  const [sessionSeed, setSessionSeed] = useState(() => randomSessionId());
   const pairIds = useMemo(
     () => getPairIdsForMode(mode, sessionSeed),
     [mode, sessionSeed],
@@ -108,7 +108,7 @@ export function GameBoard({ mode }: GameBoardProps) {
 
   const handlePlayAgain = useCallback(() => {
     feedback("playAgain");
-    setSessionSeed(crypto.randomUUID());
+    setSessionSeed(randomSessionId());
     setRoundIndex(0);
     setGuesses([]);
     setRevealed(false);
@@ -159,11 +159,14 @@ export function GameBoard({ mode }: GameBoardProps) {
   const { a, b } = resolved;
   const heavierId = getHeavierId(a, b);
   const progress = ((roundIndex + (revealed ? 1 : 0)) / ROUNDS_PER_GAME) * 100;
+  const continueLabel =
+    roundIndex + 1 >= ROUNDS_PER_GAME ? "🏆 See results" : "Continue ➡️";
 
   return (
-    <div className="mx-auto flex w-full max-w-2xl flex-col gap-6">
-      <div className="space-y-2">
-        <div className="flex items-center justify-between text-sm text-muted-foreground">
+    <div className="flex min-h-0 flex-1 flex-col justify-center sm:justify-start">
+      <div className="mx-auto flex w-full max-w-2xl flex-col gap-3 sm:gap-6">
+      <div className="shrink-0 space-y-1.5 sm:space-y-2">
+        <div className="flex items-center justify-between text-xs text-muted-foreground sm:text-sm">
           <span>
             Round {roundIndex + 1} of {ROUNDS_PER_GAME}
           </span>
@@ -178,11 +181,11 @@ export function GameBoard({ mode }: GameBoardProps) {
         <Progress value={progress} />
       </div>
 
-      <p className="text-center text-lg font-medium">
+      <p className="shrink-0 text-center text-base font-medium sm:text-lg">
         ⚖️ Which is heavier?
       </p>
 
-      <div className="flex gap-3 sm:gap-4">
+      <div className="flex min-h-0 shrink-0 gap-2 sm:gap-4">
         <ObjectCard
           object={a}
           onPick={() => handlePick(a.id)}
@@ -207,7 +210,7 @@ export function GameBoard({ mode }: GameBoardProps) {
         />
       </div>
 
-      <p className="text-center text-xs text-muted-foreground">
+      <p className="hidden shrink-0 text-center text-xs text-muted-foreground sm:block">
         <kbd className="rounded border border-border bg-muted px-1.5 py-0.5 font-mono text-[10px]">
           1
         </kbd>{" "}
@@ -235,13 +238,20 @@ export function GameBoard({ mode }: GameBoardProps) {
       </p>
 
       {revealed && lastGuess && (
-        <>
-          <FeedbackPanel guess={lastGuess} />
+        <div
+          className={cn(
+            "z-10 space-y-3",
+            "sticky bottom-0 -mx-4 border-t border-border bg-background/95 p-3 pb-[max(0.75rem,env(safe-area-inset-bottom))] backdrop-blur-sm",
+            "sm:static sm:mx-0 sm:border-0 sm:bg-transparent sm:p-0 sm:backdrop-blur-none",
+          )}
+        >
+          <FeedbackPanel guess={lastGuess} compact />
           <Button size="lg" className="w-full" onClick={handleContinue}>
-            {roundIndex + 1 >= ROUNDS_PER_GAME ? "🏆 See results" : "Continue ➡️"}
+            {continueLabel}
           </Button>
-        </>
+        </div>
       )}
+      </div>
     </div>
   );
 }

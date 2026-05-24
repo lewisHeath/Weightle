@@ -41,19 +41,16 @@ export default function RootLayout({
       <head>
         <ThemeScript />
       </head>
-      <body className="flex min-h-screen flex-col antialiased">
+      <body className="flex min-h-dvh flex-col antialiased">
         <ThemeProvider>
           <SoundProvider>
           <header className="shrink-0 border-b border-border bg-card/80 backdrop-blur-sm">
             <div className="mx-auto flex max-w-2xl items-center justify-between px-4 py-4">
-              <Link
-                href="/"
-                className="flex items-center gap-2 text-xl font-bold tracking-tight"
-              >
+              <Link href="/" className="brand-link flex items-center gap-2 text-xl font-bold tracking-tight">
                 <span aria-hidden className="text-2xl leading-none">
                   ⚖️
                 </span>
-                <span>Weightle</span>
+                <span className="brand-name">Weightle</span>
               </Link>
               <nav className="flex items-center gap-1 sm:gap-2">
                 <SoundToggle />

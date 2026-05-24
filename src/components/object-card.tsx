@@ -34,7 +34,7 @@ export function ObjectCard({
       onClick={onPick}
       disabled={disabled}
       className={cn(
-        "group flex flex-1 flex-col overflow-hidden rounded-xl border-2 bg-card text-left transition-all",
+        "group flex min-h-0 flex-1 flex-col overflow-hidden rounded-xl border-2 bg-card text-left transition-all",
         "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring",
         !disabled && !reveal &&
           "cursor-pointer hover:border-primary hover:shadow-md active:scale-[0.98]",
@@ -45,18 +45,20 @@ export function ObjectCard({
         disabled && !reveal && "cursor-not-allowed",
       )}
     >
-      <div className="relative aspect-square w-full bg-muted">
+      <div className="relative h-[clamp(88px,26dvh,150px)] w-full shrink-0 bg-muted sm:aspect-square sm:h-auto">
         <ObjectImage src={src} alt={object.name} />
       </div>
-      <div className="flex flex-col gap-1 p-4">
-        <span className="text-lg font-semibold leading-tight">{object.name}</span>
-        <span className="text-xs text-muted-foreground">
+      <div className="flex flex-col gap-0.5 p-2 sm:gap-1 sm:p-4">
+        <span className="text-sm font-semibold leading-tight sm:text-lg">
+          {object.name}
+        </span>
+        <span className="hidden text-xs text-muted-foreground sm:inline">
           {getCategoryEmoji(object.category)} {object.category}
         </span>
         {reveal && (
-          <span className="animate-mass-reveal mt-1 text-sm font-medium text-foreground">
+          <span className="animate-mass-reveal mt-0.5 text-xs font-medium text-foreground sm:mt-1 sm:text-sm">
             {formatMass(object.massKg)}
-            <span className="ml-1 font-normal text-muted-foreground">
+            <span className="ml-1 hidden font-normal text-muted-foreground sm:inline">
               · {object.qualifier}
             </span>
           </span>

@@ -14,7 +14,7 @@ export function HowToPlay() {
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <Button variant="ghost" size="sm">
+        <Button variant="ghost" size="sm" data-hide-play-mobile>
           How to play
         </Button>
       </DialogTrigger>

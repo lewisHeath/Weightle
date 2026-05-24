@@ -178,8 +178,34 @@ html.light body {
   animation: text-shimmer 5s ease-in-out infinite;
 }
 
+.brand-link .brand-name {
+  display: inline-block;
+  line-height: 1.25;
+  padding-bottom: 0.12em;
+}
+
+.brand-link:hover .brand-name {
+  background-image: linear-gradient(
+    110deg,
+    var(--foreground) 0%,
+    var(--foreground) 38%,
+    var(--daily) 46%,
+    var(--unlimited) 50%,
+    var(--success) 54%,
+    var(--foreground) 62%,
+    var(--foreground) 100%
+  );
+  background-size: 220% 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  animation: text-shimmer 5s ease-in-out infinite;
+}
+
 @media (prefers-reduced-motion: reduce) {
-  .text-shimmer {
+  .text-shimmer,
+  .brand-link:hover .brand-name {
     animation: none;
     background-image: none;
     background-clip: unset;
@@ -244,4 +270,30 @@ html.light body {
 
 .animate-card-shake {
   animation: card-shake 0.35s ease-in-out;
+}
+
+/* Play routes: compact mobile chrome, hide footer */
+html.play-mode footer {
+  display: none;
+}
+
+@media (max-width: 639px) {
+  html.play-mode header > div {
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+  }
+
+  html.play-mode header nav a[href="/stats"],
+  html.play-mode [data-hide-play-mobile] {
+    display: none;
+  }
+
+  html.play-mode main {
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+    flex: 1;
+    padding-top: 0.5rem;
+    padding-bottom: calc(0.5rem + env(safe-area-inset-bottom));
+  }
 }

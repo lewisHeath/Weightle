@@ -1,6 +1,8 @@
 "use client";
 
 import Link from "next/link";
+import { useCallback } from "react";
+import { useRouter } from "next/navigation";
 import { ObjectImage } from "@/components/object-image";
 import { Button } from "@/components/ui/button";
 import { objectsById, getImageUrl } from "@/lib/data";
@@ -8,8 +10,10 @@ import { formatMass, formatMassDelta } from "@/lib/format-mass";
 import { getScoreEmoji } from "@/lib/category-emoji";
 import { pairs } from "@/lib/data";
 import { resolvePair } from "@/lib/pairs";
+import { cn } from "@/lib/utils";
 import type { GameMode, RoundGuess } from "@/lib/types";
 import { PerfectCelebration } from "@/components/perfect-celebration";
+import { useResultsKeyboard } from "@/hooks/use-results-keyboard";
 
 interface ResultsSummaryProps {
   mode: GameMode;
@@ -28,35 +32,79 @@ export function ResultsSummary({
   shareCopied,
   onPlayAgain,
 }: ResultsSummaryProps) {
+  const router = useRouter();
   const score = guesses.filter((g) => g.correct).length;
   const totalKgOff = guesses.reduce((sum, g) => sum + g.kgOff, 0);
   const perfect = score === 5;
 
+  const handlePlayAgain = useCallback(() => {
+    if (onPlayAgain) {
+      onPlayAgain();
+      return;
+    }
+    router.push("/play/unlimited");
+  }, [onPlayAgain, router]);
+
+  useResultsKeyboard({ onPrimary: handlePlayAgain });
+
   return (
-    <div className="mx-auto flex w-full max-w-lg flex-col gap-6">
+    <div className="mx-auto flex w-full max-w-lg flex-col gap-3 sm:gap-6">
       <PerfectCelebration active={perfect} />
       <div className="text-center">
-        <h1 className="text-3xl font-bold">
+        <h1 className="text-xl font-bold sm:text-3xl">
           {perfect ? "🏆 Perfect!" : `${getScoreEmoji(score, 5)} Results`}
         </h1>
         <p
-          className={
-            perfect
-              ? "mt-2 text-5xl font-bold tabular-nums text-success"
-              : "mt-2 text-5xl font-bold tabular-nums"
-          }
+          className={cn(
+            "mt-1 text-3xl font-bold tabular-nums sm:mt-2 sm:text-5xl",
+            perfect && "text-success",
+          )}
         >
           {score}
-          <span className="text-2xl text-muted-foreground">/5</span>
+          <span className="text-lg text-muted-foreground sm:text-2xl">/5</span>
         </p>
         {totalKgOff > 0 && (
-          <p className="mt-2 text-muted-foreground">
-            📏 Total weight off: {formatMassDelta(totalKgOff)}
+          <p className="mt-1 text-xs text-muted-foreground sm:mt-2 sm:text-base">
+            📏 {formatMassDelta(totalKgOff)} off
           </p>
         )}
       </div>
 
-      <ul className="space-y-3">
+      {/* Mobile: compact one-line rounds */}
+      <ul className="space-y-1 sm:hidden">
+        {guesses.map((guess, i) => {
+          const picked = objectsById.get(guess.pickedId);
+          if (!picked) return null;
+
+          return (
+            <li
+              key={i}
+              className={cn(
+                "flex items-center gap-2 rounded-md border px-2 py-1.5 text-xs",
+                guess.correct
+                  ? "border-success/30 bg-success-soft/50"
+                  : "border-danger/30 bg-danger-soft/50",
+              )}
+            >
+              <span className="shrink-0 font-medium">
+                {guess.correct ? "✅" : "❌"} {i + 1}
+              </span>
+              <span className="min-w-0 truncate text-muted-foreground">
+                {picked.name}
+                {!guess.correct && (
+                  <span className="text-foreground/80">
+                    {" "}
+                    · {formatMassDelta(guess.kgOff)}
+                  </span>
+                )}
+              </span>
+            </li>
+          );
+        })}
+      </ul>
+
+      {/* Desktop: full round cards */}
+      <ul className="hidden space-y-3 sm:block">
         {guesses.map((guess, i) => {
           const pair = pairs.find((p) => p.id === pairIds[i]);
           if (!pair) return null;
@@ -103,28 +151,61 @@ export function ResultsSummary({
         })}
       </ul>
 
-      <div className="flex flex-col gap-2">
-        {onShare && (
-          <Button variant="outline" onClick={onShare}>
-            {shareCopied ? "✅ Copied!" : "📋 Share results"}
-          </Button>
-        )}
-        {mode === "daily" ? (
-          <Button asChild variant="secondary">
-            <Link href="/play/unlimited">♾️ Play Unlimited</Link>
-          </Button>
-        ) : onPlayAgain ? (
-          <Button variant="secondary" onClick={onPlayAgain}>
-            Play again 🔁
-          </Button>
-        ) : (
-          <Button asChild variant="secondary">
-            <Link href="/play/unlimited">Play again</Link>
-          </Button>
-        )}
-        <Button asChild variant="ghost">
+      <div className="flex flex-col gap-1.5 sm:gap-2">
+        <div className="grid grid-cols-2 gap-1.5 sm:flex sm:flex-col sm:gap-2">
+          {onShare && (
+            <Button
+              variant="outline"
+              size="sm"
+              className="sm:h-10 sm:px-4 sm:text-sm"
+              onClick={onShare}
+            >
+              {shareCopied ? "✅ Copied!" : "📋 Share"}
+            </Button>
+          )}
+          {mode === "daily" ? (
+            <Button
+              asChild
+              variant="secondary"
+              size="sm"
+              className={cn("sm:h-10 sm:px-4 sm:text-sm", !onShare && "col-span-2")}
+            >
+              <Link href="/play/unlimited">♾️ Play Unlimited</Link>
+            </Button>
+          ) : onPlayAgain ? (
+            <Button
+              variant="secondary"
+              size="sm"
+              className={cn("sm:h-10 sm:px-4 sm:text-sm", !onShare && "col-span-2")}
+              onClick={handlePlayAgain}
+            >
+              Play again 🔁
+            </Button>
+          ) : (
+            <Button
+              asChild
+              variant="secondary"
+              size="sm"
+              className={cn("sm:h-10 sm:px-4 sm:text-sm", !onShare && "col-span-2")}
+            >
+              <Link href="/play/unlimited">Play again</Link>
+            </Button>
+          )}
+        </div>
+        <Button
+          asChild
+          variant="ghost"
+          size="sm"
+          className="hidden sm:inline-flex sm:h-10 sm:px-4 sm:text-sm"
+        >
           <Link href="/">🏠 Back home</Link>
         </Button>
+        <p className="hidden text-center text-xs text-muted-foreground sm:block">
+          <kbd className="rounded border border-border bg-muted px-1.5 py-0.5 font-mono text-[10px]">
+            Enter
+          </kbd>{" "}
+          to play again
+        </p>
       </div>
     </div>
   );
