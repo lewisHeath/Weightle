@@ -5,7 +5,6 @@ import { getCorrectMessage, getWrongMessage } from "@/lib/feedback";
 import { objectsById } from "@/lib/data";
 import { cn } from "@/lib/utils";
 import type { RoundGuess } from "@/lib/types";
-import { DidYouKnow } from "@/components/did-you-know";
 
 interface FeedbackPanelProps {
   guess: RoundGuess;
@@ -53,7 +52,6 @@ export function FeedbackPanel({ guess }: FeedbackPanelProps) {
           {heavier.name} at {formatMass(heavier.massKg)} beats the other.
         </p>
       )}
-      <DidYouKnow object={heavier} />
     </div>
   );
 }

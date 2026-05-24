@@ -5,7 +5,8 @@ export type SoundName =
   | "continue"
   | "complete"
   | "share"
-  | "playAgain";
+  | "playAgain"
+  | "menu";
 
 export type CompleteOptions = {
   score?: number;
@@ -107,6 +108,9 @@ export function playSound(
     case "playAgain":
       playNote(ctx, 420, t, 0.08, 0.08, "sine", 320);
       playNote(ctx, 520, t + 0.1, 0.1, 0.09, "sine", 640);
+      break;
+    case "menu":
+      playNote(ctx, 660, t, 0.06, 0.09, "sine", 780);
       break;
   }
 }

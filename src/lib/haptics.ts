@@ -8,6 +8,7 @@ const PATTERNS: Record<SoundName, number | number[]> = {
   complete: [10, 20, 10, 20, 30],
   share: 8,
   playAgain: [10, 20, 10],
+  menu: 5,
 };
 
 export function vibrateFor(name: SoundName, options: CompleteOptions = {}): void {

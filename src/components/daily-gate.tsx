@@ -1,10 +1,8 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Link from "next/link";
 import { GameBoard } from "@/components/game-board";
 import { ResultsSummary } from "@/components/results-summary";
-import { Button } from "@/components/ui/button";
 import { loadDailyCompletion } from "@/lib/storage";
 import { getUtcDateString } from "@/lib/utc-date";
 import { getDailyPairIds } from "@/lib/daily";
@@ -37,11 +35,6 @@ export function DailyGate() {
           pairIds={getDailyPairIds(completion.date)}
           guesses={completion.guesses}
         />
-        <div className="flex justify-center">
-          <Button asChild variant="secondary">
-            <Link href="/play/unlimited">♾️ Play Unlimited</Link>
-          </Button>
-        </div>
       </div>
     );
   }
