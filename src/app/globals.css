@@ -187,4 +187,61 @@ html.light body {
     -webkit-text-fill-color: unset;
     color: var(--foreground);
   }
+
+  .animate-feedback-in,
+  .animate-mass-reveal,
+  .animate-card-shake {
+    animation: none !important;
+  }
+}
+
+@keyframes feedback-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes mass-reveal {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes card-shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateX(-3px);
+  }
+
+  75% {
+    transform: translateX(3px);
+  }
+}
+
+.animate-feedback-in {
+  animation: feedback-in 0.22s ease-out both;
+}
+
+.animate-mass-reveal {
+  animation: mass-reveal 0.28s ease-out both;
+}
+
+.animate-card-shake {
+  animation: card-shake 0.35s ease-in-out;
 }

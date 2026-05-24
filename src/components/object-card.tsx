@@ -41,6 +41,7 @@ export function ObjectCard({
         reveal && isHeavier && "border-success bg-success-soft",
         reveal && isWrongPick && "border-danger bg-danger-soft",
         reveal && isPicked && !isWrongPick && isHeavier && "border-success",
+        reveal && isWrongPick && "animate-card-shake",
         disabled && !reveal && "cursor-not-allowed",
       )}
     >
@@ -53,7 +54,7 @@ export function ObjectCard({
           {getCategoryEmoji(object.category)} {object.category}
         </span>
         {reveal && (
-          <span className="mt-1 text-sm font-medium text-foreground">
+          <span className="animate-mass-reveal mt-1 text-sm font-medium text-foreground">
             {formatMass(object.massKg)}
             <span className="ml-1 font-normal text-muted-foreground">
               · {object.qualifier}
