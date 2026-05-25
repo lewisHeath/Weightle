@@ -164,7 +164,7 @@ export function GameBoard({ mode }: GameBoardProps) {
 
   return (
     <div className="flex min-h-0 flex-1 flex-col justify-center sm:justify-start">
-      <div className="mx-auto flex w-full max-w-2xl -translate-y-8 flex-col gap-3 sm:translate-y-0 sm:gap-6">
+      <div className="mx-auto -mt-8 flex w-full max-w-2xl flex-col gap-3 sm:mt-0 sm:gap-6">
         <div className="shrink-0 space-y-1.5 sm:space-y-2">
           <div className="flex items-center justify-between text-xs text-muted-foreground sm:text-sm">
             <span>
@@ -239,11 +239,11 @@ export function GameBoard({ mode }: GameBoardProps) {
 
         {revealed && lastGuess && (
           <>
-            <div className="fixed inset-0 z-10 bg-black/70 backdrop-blur-[2px] sm:hidden" />
+            <div className="fixed inset-x-0 bottom-0 top-16 z-10 bg-background/65 backdrop-blur-[2px] dark:bg-black/70 sm:hidden" />
             <div
               className={cn(
                 "z-20 space-y-2 sm:space-y-3",
-                "fixed left-1/2 top-[calc(50dvh-8rem)] w-[min(22rem,calc(100vw-2rem))] -translate-x-1/2 -translate-y-1/2 rounded-2xl border border-border bg-background/95 p-3 shadow-2xl backdrop-blur-sm",
+                "fixed left-1/2 top-[calc(50dvh+3.5rem)] w-[min(22rem,calc(100vw-2rem))] -translate-x-1/2 -translate-y-1/2 rounded-2xl border border-border bg-background/95 p-3 shadow-2xl backdrop-blur-sm",
                 "sm:static sm:inset-auto sm:w-full sm:translate-x-0 sm:translate-y-0 sm:rounded-none sm:border-0 sm:bg-transparent sm:p-0 sm:shadow-none sm:backdrop-blur-none",
               )}
             >
