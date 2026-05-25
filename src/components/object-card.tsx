@@ -34,7 +34,7 @@ export function ObjectCard({
       onClick={onPick}
       disabled={disabled}
       className={cn(
-        "group flex min-h-0 flex-1 flex-col overflow-hidden rounded-xl border-2 bg-card text-left transition-all",
+        "group flex min-h-0 flex-1 flex-row overflow-hidden rounded-xl border-2 bg-card text-left transition-all sm:flex-col",
         "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring",
         !disabled && !reveal &&
           "cursor-pointer hover:border-primary hover:shadow-md active:scale-[0.98]",
@@ -45,11 +45,13 @@ export function ObjectCard({
         disabled && !reveal && "cursor-not-allowed",
       )}
     >
-      <div className="relative h-[clamp(88px,26dvh,150px)] w-full shrink-0 bg-muted sm:aspect-square sm:h-auto">
+      <div
+        className="relative aspect-square w-36 shrink-0 bg-muted sm:h-auto sm:w-full"
+      >
         <ObjectImage src={src} alt={object.name} />
       </div>
-      <div className="flex flex-col gap-0.5 p-2 sm:gap-1 sm:p-4">
-        <span className="text-sm font-semibold leading-tight sm:text-lg">
+      <div className="flex min-w-0 flex-1 flex-col justify-center gap-0.5 p-3 sm:justify-start sm:gap-1 sm:p-4">
+        <span className="text-base font-semibold leading-tight sm:text-lg">
           {object.name}
         </span>
         <span className="hidden text-xs text-muted-foreground sm:inline">

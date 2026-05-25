@@ -107,7 +107,9 @@ export function AdLayoutShell({ children }: { children: React.ReactNode }) {
         onToggle={() => toggle("left")}
         showToggle={showAds}
       />
-      <div className="mx-auto min-w-0 w-full max-w-2xl flex-1">{children}</div>
+      <div className="mx-auto flex min-h-0 w-full max-w-2xl flex-1 flex-col">
+        {children}
+      </div>
       <SideRail
         placement="sidebar-right"
         side="right"

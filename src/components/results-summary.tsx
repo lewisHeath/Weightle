@@ -48,7 +48,7 @@ export function ResultsSummary({
   useResultsKeyboard({ onPrimary: handlePlayAgain });
 
   return (
-    <div className="mx-auto flex w-full max-w-lg flex-col gap-3 sm:gap-6">
+    <div className="mx-auto flex min-h-[calc(100dvh-8rem)] w-full max-w-lg flex-col justify-between gap-4 py-6 sm:min-h-0 sm:justify-start sm:gap-6 sm:py-0">
       <PerfectCelebration active={perfect} />
       <div className="text-center">
         <h1 className="text-xl font-bold sm:text-3xl">
@@ -56,7 +56,7 @@ export function ResultsSummary({
         </h1>
         <p
           className={cn(
-            "mt-1 text-3xl font-bold tabular-nums sm:mt-2 sm:text-5xl",
+            "mt-1 text-4xl font-bold tabular-nums sm:mt-2 sm:text-5xl",
             perfect && "text-success",
           )}
         >
@@ -71,33 +71,48 @@ export function ResultsSummary({
       </div>
 
       {/* Mobile: compact one-line rounds */}
-      <ul className="space-y-1 sm:hidden">
+      <ul className="space-y-2 sm:hidden">
         {guesses.map((guess, i) => {
+          const pair = pairs.find((p) => p.id === pairIds[i]);
+          if (!pair) return null;
+          const resolved = resolvePair(pair, objectsById);
+          if (!resolved) return null;
           const picked = objectsById.get(guess.pickedId);
-          if (!picked) return null;
+          const heavier = objectsById.get(guess.heavierId);
+          if (!picked || !heavier) return null;
 
           return (
             <li
               key={i}
               className={cn(
-                "flex items-center gap-2 rounded-md border px-2 py-1.5 text-xs",
+                "flex items-center gap-2 rounded-lg border bg-card px-2.5 py-2 text-xs",
                 guess.correct
                   ? "border-success/30 bg-success-soft/50"
                   : "border-danger/30 bg-danger-soft/50",
               )}
             >
-              <span className="shrink-0 font-medium">
-                {guess.correct ? "✅" : "❌"} {i + 1}
-              </span>
-              <span className="min-w-0 truncate text-muted-foreground">
-                {picked.name}
-                {!guess.correct && (
-                  <span className="text-foreground/80">
-                    {" "}
-                    · {formatMassDelta(guess.kgOff)}
-                  </span>
-                )}
-              </span>
+              <div className="relative h-9 w-9 shrink-0 overflow-hidden rounded-md bg-muted">
+                <ObjectImage
+                  src={getImageUrl(picked)}
+                  alt={picked.name}
+                  sizes="36px"
+                />
+              </div>
+              <div className="min-w-0 flex-1">
+                <p
+                  className={cn(
+                    "font-medium",
+                    guess.correct ? "text-success" : "text-danger",
+                  )}
+                >
+                  {guess.correct ? "✅" : "❌"} Round {i + 1}: picked{" "}
+                  <span className="text-foreground">{picked.name}</span>
+                </p>
+                <p className="truncate text-[11px] text-muted-foreground">
+                  Heavier: {heavier.name} ({formatMass(heavier.massKg)})
+                  {!guess.correct && ` · Off by ${formatMassDelta(guess.kgOff)}`}
+                </p>
+              </div>
             </li>
           );
         })}

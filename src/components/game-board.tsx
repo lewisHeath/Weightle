@@ -164,93 +164,96 @@ export function GameBoard({ mode }: GameBoardProps) {
 
   return (
     <div className="flex min-h-0 flex-1 flex-col justify-center sm:justify-start">
-      <div className="mx-auto flex w-full max-w-2xl flex-col gap-3 sm:gap-6">
-      <div className="shrink-0 space-y-1.5 sm:space-y-2">
-        <div className="flex items-center justify-between text-xs text-muted-foreground sm:text-sm">
-          <span>
-            Round {roundIndex + 1} of {ROUNDS_PER_GAME}
-          </span>
-          <span
-            className={cn(
-              "rounded-full border border-border bg-muted px-2.5 py-0.5 text-xs font-medium text-muted-foreground",
-            )}
-          >
-            {mode === "daily" ? "📅 Daily" : "♾️ Unlimited"}
-          </span>
+      <div className="mx-auto flex w-full max-w-2xl -translate-y-8 flex-col gap-3 sm:translate-y-0 sm:gap-6">
+        <div className="shrink-0 space-y-1.5 sm:space-y-2">
+          <div className="flex items-center justify-between text-xs text-muted-foreground sm:text-sm">
+            <span>
+              Round {roundIndex + 1} of {ROUNDS_PER_GAME}
+            </span>
+            <span
+              className={cn(
+                "rounded-full border border-border bg-muted px-2.5 py-0.5 text-xs font-medium text-muted-foreground",
+              )}
+            >
+              {mode === "daily" ? "📅 Daily" : "♾️ Unlimited"}
+            </span>
+          </div>
+          <Progress value={progress} />
         </div>
-        <Progress value={progress} />
-      </div>
 
-      <p className="shrink-0 text-center text-base font-medium sm:text-lg">
-        ⚖️ Which is heavier?
-      </p>
+        <p className="shrink-0 text-center text-base font-medium sm:text-lg">
+          ⚖️ Which is heavier?
+        </p>
 
-      <div className="flex min-h-0 shrink-0 gap-2 sm:gap-4">
-        <ObjectCard
-          object={a}
-          onPick={() => handlePick(a.id)}
-          disabled={revealed}
-          reveal={revealed}
-          isHeavier={a.id === heavierId}
-          isPicked={lastGuess?.pickedId === a.id}
-          isWrongPick={
-            revealed && lastGuess?.pickedId === a.id && !lastGuess.correct
-          }
-        />
-        <ObjectCard
-          object={b}
-          onPick={() => handlePick(b.id)}
-          disabled={revealed}
-          reveal={revealed}
-          isHeavier={b.id === heavierId}
-          isPicked={lastGuess?.pickedId === b.id}
-          isWrongPick={
-            revealed && lastGuess?.pickedId === b.id && !lastGuess.correct
-          }
-        />
-      </div>
+        <div className="flex min-h-0 shrink-0 flex-col gap-2 sm:flex-row sm:gap-4">
+          <ObjectCard
+            object={a}
+            onPick={() => handlePick(a.id)}
+            disabled={revealed}
+            reveal={revealed}
+            isHeavier={a.id === heavierId}
+            isPicked={lastGuess?.pickedId === a.id}
+            isWrongPick={
+              revealed && lastGuess?.pickedId === a.id && !lastGuess.correct
+            }
+          />
+          <ObjectCard
+            object={b}
+            onPick={() => handlePick(b.id)}
+            disabled={revealed}
+            reveal={revealed}
+            isHeavier={b.id === heavierId}
+            isPicked={lastGuess?.pickedId === b.id}
+            isWrongPick={
+              revealed && lastGuess?.pickedId === b.id && !lastGuess.correct
+            }
+          />
+        </div>
 
-      <p className="hidden shrink-0 text-center text-xs text-muted-foreground sm:block">
-        <kbd className="rounded border border-border bg-muted px-1.5 py-0.5 font-mono text-[10px]">
-          1
-        </kbd>{" "}
-        /{" "}
-        <kbd className="rounded border border-border bg-muted px-1.5 py-0.5 font-mono text-[10px]">
-          2
-        </kbd>{" "}
-        or{" "}
-        <kbd className="rounded border border-border bg-muted px-1.5 py-0.5 font-mono text-[10px]">
-          ←
-        </kbd>{" "}
-        <kbd className="rounded border border-border bg-muted px-1.5 py-0.5 font-mono text-[10px]">
-          →
-        </kbd>{" "}
-        to pick
-        {revealed && (
+        <p className="hidden shrink-0 text-center text-xs text-muted-foreground sm:block">
+          <kbd className="rounded border border-border bg-muted px-1.5 py-0.5 font-mono text-[10px]">
+            1
+          </kbd>{" "}
+          /{" "}
+          <kbd className="rounded border border-border bg-muted px-1.5 py-0.5 font-mono text-[10px]">
+            2
+          </kbd>{" "}
+          or{" "}
+          <kbd className="rounded border border-border bg-muted px-1.5 py-0.5 font-mono text-[10px]">
+            ←
+          </kbd>{" "}
+          <kbd className="rounded border border-border bg-muted px-1.5 py-0.5 font-mono text-[10px]">
+            →
+          </kbd>{" "}
+          to pick
+          {revealed && (
+            <>
+              {" · "}
+              <kbd className="rounded border border-border bg-muted px-1.5 py-0.5 font-mono text-[10px]">
+                Enter
+              </kbd>{" "}
+              to continue
+            </>
+          )}
+        </p>
+
+        {revealed && lastGuess && (
           <>
-            {" · "}
-            <kbd className="rounded border border-border bg-muted px-1.5 py-0.5 font-mono text-[10px]">
-              Enter
-            </kbd>{" "}
-            to continue
+            <div className="fixed inset-0 z-10 bg-black/70 backdrop-blur-[2px] sm:hidden" />
+            <div
+              className={cn(
+                "z-20 space-y-2 sm:space-y-3",
+                "fixed left-1/2 top-[calc(50dvh-8rem)] w-[min(22rem,calc(100vw-2rem))] -translate-x-1/2 -translate-y-1/2 rounded-2xl border border-border bg-background/95 p-3 shadow-2xl backdrop-blur-sm",
+                "sm:static sm:inset-auto sm:w-full sm:translate-x-0 sm:translate-y-0 sm:rounded-none sm:border-0 sm:bg-transparent sm:p-0 sm:shadow-none sm:backdrop-blur-none",
+              )}
+            >
+              <FeedbackPanel guess={lastGuess} compact />
+              <Button size="lg" className="w-full" onClick={handleContinue}>
+                {continueLabel}
+              </Button>
+            </div>
           </>
         )}
-      </p>
-
-      {revealed && lastGuess && (
-        <div
-          className={cn(
-            "z-10 space-y-3",
-            "sticky bottom-0 -mx-4 border-t border-border bg-background/95 p-3 pb-[max(0.75rem,env(safe-area-inset-bottom))] backdrop-blur-sm",
-            "sm:static sm:mx-0 sm:border-0 sm:bg-transparent sm:p-0 sm:backdrop-blur-none",
-          )}
-        >
-          <FeedbackPanel guess={lastGuess} compact />
-          <Button size="lg" className="w-full" onClick={handleContinue}>
-            {continueLabel}
-          </Button>
-        </div>
-      )}
       </div>
     </div>
   );
