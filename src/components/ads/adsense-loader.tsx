@@ -1,16 +1,20 @@
 "use client";
 
 import Script from "next/script";
+import { useAdFree } from "@/components/ad-free-provider";
 import { useConsent } from "@/components/consent-provider";
 import { hasAdConsentChoice } from "@/lib/consent";
 import { getAdsenseClientId } from "@/lib/ads";
 import { markAdsenseReady } from "@/lib/adsense-ready";
 
 export function AdsenseLoader() {
+  const { adFree } = useAdFree();
   const { consent, adsEnabled } = useConsent();
   const clientId = getAdsenseClientId();
 
-  if (!adsEnabled || !clientId || !hasAdConsentChoice(consent)) return null;
+  if (adFree || !adsEnabled || !clientId || !hasAdConsentChoice(consent)) {
+    return null;
+  }
 
   return (
     <Script

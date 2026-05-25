@@ -2,6 +2,7 @@
 
 import { useEffect, useRef } from "react";
 import { useConsent } from "@/components/consent-provider";
+import { useAdFree } from "@/components/ad-free-provider";
 import { hasAdConsentChoice, wantsPersonalizedAds } from "@/lib/consent";
 import {
   getAdsenseClientId,
@@ -24,13 +25,15 @@ export function AdUnit({
   className,
 }: AdUnitProps) {
   const { consent, adsEnabled } = useConsent();
+  const { adFree } = useAdFree();
   const pushed = useRef(false);
   const clientId = getAdsenseClientId();
   const slotId = getAdSlot(placement);
   const demoMode = isAdsDemoMode();
   const sidebar = variant === "sidebar";
   const personalized = wantsPersonalizedAds(consent);
-  const showAds = adsEnabled && hasAdConsentChoice(consent) && clientId && slotId;
+  const showAds =
+    !adFree && adsEnabled && hasAdConsentChoice(consent) && clientId && slotId;
 
   useEffect(() => {
     pushed.current = false;

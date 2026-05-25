@@ -2,12 +2,14 @@
 
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import { useAdFree } from "@/components/ad-free-provider";
 import { useConsent } from "@/components/consent-provider";
 
 export function CookieConsentBanner() {
+  const { adFree } = useAdFree();
   const { showBanner, acceptConsent, rejectConsent, adsEnabled } = useConsent();
 
-  if (!adsEnabled || !showBanner) return null;
+  if (adFree || !adsEnabled || !showBanner) return null;
 
   return (
     <div

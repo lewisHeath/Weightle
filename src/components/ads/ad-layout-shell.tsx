@@ -3,6 +3,7 @@
 import { useCallback, useEffect, useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { AdUnit } from "@/components/ads/ad-unit";
+import { useAdFree } from "@/components/ad-free-provider";
 import { useConsent } from "@/components/consent-provider";
 import { hasAdConsentChoice } from "@/lib/consent";
 import {
@@ -64,6 +65,7 @@ function SideRail({
 }
 
 export function AdLayoutShell({ children }: { children: React.ReactNode }) {
+  const { adFree } = useAdFree();
   const { consent, adsEnabled } = useConsent();
   const [collapsed, setCollapsed] = useState({ left: false, right: false });
   const [railsVisible, setRailsVisible] = useState(false);
@@ -81,7 +83,7 @@ export function AdLayoutShell({ children }: { children: React.ReactNode }) {
   }, []);
 
   const showAds =
-    adsEnabled && hasAdConsentChoice(consent) && railsVisible;
+    !adFree && adsEnabled && hasAdConsentChoice(consent) && railsVisible;
 
   const toggle = useCallback((side: AdRailSide) => {
     setCollapsed((prev) => {

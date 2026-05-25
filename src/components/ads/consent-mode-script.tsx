@@ -1,7 +1,9 @@
+import { isAdFreeFromCookies } from "@/lib/ad-free-server";
 import { isAdsConfigured } from "@/lib/ads";
 
-export function ConsentModeScript() {
+export async function ConsentModeScript() {
   if (!isAdsConfigured()) return null;
+  if (await isAdFreeFromCookies()) return null;
 
   return (
     <script

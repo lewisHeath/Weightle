@@ -3,6 +3,7 @@ import Link from "next/link";
 import { AdLayoutShell } from "@/components/ads/ad-layout-shell";
 import { AdsenseLoader } from "@/components/ads/adsense-loader";
 import { ConsentModeScript } from "@/components/ads/consent-mode-script";
+import { AdFreeProvider } from "@/components/ad-free-provider";
 import { ConsentProvider } from "@/components/consent-provider";
 import { CookieConsentBanner } from "@/components/cookie-consent-banner";
 import { HowToPlay } from "@/components/how-to-play";
@@ -51,7 +52,8 @@ export default function RootLayout({
       <body className="flex min-h-dvh flex-col antialiased">
         <ThemeProvider>
           <SoundProvider>
-            <ConsentProvider>
+            <AdFreeProvider>
+              <ConsentProvider>
               <AdsenseLoader />
               <header className="shrink-0 border-b border-border bg-card/80 backdrop-blur-sm">
                 <div className="mx-auto flex max-w-2xl items-center justify-between px-4 py-4">
@@ -83,6 +85,7 @@ export default function RootLayout({
               <SiteFooter />
               <CookieConsentBanner />
             </ConsentProvider>
+            </AdFreeProvider>
           </SoundProvider>
         </ThemeProvider>
       </body>

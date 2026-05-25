@@ -97,6 +97,23 @@ export default function PrivacyPage() {
       </section>
 
       <section className="space-y-2">
+        <h2 className="text-lg font-semibold text-foreground">Remove ads</h2>
+        <p>
+          You can pay a one-time fee to hide all ads on this device. Payments
+          are processed by{" "}
+          <a
+            href="https://stripe.com/privacy"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-primary underline"
+          >
+            Stripe
+          </a>
+          . We do not store your card details.
+        </p>
+      </section>
+
+      <section className="space-y-2">
         <h2 className="text-lg font-semibold text-foreground">Your rights</h2>
         <p>
           Depending on where you live (e.g. UK, EU, California), you may have
