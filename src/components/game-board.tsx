@@ -29,10 +29,10 @@ interface GameBoardProps {
 
 function RoundProgress({
   currentRound,
-  completedRounds,
+  guesses,
 }: {
   currentRound: number;
-  completedRounds: number;
+  guesses: RoundGuess[];
 }) {
   return (
     <div
@@ -41,7 +41,7 @@ function RoundProgress({
     >
       {Array.from({ length: ROUNDS_PER_GAME }, (_, index) => {
         const round = index + 1;
-        const complete = round <= completedRounds;
+        const guess = guesses[index];
         const current = round === currentRound;
 
         return (
@@ -49,8 +49,9 @@ function RoundProgress({
             key={round}
             className={cn(
               "h-2.5 rounded-full border border-border/70 bg-muted transition-all",
-              complete && "border-success/50 bg-success",
-              !complete && current && "border-daily/70 bg-daily/25",
+              guess?.correct && "border-success/50 bg-success",
+              guess && !guess.correct && "border-danger/50 bg-danger",
+              !guess && current && "border-daily/70 bg-daily/25",
             )}
           />
         );
@@ -189,7 +190,6 @@ export function GameBoard({ mode }: GameBoardProps) {
 
   const { a, b } = resolved;
   const heavierId = getHeavierId(a, b);
-  const completedRounds = roundIndex + (revealed ? 1 : 0);
   const continueLabel =
     roundIndex + 1 >= ROUNDS_PER_GAME ? "🏆 See results" : "Continue ➡️";
 
@@ -218,7 +218,7 @@ export function GameBoard({ mode }: GameBoardProps) {
           </div>
           <RoundProgress
             currentRound={roundIndex + 1}
-            completedRounds={completedRounds}
+            guesses={guesses}
           />
         </div>
 
