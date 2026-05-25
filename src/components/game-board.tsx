@@ -126,9 +126,10 @@ export function GameBoard({ mode }: GameBoardProps) {
 
   const handleShare = useCallback(() => {
     const score = guesses.filter((g) => g.correct).length;
+    const label = mode === "daily" ? getUtcDateString() : "Unlimited";
+    const grid = guesses.map((g) => (g.correct ? "🟩" : "🟥")).join("");
     const lines = [
-      `Weightle ${mode === "daily" ? getUtcDateString() : "Unlimited"} ${score}/5`,
-      ...guesses.map((g) => (g.correct ? "🟩" : "🟥")),
+      `Weightle ${label}: ${score}/${ROUNDS_PER_GAME} ${grid}`,
       "https://weightle.app",
     ];
     void navigator.clipboard.writeText(lines.join("\n")).then(() => {
