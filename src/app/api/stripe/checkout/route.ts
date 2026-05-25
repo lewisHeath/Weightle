@@ -3,7 +3,17 @@ import { isAdFreeFromCookies } from "@/lib/ad-free-server";
 import { getSiteUrl } from "@/lib/site-url";
 import { getStripe, isStripeConfigured } from "@/lib/stripe";
 
-export async function GET() {
+function getCheckoutOrigin(request: Request): string {
+  const url = new URL(request.url);
+  const host = request.headers.get("x-forwarded-host") ?? request.headers.get("host");
+  const proto =
+    request.headers.get("x-forwarded-proto") ?? url.protocol.replace(":", "");
+
+  if (host) return `${proto}://${host}`;
+  return getSiteUrl();
+}
+
+export async function GET(request: Request) {
   if (!isStripeConfigured()) {
     return NextResponse.json(
       { error: "Payments are not configured" },
@@ -11,12 +21,13 @@ export async function GET() {
     );
   }
 
+  const siteUrl = getCheckoutOrigin(request);
+
   if (await isAdFreeFromCookies()) {
-    return NextResponse.redirect(new URL("/?adfree=already", getSiteUrl()));
+    return NextResponse.redirect(new URL("/?adfree=already", siteUrl));
   }
 
   const stripe = getStripe();
-  const siteUrl = getSiteUrl();
   const priceId = process.env.STRIPE_PRICE_ID!.trim();
 
   const session = await stripe.checkout.sessions.create({

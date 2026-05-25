@@ -39,7 +39,7 @@ steps:
       - --region=${_REGION}
       - --platform=managed
       - --allow-unauthenticated
-      - --set-env-vars=NEXT_PUBLIC_SITE_URL=https://weightle.app,NEXT_PUBLIC_IMAGE_BASE_URL=https://cdn.weightle.app
+      - --update-env-vars=NEXT_PUBLIC_SITE_URL=https://weightle.app,NEXT_PUBLIC_IMAGE_BASE_URL=https://cdn.weightle.app
 
 substitutions:
   _REGION: europe-west2
