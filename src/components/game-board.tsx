@@ -6,7 +6,6 @@ import { ObjectCard } from "@/components/object-card";
 import { FeedbackPanel } from "@/components/feedback-panel";
 import { ResultsSummary } from "@/components/results-summary";
 import { Button } from "@/components/ui/button";
-import { Progress } from "@/components/ui/progress";
 import { pairs, objectsById } from "@/lib/data";
 import {
   buildGuess,
@@ -26,6 +25,38 @@ import { useGameKeyboard } from "@/hooks/use-game-keyboard";
 
 interface GameBoardProps {
   mode: GameMode;
+}
+
+function RoundProgress({
+  currentRound,
+  completedRounds,
+}: {
+  currentRound: number;
+  completedRounds: number;
+}) {
+  return (
+    <div
+      className="grid grid-cols-5 gap-2"
+      aria-label={`Round ${currentRound} of ${ROUNDS_PER_GAME}`}
+    >
+      {Array.from({ length: ROUNDS_PER_GAME }, (_, index) => {
+        const round = index + 1;
+        const complete = round <= completedRounds;
+        const current = round === currentRound;
+
+        return (
+          <span
+            key={round}
+            className={cn(
+              "h-2.5 rounded-full border border-border/70 bg-muted transition-all",
+              complete && "border-success/50 bg-success",
+              !complete && current && "border-daily/70 bg-daily/25",
+            )}
+          />
+        );
+      })}
+    </div>
+  );
 }
 
 export function GameBoard({ mode }: GameBoardProps) {
@@ -158,30 +189,40 @@ export function GameBoard({ mode }: GameBoardProps) {
 
   const { a, b } = resolved;
   const heavierId = getHeavierId(a, b);
-  const progress = ((roundIndex + (revealed ? 1 : 0)) / ROUNDS_PER_GAME) * 100;
+  const completedRounds = roundIndex + (revealed ? 1 : 0);
   const continueLabel =
     roundIndex + 1 >= ROUNDS_PER_GAME ? "🏆 See results" : "Continue ➡️";
 
   return (
     <div className="flex min-h-0 flex-1 flex-col justify-center sm:justify-start">
-      <div className="mx-auto -mt-8 flex w-full max-w-2xl flex-col gap-3 sm:mt-0 sm:gap-6">
-        <div className="shrink-0 space-y-1.5 sm:space-y-2">
+      <div className="mx-auto -mt-8 flex w-full max-w-2xl flex-col gap-3 sm:mt-0 sm:gap-5">
+        <div className="shrink-0 space-y-2 rounded-2xl border border-border/70 bg-card/65 p-3 shadow-sm shadow-black/10 sm:p-4">
           <div className="flex items-center justify-between text-xs text-muted-foreground sm:text-sm">
             <span>
-              Round {roundIndex + 1} of {ROUNDS_PER_GAME}
+              Round{" "}
+              <span className="font-semibold text-foreground">
+                {roundIndex + 1}
+              </span>{" "}
+              of {ROUNDS_PER_GAME}
             </span>
             <span
               className={cn(
-                "rounded-full border border-border bg-muted px-2.5 py-0.5 text-xs font-medium text-muted-foreground",
+                "rounded-full border px-2.5 py-0.5 text-xs font-semibold",
+                mode === "daily"
+                  ? "border-daily/40 bg-daily-soft text-daily"
+                  : "border-unlimited/40 bg-unlimited-soft text-unlimited",
               )}
             >
               {mode === "daily" ? "📅 Daily" : "♾️ Unlimited"}
             </span>
           </div>
-          <Progress value={progress} />
+          <RoundProgress
+            currentRound={roundIndex + 1}
+            completedRounds={completedRounds}
+          />
         </div>
 
-        <p className="shrink-0 text-center text-base font-medium sm:text-lg">
+        <p className="shrink-0 text-center text-base font-bold sm:text-lg">
           ⚖️ Which is heavier?
         </p>
 
@@ -211,25 +252,25 @@ export function GameBoard({ mode }: GameBoardProps) {
         </div>
 
         <p className="hidden shrink-0 text-center text-xs text-muted-foreground sm:block">
-          <kbd className="rounded border border-border bg-muted px-1.5 py-0.5 font-mono text-[10px]">
+          <kbd className="rounded-md border border-border/80 bg-muted px-1.5 py-0.5 font-mono text-[10px] shadow-sm shadow-black/10">
             1
           </kbd>{" "}
           /{" "}
-          <kbd className="rounded border border-border bg-muted px-1.5 py-0.5 font-mono text-[10px]">
+          <kbd className="rounded-md border border-border/80 bg-muted px-1.5 py-0.5 font-mono text-[10px] shadow-sm shadow-black/10">
             2
           </kbd>{" "}
           or{" "}
-          <kbd className="rounded border border-border bg-muted px-1.5 py-0.5 font-mono text-[10px]">
+          <kbd className="rounded-md border border-border/80 bg-muted px-1.5 py-0.5 font-mono text-[10px] shadow-sm shadow-black/10">
             ←
           </kbd>{" "}
-          <kbd className="rounded border border-border bg-muted px-1.5 py-0.5 font-mono text-[10px]">
+          <kbd className="rounded-md border border-border/80 bg-muted px-1.5 py-0.5 font-mono text-[10px] shadow-sm shadow-black/10">
             →
           </kbd>{" "}
           to pick
           {revealed && (
             <>
               {" · "}
-              <kbd className="rounded border border-border bg-muted px-1.5 py-0.5 font-mono text-[10px]">
+              <kbd className="rounded-md border border-border/80 bg-muted px-1.5 py-0.5 font-mono text-[10px] shadow-sm shadow-black/10">
                 Enter
               </kbd>{" "}
               to continue
@@ -243,7 +284,7 @@ export function GameBoard({ mode }: GameBoardProps) {
             <div
               className={cn(
                 "z-20 space-y-2 sm:space-y-3",
-                "fixed left-1/2 top-[calc(50dvh+3.5rem)] w-[min(22rem,calc(100vw-2rem))] -translate-x-1/2 -translate-y-1/2 rounded-2xl border border-border bg-background/95 p-3 shadow-2xl backdrop-blur-sm",
+                "fixed left-1/2 top-[calc(50dvh+3.5rem)] w-[min(22rem,calc(100vw-2rem))] -translate-x-1/2 -translate-y-1/2 rounded-2xl border border-border/70 bg-background/95 p-3 shadow-2xl shadow-black/40 backdrop-blur-sm",
                 "sm:static sm:inset-auto sm:w-full sm:translate-x-0 sm:translate-y-0 sm:rounded-none sm:border-0 sm:bg-transparent sm:p-0 sm:shadow-none sm:backdrop-blur-none",
               )}
             >

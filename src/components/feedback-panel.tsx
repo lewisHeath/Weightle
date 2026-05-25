@@ -23,11 +23,11 @@ export function FeedbackPanel({ guess, compact }: FeedbackPanelProps) {
   return (
     <div
       className={cn(
-        "animate-feedback-in rounded-lg border",
+        "animate-feedback-in rounded-2xl border shadow-sm shadow-black/10",
         compact ? "p-3" : "p-4",
         guess.correct
-          ? "border-success/40 bg-success-soft"
-          : "border-danger/40 bg-danger-soft",
+          ? "border-success/45 bg-success-soft/85"
+          : "border-danger/45 bg-danger-soft/85",
       )}
     >
       <p

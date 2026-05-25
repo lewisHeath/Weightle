@@ -14,9 +14,9 @@ export function DailyCountdown() {
   }, []);
 
   return (
-    <p className="text-sm text-muted-foreground">
+    <p className="rounded-full border border-border/70 bg-muted/55 px-3 py-1 text-sm text-muted-foreground">
       ⏰ Next daily in{" "}
-      <span className="font-medium text-foreground">
+      <span className="font-semibold text-foreground">
         {formatCountdown(remaining)}
       </span>
     </p>

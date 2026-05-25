@@ -50,7 +50,7 @@ export function ResultsSummary({
   return (
     <div className="mx-auto flex min-h-[calc(100dvh-8rem)] w-full max-w-lg flex-col justify-between gap-4 py-6 sm:min-h-0 sm:justify-start sm:gap-6 sm:py-0">
       <PerfectCelebration active={perfect} />
-      <div className="text-center">
+      <div className="rounded-2xl border border-border/70 bg-card/75 p-5 text-center shadow-sm shadow-black/10">
         <h1 className="text-xl font-bold sm:text-3xl">
           {perfect ? "🏆 Perfect!" : `${getScoreEmoji(score, 5)} Results`}
         </h1>
@@ -85,13 +85,13 @@ export function ResultsSummary({
             <li
               key={i}
               className={cn(
-                "flex items-center gap-2 rounded-lg border bg-card px-2.5 py-2 text-xs",
+                "flex items-center gap-2 rounded-2xl border bg-card/80 px-2.5 py-2 text-xs shadow-sm shadow-black/10",
                 guess.correct
                   ? "border-success/30 bg-success-soft/50"
                   : "border-danger/30 bg-danger-soft/50",
               )}
             >
-              <div className="relative h-9 w-9 shrink-0 overflow-hidden rounded-md bg-muted">
+              <div className="relative h-9 w-9 shrink-0 overflow-hidden rounded-lg bg-muted">
                 <ObjectImage
                   src={getImageUrl(picked)}
                   alt={picked.name}
@@ -132,9 +132,9 @@ export function ResultsSummary({
           return (
             <li
               key={i}
-              className="flex items-center gap-3 rounded-lg border bg-card p-3"
+              className="flex items-center gap-3 rounded-2xl border border-border/70 bg-card/80 p-3 shadow-sm shadow-black/10"
             >
-              <div className="relative h-12 w-12 shrink-0 overflow-hidden rounded-md bg-muted">
+              <div className="relative h-12 w-12 shrink-0 overflow-hidden rounded-xl bg-muted">
                 <ObjectImage
                   src={getImageUrl(picked)}
                   alt={picked.name}

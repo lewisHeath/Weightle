@@ -55,13 +55,16 @@ export default function RootLayout({
             <AdFreeProvider>
               <ConsentProvider>
               <AdsenseLoader />
-              <header className="shrink-0 border-b border-border bg-card/80 backdrop-blur-sm">
-                <div className="mx-auto flex max-w-2xl items-center justify-between px-4 py-4">
+              <header className="shrink-0 border-b border-border/70 bg-card/75 backdrop-blur-md">
+                <div className="mx-auto flex max-w-2xl items-center justify-between px-4 py-3.5">
                   <Link
                     href="/"
-                    className="brand-link flex items-center gap-2 text-xl font-bold tracking-tight"
+                    className="brand-link flex items-center gap-2 rounded-full text-xl font-bold tracking-tight"
                   >
-                    <span aria-hidden className="text-2xl leading-none">
+                    <span
+                      aria-hidden
+                      className="flex h-8 w-8 items-center justify-center rounded-lg border border-border/70 bg-muted/60 text-xl leading-none"
+                    >
                       ⚖️
                     </span>
                     <span className="brand-name">Weightle</span>
@@ -72,7 +75,7 @@ export default function RootLayout({
                     <HowToPlay />
                     <Link
                       href="/stats"
-                      className="text-sm text-muted-foreground hover:text-foreground"
+                      className="rounded-full px-2.5 py-1 text-sm text-muted-foreground hover:bg-muted/70 hover:text-foreground"
                     >
                       Stats
                     </Link>

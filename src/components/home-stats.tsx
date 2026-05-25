@@ -25,17 +25,19 @@ export function HomeStats() {
 
   return (
     <div className="flex flex-col items-center gap-2 text-center">
-      <DailyCountdown />
-      {stats && stats.dailyStreak > 0 && (
-        <p className="text-sm text-muted-foreground">
-          🔥 Daily streak:{" "}
-          <span className="font-semibold text-foreground">
-            {stats.dailyStreak}
-          </span>
-        </p>
-      )}
+      <div className="flex flex-wrap items-center justify-center gap-2">
+        <DailyCountdown />
+        {stats && stats.dailyStreak > 0 && (
+          <p className="rounded-full border border-border/70 bg-muted/55 px-3 py-1 text-sm text-muted-foreground">
+            🔥 Daily streak:{" "}
+            <span className="font-semibold text-foreground">
+              {stats.dailyStreak}
+            </span>
+          </p>
+        )}
+      </div>
       {playedToday && todayScore !== null && (
-        <p className="text-sm">
+        <p className="rounded-full border border-success/30 bg-success-soft/70 px-3 py-1 text-sm">
           Today&apos;s daily: 📅{" "}
           <span className="font-semibold">{todayScore}/5</span>
           {" · "}

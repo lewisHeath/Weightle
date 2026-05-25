@@ -24,7 +24,7 @@ export function DailyGate() {
   if (completion) {
     return (
       <>
-        <p className="hidden text-center text-sm text-muted-foreground sm:block">
+        <p className="mb-4 hidden text-center text-sm text-muted-foreground sm:block">
           You&apos;ve already played today. Come back after midnight UTC ⏰
         </p>
         <ResultsSummary

@@ -32,81 +32,81 @@
 
 :root,
 .light {
-  --background: #f8fafc;
+  --background: #f7f3ea;
   --foreground: #0f172a;
-  --card: #ffffff;
+  --card: #fffaf0;
   --card-foreground: #0f172a;
-  --primary: #0891b2;
-  --primary-foreground: #f0fdfa;
-  --secondary: #f1f5f9;
+  --primary: #06b6d4;
+  --primary-foreground: #ecfeff;
+  --secondary: #f4efe3;
   --secondary-foreground: #475569;
-  --muted: #f1f5f9;
+  --muted: #ede7d9;
   --muted-foreground: #64748b;
-  --accent: #f1f5f9;
+  --accent: #f0e8ff;
   --accent-foreground: #334155;
-  --border: #e2e8f0;
-  --input: #e2e8f0;
-  --ring: #0891b2;
-  --radius: 0.75rem;
-  --daily: #0891b2;
-  --daily-soft: #e0f2fe;
-  --unlimited: #c026d3;
-  --unlimited-soft: #f5f3ff;
-  --success: #059669;
+  --border: #ded6c7;
+  --input: #ded6c7;
+  --ring: #06b6d4;
+  --radius: 1rem;
+  --daily: #06b6d4;
+  --daily-soft: #cffafe;
+  --unlimited: #a855f7;
+  --unlimited-soft: #f3e8ff;
+  --success: #16a34a;
   --success-soft: #ecfdf5;
-  --danger: #e11d48;
+  --danger: #f43f5e;
   --danger-soft: #fff1f2;
 }
 
 .dark {
-  --background: #000000;
-  --foreground: #f4f4f5;
-  --card: #0c0c0c;
-  --card-foreground: #f4f4f5;
+  --background: #070a0f;
+  --foreground: #f8fafc;
+  --card: #111821;
+  --card-foreground: #f8fafc;
   --primary: #22d3ee;
-  --primary-foreground: #083344;
-  --secondary: #141414;
-  --secondary-foreground: #d4d4d8;
-  --muted: #141414;
-  --muted-foreground: #a1a1aa;
-  --accent: #141414;
-  --accent-foreground: #e4e4e7;
-  --border: #1f1f1f;
-  --input: #1f1f1f;
-  --ring: #0891b2;
+  --primary-foreground: #042f3b;
+  --secondary: #17202b;
+  --secondary-foreground: #dbe4ef;
+  --muted: #171d26;
+  --muted-foreground: #a8b3c1;
+  --accent: #1d2430;
+  --accent-foreground: #f1f5f9;
+  --border: #2a3442;
+  --input: #2a3442;
+  --ring: #22d3ee;
   --daily: #22d3ee;
-  --daily-soft: #0a2a32;
-  --unlimited: #d946ef;
-  --unlimited-soft: #2a1030;
-  --success: #34d399;
-  --success-soft: #0a2e22;
+  --daily-soft: #092a34;
+  --unlimited: #a855f7;
+  --unlimited-soft: #261239;
+  --success: #4ade80;
+  --success-soft: #0d2f21;
   --danger: #fb7185;
   --danger-soft: #3f0d18;
 }
 
 @media (prefers-color-scheme: dark) {
   :root:not(.light) {
-    --background: #000000;
-    --foreground: #f4f4f5;
-    --card: #0c0c0c;
-    --card-foreground: #f4f4f5;
+    --background: #070a0f;
+    --foreground: #f8fafc;
+    --card: #111821;
+    --card-foreground: #f8fafc;
     --primary: #22d3ee;
-    --primary-foreground: #083344;
-    --secondary: #141414;
-    --secondary-foreground: #d4d4d8;
-    --muted: #141414;
-    --muted-foreground: #a1a1aa;
-    --accent: #141414;
-    --accent-foreground: #e4e4e7;
-    --border: #1f1f1f;
-    --input: #1f1f1f;
-    --ring: #0891b2;
+    --primary-foreground: #042f3b;
+    --secondary: #17202b;
+    --secondary-foreground: #dbe4ef;
+    --muted: #171d26;
+    --muted-foreground: #a8b3c1;
+    --accent: #1d2430;
+    --accent-foreground: #f1f5f9;
+    --border: #2a3442;
+    --input: #2a3442;
+    --ring: #22d3ee;
     --daily: #22d3ee;
-    --daily-soft: #0a2a32;
-    --unlimited: #d946ef;
-    --unlimited-soft: #2a1030;
-    --success: #34d399;
-    --success-soft: #0a2e22;
+    --daily-soft: #092a34;
+    --unlimited: #a855f7;
+    --unlimited-soft: #261239;
+    --success: #4ade80;
+    --success-soft: #0d2f21;
     --danger: #fb7185;
     --danger-soft: #3f0d18;
   }
@@ -124,7 +124,18 @@ button:disabled {
 }
 
 body {
-  background-color: var(--background);
+  background:
+    radial-gradient(
+      circle at 50% -12rem,
+      color-mix(in oklch, var(--daily) 12%, transparent),
+      transparent 28rem
+    ),
+    radial-gradient(
+      circle at 95% 12rem,
+      color-mix(in oklch, var(--unlimited) 9%, transparent),
+      transparent 24rem
+    ),
+    var(--background);
   color: var(--foreground);
   font-family:
     system-ui,
@@ -373,12 +384,12 @@ html.light body {
   }
 }
 
-/* Play routes: compact mobile chrome, hide footer */
-html.play-mode footer {
-  display: none;
-}
-
+/* Play routes: compact mobile chrome */
 @media (max-width: 639px) {
+  html.play-mode footer {
+    display: none;
+  }
+
   html.play-mode header > div {
     padding-top: 0.625rem;
     padding-bottom: 0.625rem;
