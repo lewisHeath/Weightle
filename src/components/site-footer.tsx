@@ -31,6 +31,34 @@ export function SiteFooter() {
         </Link>
         {" · "}
         <Link
+          href="/objects"
+          className="underline decoration-border/60 underline-offset-2 hover:text-foreground/80"
+        >
+          Objects
+        </Link>
+        {" · "}
+        <Link
+          href="/faq"
+          className="underline decoration-border/60 underline-offset-2 hover:text-foreground/80"
+        >
+          FAQ
+        </Link>
+        {" · "}
+        <Link
+          href="/about"
+          className="underline decoration-border/60 underline-offset-2 hover:text-foreground/80"
+        >
+          About
+        </Link>
+        {" · "}
+        <Link
+          href="/contact"
+          className="underline decoration-border/60 underline-offset-2 hover:text-foreground/80"
+        >
+          Contact
+        </Link>
+        {" · "}
+        <Link
           href="/privacy"
           className="underline decoration-border/60 underline-offset-2 hover:text-foreground/80"
         >

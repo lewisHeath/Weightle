@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { getContactEmail } from "@/lib/contact";
 
 export const metadata: Metadata = {
   title: "Privacy — Weightle",
@@ -7,6 +8,8 @@ export const metadata: Metadata = {
 };
 
 export default function PrivacyPage() {
+  const contactEmail = getContactEmail();
+
   return (
     <div className="space-y-8 text-sm leading-relaxed text-muted-foreground">
       <div>
@@ -136,6 +139,24 @@ export default function PrivacyPage() {
         <p>
           We may update this policy as the site changes. Continued use after
           updates means you accept the revised policy.
+        </p>
+      </section>
+
+      <section className="space-y-2">
+        <h2 className="text-lg font-semibold text-foreground">Contact</h2>
+        <p>
+          For privacy questions or data requests, email{" "}
+          <a
+            href={`mailto:${contactEmail}`}
+            className="text-primary underline"
+          >
+            {contactEmail}
+          </a>
+          . You can also use our{" "}
+          <Link href="/contact" className="text-primary underline">
+            contact page
+          </Link>
+          .
         </p>
       </section>
 

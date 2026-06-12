@@ -8,6 +8,7 @@ import { ConsentProvider } from "@/components/consent-provider";
 import { CookieConsentBanner } from "@/components/cookie-consent-banner";
 import { HowToPlay } from "@/components/how-to-play";
 import { SiteFooter } from "@/components/site-footer";
+import { SiteNav } from "@/components/site-nav";
 import { SoundProvider } from "@/components/sound-provider";
 import { SoundToggle } from "@/components/sound-toggle";
 import { ThemeProvider } from "@/components/theme-provider";
@@ -73,12 +74,7 @@ export default function RootLayout({
                     <SoundToggle />
                     <ThemeToggle />
                     <HowToPlay />
-                    <Link
-                      href="/stats"
-                      className="rounded-full px-2.5 py-1 text-sm text-muted-foreground hover:bg-muted/70 hover:text-foreground"
-                    >
-                      Stats
-                    </Link>
+                    <SiteNav />
                   </nav>
                 </div>
               </header>
